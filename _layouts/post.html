@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<article id="post">
+  <h1 class="text-left post-title">{{ page.title }}</h1>
+  {% assign post = page %}
+  {% include post-info.html %}
+  {% include post-tags.html %}
+  {% include share.html %}
+  <div class="post-content">
+    {% for alert in page.alerts %}
+      {% include alerts/{{ page.language | append: '/' | append: alert }}.html %}
+    {% endfor %}
+
+    {{ content }}
+  </div>
+  {% include share.html %}
+</article>

@@ -1,0 +1,202 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  font-size: 1.5em;
+  padding-top: 70px;
+  text-align: justify;
+}
+
+blockquote p {
+  font-size: 1.3em;
+}
+
+input, button, select, textarea, label {
+  font-family: inherit;
+}
+
+h1, h2, h3, h4, h5 {
+  color: $brand-primary;
+  font-family: $font-family-sans-serif;
+  font-weight: 300;
+}
+
+.navbar, .navbar-brand {
+  font-family: $font-family-sans-serif;
+  font-size: 1.2em;
+}
+
+#site-name {
+  color: $brand-primary;
+}
+
+#alert {
+  font-family: $font-family-sans-serif;
+  visibility: hidden;
+}
+
+.svg {
+  width: 100%;
+  height: auto;
+}
+
+.site-owner {
+  color: $brand-primary;
+}
+
+.share {
+  ul {
+    padding-left: 0;
+    li {
+      list-style: none;
+      display: inline;
+      padding-left: 10px;
+    }
+  }
+}
+
+.post-details {
+  font-style: italic;
+}
+
+.post-info {
+  padding-left: 0;
+  li {
+    list-style: none;
+    display: inline;
+    padding-left: 10px;
+
+    i {
+      padding-right: 10px;
+    }
+
+    img {
+      width: 15px;
+    }
+  }
+}
+
+.post-title {
+  color: $brand-primary;
+}
+
+.post-excerpt {
+  font-size: 0.8em;
+}
+
+.search-input {
+  padding-bottom: 1em;
+}
+
+#search-result {
+  display: none;
+}
+
+#btn-clear-search {
+  display: none;
+}
+
+.post-tag {
+  font-family: $font-family-sans-serif;
+}
+
+.category {
+  font-family: $font-family-sans-serif;
+  font-weight: 300;
+}
+
+.handwritten {
+  font-family: $font-family-handwritten;
+}
+
+article {
+
+  font-size: 1.3em;
+  width: 90%;
+  padding-left: 10%;
+
+  p {
+    padding-bottom: 15px;
+  }
+
+  blockquote p {
+    font-size: 1em;
+  }
+
+  .meta {
+    padding-top: 6px;
+    font-style: italic;
+    text-align: right;
+  }
+
+  .post-title {
+    font-size: 2em;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto 1em auto;
+    max-width: 100%;
+    border: 2px solid #161616;
+    border-radius: 1%;
+  }
+
+  figcaption {
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+    padding-bottom: 10px;
+  }
+
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+
+    iframe, object, embed {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  pre {
+    code {
+      font-size: 1.2em;
+    }
+  }
+
+  .post-info {
+    li {
+      img {
+        margin: auto auto auto auto;
+        display: inherit;
+        width: 25px;
+        border: none;
+      }
+    }
+  }
+
+}
+
+#description {
+  display: none;
+}
+
+#copyright {
+  font-style: italic;
+  font-size: small;
+  li {
+    list-style: none;
+  }
+}
+
+#footer {
+  border-top: 1px solid $brand-primary;
+  text-align: right;
+}

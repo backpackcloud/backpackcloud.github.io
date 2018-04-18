@@ -1,0 +1,29 @@
+name: Backpack Cloud
+description: "If it doesn't fit, doesn't worth it!"
+
+encoding: utf-8
+
+highlighter: rouge
+
+paginate: 15
+paginate_path: :num
+
+permalink: /posts/:categories/:title.html
+
+defaults:
+  -
+    values:
+      highlight: androidstudio
+
+exclude:
+  - test
+  - .sass-cache
+
+url: http://www.backpackcloud.com
+github: https://github.com/backpack-cloud/backpack-cloud.github.io
+
+plugins:
+  - jekyll-paginate
+  - i18n
+  - closure-compiler
+  - sass
