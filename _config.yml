@@ -8,7 +8,7 @@ highlighter: rouge
 paginate: 15
 paginate_path: :num
 
-permalink: /posts/:categories/:title.html
+permalink: /episodes/:title
 
 defaults:
   -
