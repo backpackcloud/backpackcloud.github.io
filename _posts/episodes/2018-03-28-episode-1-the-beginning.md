@@ -27,7 +27,7 @@ In the beginning, I was using the classic `oc cluster up`. It spawns an unstoppa
 
 Well... not so easy for a dev like me, who had near zero experience with network stuff.
 
-After a lot of trial and error, I finally managed to configure an OpenStack instance. Since shit happens, I wrote a playbook to bring it up with a lab project to play with it. Then I made the whole thing available on [GitHub](https://github.com/devnull-tools/pack-your-lab/tree/master/openstack). "The fun has begun."
+After a lot of trial and error, I finally managed to configure an OpenStack instance. Since shit happens, I wrote a playbook to bring it up with a lab project to play with it. Then I made the whole thing available on [GitHub](https://github.com/backpack-cloud/pack-your-lab). "The fun has begun."
 
 Ok! I had a way to install OpenStack, but how about installing Red Hat Enterprise Linux? Some web pages later and I found the Anaconda's Kickstart. It's a way of automating the RHEL installation (and any other Linux distribution installed through Anaconda). Even better: RHEL writes a kickstart file after every installation. You just have to copy and paste the file to a drive named OEMDRV. Two flash drives, one with the RHEL image and the other with the Kickstart file, would trigger the automated install. But I didn't want to use flash drives, I had two unused Android devices. Even more fun.
 
