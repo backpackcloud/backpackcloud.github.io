@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Episode 1 - The Beginning"
+title:  "Episode 1 - A Portable Cloud Provider"
 tags:
   - openshift
   - openstack
