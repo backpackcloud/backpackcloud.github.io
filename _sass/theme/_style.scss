@@ -8,10 +8,6 @@ body {
   text-align: justify;
 }
 
-blockquote p {
-  font-size: 1.3em;
-}
-
 input, button, select, textarea, label {
   font-family: inherit;
 }
@@ -29,6 +25,8 @@ h1, h2, h3, h4, h5 {
 
 #site-name {
   color: $brand-primary;
+  font-weight: bold;
+  font-size: 1.5em;
 }
 
 #alert {
@@ -36,8 +34,8 @@ h1, h2, h3, h4, h5 {
   visibility: hidden;
 }
 
-.svg {
-  width: 100%;
+.svg-logo {
+  width: 50px;
   height: auto;
 }
 
@@ -70,11 +68,21 @@ h1, h2, h3, h4, h5 {
     i {
       padding-right: 10px;
     }
-
-    img {
-      width: 15px;
-    }
   }
+}
+
+#site-name {
+  font-weight: bold;
+}
+
+.site-description {
+  padding-top: 10%;
+  display: block;
+  color: $color-gray;
+}
+
+.post-date {
+  
 }
 
 .post-title {
@@ -99,6 +107,7 @@ h1, h2, h3, h4, h5 {
 
 .post-tag {
   font-family: $font-family-sans-serif;
+  color: $color-yellow;
 }
 
 .category {
@@ -182,6 +191,11 @@ article {
     }
   }
 
+  .highlighter-rouge {
+    color: $color-orange;
+    background-color: $gray;
+  }
+
 }
 
 #description {
@@ -199,4 +213,8 @@ article {
 #footer {
   border-top: 1px solid $brand-primary;
   text-align: right;
+  .contact-link {
+    list-style: none;
+    display: inline;
+  }
 }

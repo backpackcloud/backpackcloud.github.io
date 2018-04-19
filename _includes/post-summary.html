@@ -2,13 +2,6 @@
   <h3>
     <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
   </h3>
-  <p class="post-details">
-    <div class="small">
-      {% include post-info.html %}
-    </div>
-  </p>
-  <blockquote class="post-excerpt">
-    {{ post.excerpt }}
-  </blockquote>
+  {{ post.excerpt }}
   <hr>
 </p>

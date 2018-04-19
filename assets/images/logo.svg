@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="455px" height="455px" viewBox="0 0 455 455" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
-    <title>Logo@1x</title>
+    <title>Slice</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <path d="M82,79.1085495 L82,0.125" id="path-1"></path>
@@ -43,8 +43,9 @@
             <feColorMatrix values="0 0 0 0 0.141176471   0 0 0 0 0.607843137   0 0 0 0 0.431372549  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
     </defs>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Logo">
+    <g id="Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#71757A" cx="256" cy="256" r="256"></circle>
+        <g transform="translate(29.000000, 14.000000)">
             <g id="backpack" transform="translate(31.000000, 6.000000)">
                 <path d="M141,31 C141,31 141,-3.67455938e-15 195.5,-1.77635684e-15 C250,1.21845699e-16 250,31 250,31" id="Line" stroke="#363945" stroke-width="8" stroke-linecap="square"></path>
                 <path d="M1.63651273,202.328825 C1.63651273,202.328825 40.9585809,202.328825 40.9585809,329.627987 C40.9585809,390.21205 1.63651273,390.21205 1.63651273,390.21205" id="Line" fill="#363945" transform="translate(21.297547, 296.270437) scale(-1, 1) rotate(-1.000000) translate(-21.297547, -296.270437) "></path>
