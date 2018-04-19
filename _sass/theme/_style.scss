@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .post-date {
-  
+  color: $color-yellow;
 }
 
 .post-title {
@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5 {
 
 .post-tag {
   font-family: $font-family-sans-serif;
-  color: $color-yellow;
+  color: $color-orange;
 }
 
 .category {
@@ -196,8 +196,11 @@ article {
   }
 
   .highlighter-rouge {
-    color: $color-orange;
-    background-color: $gray;
+    color: $text-color;
+    background-color: $body-bg;
+    border-width: thin;
+    border-style: solid;
+    border-color: $gray;
   }
 
 }
