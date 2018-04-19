@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .svg-logo {
-  width: 50px;
+  width: 100px;
   height: auto;
 }
 
@@ -50,6 +50,10 @@ h1, h2, h3, h4, h5 {
       list-style: none;
       display: inline;
       padding-left: 10px;
+
+      a:hover {
+        text-decoration: none;
+      }
     }
   }
 }
@@ -208,6 +212,7 @@ article {
   li {
     list-style: none;
   }
+  padding-right: 2.5em;
 }
 
 #footer {
@@ -216,5 +221,8 @@ article {
   .contact-link {
     list-style: none;
     display: inline;
+  }
+  .contact-link a:hover {
+    text-decoration: none;
   }
 }
