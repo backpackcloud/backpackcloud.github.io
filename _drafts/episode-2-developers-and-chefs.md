@@ -17,7 +17,7 @@ Signing a library is a tedious task, prone to errors, great candidate for an aut
 
 There was a time I was fighting my command line to sign some artifacts in order to publish them. Fortunately I was backed by the repository, which rejects any upload without proper signature. The second time I tried an upload, I stopped to write an automation to sign the artifacts.
 
-I'm not a fan of doing something twice. I usually spend more time to do it again because I'll try to automate it. It's my nature as a lazy creative developer. I'm always concerned about being consistent... and have more time to do things that matter. That's why I started to write build images.
+I'm not a fan of doing something twice. If I need to do it one more time, I'll try to automate it. It's my nature as a lazy creative developer. I'm always concerned about being consistent... and have more time to do things that matter. That's why I started to write build images.
 
 How can we assure consistency if we're building software using unpredictable environments? A container is something consistent by definition. Why don't use them to consistently build software? That's the idea behind the [Source-to-Image](https://github.com/openshift/source-to-image) (S2I) project.
 
