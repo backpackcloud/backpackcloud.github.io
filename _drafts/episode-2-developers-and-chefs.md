@@ -4,6 +4,7 @@ title:  "Episode 2 - Developers and Chefs"
 tags:
   - development
   - automation
+  - consistency
   - cooking
 ---
 
@@ -15,8 +16,14 @@ The use of a voting software for the elections in Brazil is controversial. The S
 
 Signing a library is a tedious task, prone to errors, great candidate for an automation. The devil is in the detail. We need to make sure all the details are covered.
 
-There was a time I was fighting my command line to sign some artifacts in order to publish them. Good thing the repository rejects any upload without proper signature.
+There was a time I was fighting my command line to sign some artifacts in order to publish them. Fortunately I was backed by the repository, which rejects any upload without proper signature. The second time I tried an upload, I stopped to write an automation to sign the artifacts.
 
-I'm not a fan of doing something twice. I usually spend more time to do something again because I'll try to automate it. It's my nature as a lazy creative developer. I'm always concerned about being consistent... and have more time to do things that matter. That's why I started to write build images.
+I'm not a fan of doing something twice. I usually spend more time to do it again because I'll try to automate it. It's my nature as a lazy creative developer. I'm always concerned about being consistent... and have more time to do things that matter. That's why I started to write build images.
 
 How can we assure consistency if we're building software using unpredictable environments? A container is something consistent by definition. Why don't use them to consistently build software? That's the idea behind the [Source-to-Image](https://github.com/openshift/source-to-image) (S2I) project.
+
+The S2I project works by injecting your source code into a container image, building the source and producing a container image. The idea is powerful and simple, but it's focused on images as the result. Since I make tools, S2I can be helpful, but it's not the abstraction I was seeking for this endeavour.
+
+Solving problems is tricky. Use the wrong abstraction and you'd end up hammering a screw. S2I is part of the OpenShift CI/CD feature, which requires [Jenkins](https://jenkins.io). I really don't like Jenkins, it's not the best abstraction. You need 3rd party plugins to make it worth. It's like turning a hammer into a screwdriver. That put S2I aside.
+
+Then my friend Daniel told me about [GitLab CI/CD](https://about.gitlab.com/features/gitlab-ci-cd/). It has the same idea of S2I and has its own DSL for defining pipelines. So I found a nice place for it inside my OpenShift cluster.
