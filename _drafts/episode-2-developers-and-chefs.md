@@ -5,7 +5,6 @@ tags:
   - development
   - automation
   - consistency
-  - cooking
 ---
 
 There is something wrong here. This is not the same plate I ordered last week. The food is not bad, but it doesn't taste like the fantastic meal I had the other day. The sauce was made with different ingredients and the potato lacks the crispy bacon. Consistency is one of the most important things in the kitchen and the need of a manual process doubles the challenge.
@@ -26,4 +25,12 @@ The S2I project works by injecting your source code into a container image, buil
 
 Solving problems is tricky. Use the wrong abstraction and you'd end up hammering a screw. S2I is part of the OpenShift CI/CD feature, which requires [Jenkins](https://jenkins.io). I really don't like Jenkins, it's not the best abstraction. You need 3rd party plugins to make it worth. It's like turning a hammer into a screwdriver. That put S2I aside.
 
-Then my friend Daniel told me about [GitLab CI/CD](https://about.gitlab.com/features/gitlab-ci-cd/). It has the same idea of S2I and has its own DSL for defining pipelines. So I found a nice place for it inside my OpenShift cluster.
+Then my friend Daniel told me about [GitLab CI/CD](https://about.gitlab.com/features/gitlab-ci-cd/). It has the same idea of S2I and has its own Domain Specific Language (DSL) for defining pipelines. After a few moments of playing with GitLab CI/CD, I found a nice place for it inside my OpenShift cluster.
+
+My first defined pipeline was for a Java project. The classic build/test/release pipeline. GitLab supports variables on projects, which removes some configurations from the DSL file. The pipeline was really interesting, until the second Java project.
+
+I didn't want to repeat myself defining the same boring command for the pipeline steps, so I changed the build image to be a my own custom image with some helpers that allowed me to define the step as a simple `build` command, or even `release`. Everything I needed was already inside the image or defined as a variable inside the organization's settings in GitLab. Beautiful!
+
+When a Golang project arrived at my GitLab, I did the same approach and created a build image. The same thing for my Ruby projects and so on. Now I have a lot of recipes for a gourmet pipeline menu.
+
+Now I'm wondering if the chef followed the recipe. I better eat this before it gets cold.
