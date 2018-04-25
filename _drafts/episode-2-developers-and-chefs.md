@@ -19,18 +19,18 @@ There was a time I was fighting my command line to sign some artifacts in order 
 
 I'm not a fan of doing something twice. If I need to do it one more time, I'll try to automate it. It's my nature as a lazy creative developer. I'm always concerned about being consistent... and have more time to do things that matter. That's why I started to write build images.
 
-How can we assure consistency if we're building software using unpredictable environments? A container is something consistent by definition. Why don't use them to consistently build software? That's the idea behind the [Source-to-Image](https://github.com/openshift/source-to-image) (S2I) project.
+How can we assure consistency if we're building software using unpredictable environments? A container is something consistent by definition. So why don't use them to consistently build software? That's the idea behind the [Source-to-Image](https://github.com/openshift/source-to-image) (S2I) project.
 
-The S2I project works by injecting your source code into a container image, building the source and producing a container image. The idea is powerful and simple, but it's focused on images as the result. Since I make tools, S2I can be helpful, but it's not the abstraction I was seeking for this endeavour.
+The S2I project works by injecting your source code into a container, building the source inside it and producing another container image. The idea is powerful and simple, but it's focused on images as the result. Since I make tools, S2I can be helpful, but it's not the abstraction I was seeking for this endeavour.
 
-Solving problems is tricky. Use the wrong abstraction and you'd end up hammering a screw. S2I is part of the OpenShift CI/CD feature, which requires [Jenkins](https://jenkins.io). I really don't like Jenkins, it's not the best abstraction. You need 3rd party plugins to make it worth. It's like turning a hammer into a screwdriver. That put S2I aside.
+Solving problems is tricky. Use the wrong abstraction and you'd end up hammering a screw. S2I is part of the OpenShift CI/CD feature, which requires [Jenkins](https://jenkins.io). I really don't like Jenkins, it's not the best abstraction. You need 3rd party plugins to make it worth. It's like turning a hammer into a screwdriver. That, unfortunately, put S2I aside.
 
-Then my friend Daniel told me about [GitLab CI/CD](https://about.gitlab.com/features/gitlab-ci-cd/). It has the same idea of S2I and has its own Domain Specific Language (DSL) for defining pipelines. After a few moments of playing with GitLab CI/CD, I found a nice place for it inside my OpenShift cluster.
+Then my friend Daniel told me about [GitLab CI/CD](https://about.gitlab.com/features/gitlab-ci-cd/). It has the same idea of S2I and has its own Domain Specific Language (DSL) for defining pipelines. After a few moments playing with GitLab CI/CD, I found a nice place for it inside my OpenShift cluster.
 
-My first defined pipeline was for a Java project. The classic build/test/release pipeline. GitLab supports variables on projects, which removes some configurations from the DSL file. The pipeline was really interesting, until the second Java project.
+My first defined pipeline was for a Java project. The classic build/test/release pipeline. GitLab supports variables on projects, which removes some configurations from the DSL file. The pipeline was really interesting... until the second Java project.
 
-I didn't want to repeat myself defining the same boring command for the pipeline steps, so I changed the build image to be a my own custom image with some helpers that allowed me to define the step as a simple `build` command, or even `release`. Everything I needed was already inside the image or defined as a variable inside the organization's settings in GitLab. Beautiful!
+I didn't want to repeat myself defining the same boring command for the pipeline steps, so I changed the build image to be my own custom image with some helpers. That allowed me to define steps as a simple `build` command, or even `release`. Everything I needed was already inside the image or defined as a variable inside the organization's settings in GitLab. Beautiful!
 
-When a Golang project arrived at my GitLab, I did the same approach and created a build image. The same thing for my Ruby projects and so on. Now I have a lot of recipes for a gourmet pipeline menu.
+When a Golang project arrived at my GitLab, I did the same approach and created a build image. The same thing for my Ruby projects and so on. Now I have a lot of recipes for gourmet tools.
 
-Now I'm wondering if the chef followed the recipe. I better eat this before it gets cold.
+I'm really wondering if the chef followed the recipe. I'd better eat this before it gets cold.
