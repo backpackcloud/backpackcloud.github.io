@@ -5,7 +5,7 @@ tags:
   - development
   - automation
   - consistency
-excerpt: Releasing software is not like serving food. In this episode, I had a moment to think about it while having dinner at the hotel.
+excerpt: Releasing software is like serving food: you need to have consistency. In this episode, I had a moment to think about it while having dinner at the hotel.
 image: devchef.jpg
 ---
 
