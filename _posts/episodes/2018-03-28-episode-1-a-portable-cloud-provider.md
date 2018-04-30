@@ -8,10 +8,7 @@ tags:
   - cloud
   - nuc
 excerpt: >
-  Have you ever thought about having your own cloud environment? A local cloud is one of the best
-  things you can do to better understand all the gears that run inside a highly productive
-  environment. How do I know that? I’ve done it! And I’m ready to show you how I did, and how you can
-  do it too.
+  Every idea has a story behind it. In this episode, I tell the story behind the Backpack Cloud Project. The story about how I managed to be my own cloud provider.
 image: nuc.jpg
 ---
 
