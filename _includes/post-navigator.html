@@ -1,0 +1,14 @@
+<div class="post-navigator">
+  <div class="row">
+    <div class="col-xs-6 next-post">
+      {% if page.next %}
+      <i class="fa fa-long-arrow-left"></i> <a href="{{ page.next.url }}">{{ page.next.title }}</a>
+      {% endif %}
+    </div>
+    <div class="col-xs-6 previous-post">
+      {% if page.previous %}
+      <i class="fa fa-long-arrow-right"></i> <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+      {% endif %}
+    </div>
+  </div>
+</div>

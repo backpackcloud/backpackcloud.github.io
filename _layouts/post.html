@@ -2,15 +2,18 @@
 layout: default
 ---
 <article id="post">
-  <h1 class="text-left post-title">{{ page.title }}</h1>
   {% assign post = page %}
-  {% include post-info.html %}
-  {% include post-tags.html %}
-  {% include share.html %}
+  <div class="well"><h1 class="text-left post-title">{{ page.title }}</h1>
+    {% include post-info.html %}
+    {% include post-tags.html %}
+    {% include share.html %}
+  </div>
+  {% include post-excerpt.html %}
   <div class="post-image">
     <img src="/assets/images/{{ post.image }}">
   </div>
-  <div class="post-content">
+  <div class="well post-content">
     {{ content }}
   </div>
+  {% include post-navigator.html %}
 </article>

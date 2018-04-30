@@ -1,7 +1,10 @@
 <p class="post-preview">
-  <h3>
+  <h2>
     <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
-  </h3>
-  {{ post.excerpt }}
-  <hr>
+  </h2>
+  {% include post-info.html %}
+  {% include post-tags.html %}
+  <div class="excerpt">
+    {{ post.excerpt }}
+  </div>
 </p>

@@ -1,9 +1,12 @@
 ---
 layout: default
 ---
+<h1>Episodes</h1>
 <div class="container">
   {% for post in paginator.posts %}
-  {% include post-summary.html %}
+  <div class="well">
+    {% include post-summary.html %}
+  </div>
   {% endfor %}
 </div>
 {% if site.posts.size > site.paginate %}
