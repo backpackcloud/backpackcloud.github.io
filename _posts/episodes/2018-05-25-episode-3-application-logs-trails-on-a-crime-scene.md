@@ -27,7 +27,7 @@ Too bad it wasn't my case. The log file was full of crap. And I was supposed to 
 
 I was running out of time to solve that issue, but I managed to do it using tons of `grep` commands. It was awful, my head was about to explode. Suddenly, my cellphone rang. It was my friend, JP, asking me for some script that could filter a log file and remove stacktraces so he could analyze it. Then I realized that I should code something. A tool for following trails on log files. The [Sherlog Holmes](https://github.com/devnull-tools/sherlog-holmes).
 
-The process is kinda simple. Each entry in the file is converted to an `entry` structure, passed through a set of user defined filters and only the filtered entries are processed. The process can be a simple write to the `stdout`, useful to reduce the size of the log file, or count the entries by level, exceptions, category, etc., useful to get an overview of the log. Specially when exceptions are present.
+The process is kinda simple. Each entry in the file is converted to an `entry` structure, passed through a set of user defined filters and only the filtered entries are processed. The process can be a simple write to the `stdout`, useful to reduce the size of the log file; or a count that aggregates levels, exceptions, categories, etc., useful to get an overview of the log, specially when exceptions are present.
 
 I often need to tell people things like “you have 42 occurrences of a `NullPointerException` so please try to fix that before saying Java has a bug in the `for` loop”. Seriously, I’ve been through something like this and it was really hard to not pull off my left arm just to have something to throw at the complainers.
 
@@ -37,7 +37,7 @@ The `timestamp` represents the timeframe in which the event occurred. Without it
 
 The `level` represents how informative is the event. Every runtime defines its own set of possible levels like under-the-hood information (e.g. `TRACE` and `DEBUG`), generic information (e.g. `INFO`) and alerts (e.g. `WARN` and `ERROR`). Using concise log levels helps us to define which of them will appear in the log stream.
 
-The `category` aggregates the events using any meaningful convention. The runtime can define a generic category in case the developer didn't specify one. Of course this should never happen because the category a great field for filtering events. It's easy to search for errors on the payment module if those are indexable log parts, for example.
+The `category` aggregates the events using any meaningful convention. The runtime can define a generic category in case the developer didn't specify one. Of course this should never happen because the category is a great field for filtering events. It's easy to search for errors on the payment module if those are indexable log parts, for example.
 
 The `message` is the description of the event. It should be short and straight to the point. Depending on the programming language, exceptions might appear here, which makes a good filter too.
 
