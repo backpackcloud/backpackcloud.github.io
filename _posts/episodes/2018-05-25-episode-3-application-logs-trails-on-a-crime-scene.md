@@ -33,7 +33,7 @@ I often need to tell people things like “you have 42 occurrences of a `NullPoi
 
 This is awkward. I really don't know why some folks are afraid of logs. Log entries are a simple structure. We can split a log entry into four parts that have great impact on the log quality: timestamp, level, category and message.
 
-The `timestamp` represents the timeframe in which the event occurred. Without it, we can't recreate the timeline to analyze more than one event.
+The `timestamp` represents the timeframe in which the event occurred. Without it, we can't recreate the timeline to get a better view of the scenario.
 
 The `level` represents how informative is the event. Every runtime defines its own set of possible levels like under-the-hood information (e.g. `TRACE` and `DEBUG`), generic information (e.g. `INFO`) and alerts (e.g. `WARN` and `ERROR`). Using concise log levels helps us to define which of them will appear in the log stream.
 
