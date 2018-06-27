@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Episode 4 - Big Data, big issues and an epic fails"
+title:  "Episode 4 - Big Data, Big Issues and Epic Fails"
 tags:
   - big data
   - complex event processing
