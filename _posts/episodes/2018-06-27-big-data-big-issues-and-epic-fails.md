@@ -5,10 +5,8 @@ tags:
   - big data
   - complex event processing
   - real-time
-  - waze
-  - trick
 excerpt: >
-  Big Data is changing the world, no one can deny that. And the use of smartphones sensors is allowing even more great applications. But are those sensors really trustable? Find out in this episode of Backpack Cloud!
+  Big Data is changing the world, no one can deny that. Smartphone sensors came to add even more data to process. This episode shows a great Big Data application, some issues caused by trusting user input data and an epic fail that allowed me to cause some troubles.
 image: waze.jpg
 ---
 
@@ -20,8 +18,8 @@ There's a lot of """""""""""real-time""""""""""" applications out there (feel fr
 
 Now another problem raises: how to be sure the incoming data is real? The Complex Event Processing aims to solve that by analyzing data from multiple sources to deliver a conclusion about the event. This can prevent frauds in online transactions, for example, and could be used to determine if the information coming from a driver is real. Sometimes it's simple to detect, like a driver rushing at 500 km/h or the same driver reporting a location 2000 km far from the last one reported 5 min ago. The funny thing is: I did those inputs and Waze processed them without checking.
 
-First, I loaded a GPS mock app for rooted devices on my Android phone. Then I started to "travel" the world sitting on my comfortable chair at the work. I did a lot of international travels, changing the country one after the other. Then I had a better idea: travel at blazing fast speeds on jammed roads. It was awesome! Waze grabbed my 2500 km/h speed and used it to compute the average speed and then removed the red lines over the roads. Then it routed more drivers to those roads because it thought they weren't jammed anymore. Yes.. I caused the chaos!
+First, I loaded a GPS mock app for rooted devices on my Android phone. Then I started to "travel" the world sitting on my comfortable chair at the work. I did a lot of international travels, changing the country one after the other. Then I had a better idea: travel at blazing fast speeds on jammed roads. It was awesome! Waze grabbed my 2500 km/h speed and used it to compute the average speed and then removed the red lines over the roads. Then it routed more drivers to those roads because it thought they weren't jammed anymore. Yes, I caused the chaos!
 
-After one week, I scored 5th on the weekly scoreboard and became a King! Anderson cried aloud for a moment while I laughed at his face. Months later, I published on my blog the step-by-step to do the trick. Few days after the post, Google sent an email banning me from the platform because I was "reporting too much".
+After one week messing up with Waze, I scored 5th on the weekly scoreboard and became a King! Anderson cried aloud for a moment while I laughed at his face. Months later, I published on my blog the step-by-step to do the trick. Few days after the post, Google sent an email banning me from the platform because I was "reporting too much".
 
 Turns out the Complex Event Processing used by Waze was different from what I thought.
