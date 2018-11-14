@@ -4,9 +4,11 @@
   </h2>
   {% include post-info.html %}
   {% include post-tags.html %}
-  {% if post.intro %}
   <div class="intro">
+  {% if post.intro %}
     {{ post.intro }}
-  </div>
+  {% else %}
+    {{ post.excerpt }}
   {% endif %}
+  </div>
 </p>
