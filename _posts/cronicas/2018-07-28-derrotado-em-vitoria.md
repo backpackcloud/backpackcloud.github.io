@@ -7,7 +7,6 @@ tags:
   - motorista
   - espirito santo
 categories: cronicas
-permalink: /cronicas/:title
 ---
 
 Olá, me chamo Ataxexe, sou de algum planeta maluco e caí aqui por acaso quando meus pais tiveram uma amizade colorida no final de 1984. Mas meu nome terráqueo acabou sendo Marcelo. De lá pra cá, tive a estranha ideia de ir para o mundo da TI e acabei me tornando um viajante sem sorte.
