@@ -9,10 +9,8 @@ layout: default
       {% include post-tags.html %}
       {% include share.html %}
     </div>
-    {% include post-excerpt.html %}
-    <div class="post-image">
-      <img src="/assets/images/{{ post.image }}">
-    </div>
+    {% include post-intro.html %}
+    {% include post-image.html %}
     <div class="well post-content">
       {{ content }}
     </div>

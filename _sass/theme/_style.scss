@@ -25,7 +25,6 @@ h1, h2, h3, h4, h5 {
 
 #site-name {
   color: $brand-primary;
-  font-weight: bold;
   font-size: 1.5em;
 }
 
@@ -79,10 +78,6 @@ h1, h2, h3, h4, h5 {
   }
 }
 
-#site-name {
-  font-weight: bold;
-}
-
 .site-description {
   padding-top: 10%;
   display: block;
@@ -97,7 +92,7 @@ h1, h2, h3, h4, h5 {
   color: $brand-primary;
 }
 
-.post-excerpt {
+.post-intro {
   font-size: 0.8em;
 }
 
@@ -211,7 +206,7 @@ article {
   text-align: left;
 }
 
-.excerpt {
+.intro {
   font-style: italic;
 }
 

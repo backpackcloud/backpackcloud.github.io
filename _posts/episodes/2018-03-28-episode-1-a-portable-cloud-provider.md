@@ -7,7 +7,8 @@ tags:
   - ansible
   - cloud
   - nuc
-excerpt: >
+categories: episode
+intro: >
   Every idea has a story behind it. In this episode, I tell the story behind the Backpack Cloud Project. The story about how I managed to be my own cloud provider.
 image: nuc.jpg
 ---
