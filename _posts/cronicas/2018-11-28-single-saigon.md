@@ -15,7 +15,7 @@ seria se Emílio Santiago fosse da área de TI...
 Tantos sistemas  
 Meios sistemas  
 Nosso datacenter  
-Sem um single saigon  
+Sem um Single Saigon  
 Me disse adeus  
 No NOC com batom  
 
@@ -23,7 +23,7 @@ Vai minha outra senha
 Duplicando  
 Toda esta base  
 Quero um tal  
-Single saigon  
+Single Saigon  
 
 Sua tela simplifica  
 Todo logon  
@@ -43,4 +43,4 @@ E vejo como é bom
 Ver os sistemas  
 Com login padrão  
 Espero você logar  
-Single saigon  
+No tal Saigon  
