@@ -69,6 +69,6 @@ Parecia que estava pulando pra dentro da escola. Era pra eu ter ficado 30 dias e
 
 Chegando no hospital, consegui ser atendido prontamente pelo ortopedista de plantão e ele me passou uns exames pra fazer. Também me disse que eu poderia voltar direto pra sala dele. Ele só esqueceu de me dizer que voltar direto não era parte do processo do hospital e eu precisava de outra senha. Tive que esperar uma brecha do segurança pra passar de fininho sem ser notado. Até hoje me pergunto o que tirou tanto a atenção dele pra não notar um retardado mancando com uma mala de viagem passando pelo portão de Asgard.
 
-Para a sorte do meu azar, o carro tinha o motor na parte da frente. Isso somado ao fato de eu estar usando tênis na ocasião, contribuiu para que nada tivesse acontecido com o meu pé. Nem inflamou! O doutor examinou os resultados múltiplas vezes e, espantado, me disse que eu tive sorte.
+Para a sorte do meu azar, o carro tinha o motor na parte da frente. Isso somado ao fato de eu estar usando tênis na ocasião contribuiu para que nada tivesse acontecido com o meu pé. Nem inflamou! O doutor examinou os resultados múltiplas vezes e, espantado, me disse que eu tive sorte.
 
 Em menos de dois dias nem parecia mais que meu tênis velho fora estreado por um pneu comandado por um gorila. Penso que não passaria novamente por isso caso a frota fosse de carros autônomos... até eu lembrar da Ana Maria Braga.
