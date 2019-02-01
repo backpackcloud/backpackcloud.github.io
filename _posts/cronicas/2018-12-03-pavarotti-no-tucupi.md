@@ -21,7 +21,7 @@ Depois de ouvir que, em caso de apocalipse zumbi, eu deveria arrancar a porta co
 
 Depois de duas horas e meia de conforto desconfortável, chego no aeroporto de Belém. Quando saí do aeroporto pra chamar o táxi (e torcer pra ele não querer me vender nada da Hinode), tive uma sensação estranha. Não conseguia respirar por causa do clima da cidade. Era uma sensação muito desagradável. Cheguei no hotel quase de madrugada e fui dormir. Teria um longo dia pela frente.
 
-Quando saí do hotel, na manhã do dia seguinte, comecei a desejar somente aquele sensação desagradável de não respirar. Que merda de cheiro! O máximo que consegui fazer foi apertar a mochila contra as costas e fingir que era uma tartaruga ninja. E ainda tinha o calor infernal na cidade. Se não fossem as chuvas e a alta humidade eu teria entrado em combustão expontânea... e deixaria de ser o Donatello pra virar o Tocha Humana.
+Quando saí do hotel, na manhã do dia seguinte, comecei a desejar somente aquela sensação desagradável de não respirar. Que merda de cheiro! O máximo que consegui fazer foi apertar a mochila contra as costas e fingir que era uma tartaruga ninja. E ainda tinha o calor infernal na cidade. Se não fossem as chuvas e a alta humidade eu teria entrado em combustão expontânea... e deixaria de ser o Donatello pra virar o Tocha Humana.
 
 A cidade estava bem movimentada pois era a semana de preparativos para o Círio de Nazaré, um baita evento religioso e tradicional da cidade. Tudo girava em torno do Círio naquela semana. Inclusive, a entrada do prédio em que eu iria trabalhar fora fechada e tivemos que usar a entradinha lateral.
 
@@ -41,7 +41,7 @@ Mas quem disse que acabou? Um par de semanas depois e lá vou eu organizar mais 
 
 Pra sorte do meu azar, a cidade estava beirando os 40 graus e, dentro da maldita sala, apenas 15 deles fariam meu corpo entrar em colapso. Mal o primeiro dia de atividades se encerrou e as atividades na minha garganta já estavam a todo o vapor. Nada de cupuaçu, mas pelo menos o meu cantor favorito estava lá pra me consolar com seus versos ítalo-alienígenas.
 
-Como eu já imaginava a possibilidade de me fuder com clima dentro e fora da sala, levei um casaco desses que viram um pacote mortadela tamanho família e amenizei um pouco a situação. Pena que não havia levado um cachecol pra evitar os problemas na garganta. Teria sido bem interessante andar com uma merda de um combo casaco mais cachecol no meio de um vulcão flatulento.
+Como eu já imaginava a possibilidade de me fuder com o clima dentro e fora da sala, levei um casaco desses que viram um pacote mortadela tamanho família e amenizei um pouco a situação. Pena que não havia levado um cachecol pra evitar os problemas na garganta. Teria sido bem interessante andar com uma merda de um combo casaco mais cachecol no meio de um vulcão flatulento.
 
 Na hora de ir embora, senti o cheiro de coisa errada no hotel e fui novamente cobrado por cervejas no bar. Parece ser bem fácil conseguir coisas de graça nos hotéis, é só botar na conta do trouxa do quarto ao lado. Lá vou eu assinar novamente o documento eu-não-consumi-aquela-porra-e-não-pretendo-pagar-por-ela em 42 vias reconhecidas pela firma celeste.
 
