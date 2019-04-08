@@ -9,7 +9,7 @@ tags:
   - graalvm
 categories: episodes
 intro: >
-  Java is still widely used for classic workloads, but not for cloud workloads. On this episode, I had a moment to think about that when things got bad with the public transportation.
+  Java is still widely used for classic workloads, but not that much for cloud workloads. On this episode, I had a moment to think about that when things got bad with the public transportation.
 ---
 
 A couple of days ago I was planning to go out with my family by public transportation since we don't have a car. Just before we leave, my wife got a message from a friend warning us about a standstill that affected all the trains in our region. The busses were full of people trying to commute so we decided to do the errand on the next day. It's hard to scale a bus fleet. Like some web applications I've been seeing around.
