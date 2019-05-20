@@ -47,6 +47,6 @@ Na hora de ir embora, senti o cheiro de coisa errada no hotel e fui novamente co
 
 Peço o táxi e, novamente, mais cheiro de coisa errada. O motorista iria chegar por volta de 9h30 no aeroporto, no mesmo horário em que deveria estar de volta no hotel para pegar outro passageiro. Ele até me pediu pra cancelar a corrida pelo aplicativo, algo que não poderia ser feito. E lá vamos nós procurar o amigo dele pra me levar até o aeroporto, de posse do celular dele pra fazer a cobrança. Depois da confusão, cheguei em tempo pra entrar na fila do embarque, que, inexplicavelmente, só contava com algumas pessoas na fila preferencial.
 
-Mochila no lugar, mala no lugar, fones de ouvido no lugar. Estava pronto pra voltar pra casa, e meu cantor paraense me vem à lembrança. Comecei a entender um pouco a letra daquela canção.
+Mochila no lugar, mala no lugar, fones de ouvido no lugar. Estava pronto pra voltar pra casa e meu cantor paraense me vem à lembrança. Comecei, então, a entender um pouco a letra daquela canção.
 
 Mussum dorme! Mussum dorme!
