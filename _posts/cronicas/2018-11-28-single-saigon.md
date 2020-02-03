@@ -29,7 +29,7 @@ Sua tela simplifica
 Todo logon  
 Às vezes  
 Você falha com o PIN  
-Brinca de se integrar  
+Brinca de expirar
 Sai do ar pra eu não dormir  
 
 E quase sempre  
