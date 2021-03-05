@@ -1,0 +1,35 @@
+name: Right in the Middle
+description: A grumpy geek and a clumsy assistant will make your ideas shine with a different way of presenting technical content.
+cover: assets/images/ritm-cover.jpg
+feed: ritm-feed.xml
+language: en-us
+tags:
+  - storytelling
+  - technology
+  - geek
+  - grumpy
+
+episodes:
+  - title:  Science Oriented Development
+    date: 2020-03-26
+    duration: "13:24"
+    description: Have you ever thought about development as a science?
+    file:
+      url: https://rightinthemiddle.s3.eu-north-1.amazonaws.com/Right+in+the+Middle+-+001+-+Science+Oriented+Development.mp3
+      size: 15181183
+
+  - title:  A Giteresting Story
+    date: 2020-05-24
+    duration: "19:26"
+    description: When we lost patience we changed to git.
+    file:
+      url: https://rightinthemiddle.s3.eu-north-1.amazonaws.com/Right+in+the+Middle+-+002+-+A+Giteresting+Story.mp3
+      size: 20979190
+
+  - title: The Quark Side of Java
+    date: 2020-07-24
+    duration: "16:22"
+    description: Scaling Java to the cloud.
+    file:
+      url: https://rightinthemiddle.s3.eu-north-1.amazonaws.com/Right+in+the+Middle+-+003+-+The+Quark+Side+of+Java.mp3
+      size: 15966477

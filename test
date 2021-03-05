@@ -1,3 +1,5 @@
+#!/bin/bash
+
 if [[ -d "_site" ]]; then
   rm -rf _site
 fi

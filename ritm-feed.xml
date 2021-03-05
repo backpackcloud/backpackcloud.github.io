@@ -1,0 +1,64 @@
+---
+---
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     version="2.0">
+  <channel>
+    <title>{{ site.data.podcast.name }}</title>
+    <description>{{ site.data.podcast.description }}</description>
+    <link>{{ site.url }}</link>
+    <language>{{ site.data.podcast.language }}</language>
+    <copyright>&#xA9;2020</copyright>
+    <image>
+      <url>{{ site.url }}/{{ site.data.podcast.cover }}</url>
+      <title>{{ site.data.podcast.name }}</title>
+      <link>{{ site.url }}</link>
+    </image>
+    <pubDate>{{ site.posts.first.date | date_to_rfc822 }}</pubDate>
+    <lastBuildDate>{{ "now" | date_to_rfc822 }}</lastBuildDate>
+    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml"/>
+    <itunes:owner>
+      <itunes:name>{{ site.data.owner.name }}</itunes:name>
+      <itunes:email>{{ site.data.owner.email }}</itunes:email>
+    </itunes:owner>
+    <itunes:category text="Technology"/>
+    <itunes:keywords>{{ site.data.podcast.tags | join: ", " }}</itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="{{ site.url }}/{{ site.data.podcast.cover }}"/>
+    <itunes:author>{{ site.data.owner.name }}</itunes:author>
+    <itunes:summary>{{ site.data.podcast.description }}</itunes:summary>
+    <itunes:subtitle>{{ site.short_description }}</itunes:subtitle>
+    {% for episode in site.data.podcast.episodes %}
+    <item>
+      <title>{{ episode.title }}</title>
+      <link>{{ site.url }}</link>
+      <description>{{ episode.description }}</description>
+      <content:encoded>
+        <![CDATA[
+{{ episode.description }}
+]]>
+      </content:encoded>
+      <enclosure url="{{ episode.file.url }}"
+                 type="audio/mpeg"
+                 length="{{ episode.file.size }}"/>
+      <guid isPermalink="false">{{ episode.date }}-{{ episode.title | downcase | replace: " ", "-" }}</guid>
+      <pubDate>{{ episode.date | date_to_rfc822 }}</pubDate>
+      <itunes:title>{{ episode.title }}</itunes:title>
+      <itunes:duration>{{ episode.duration }}</itunes:duration>
+      <itunes:summary>{{ episode.description }}</itunes:summary>
+      <itunes:subtitle>{{ episode.description }}</itunes:subtitle>
+      <itunes:author>{{ site.data.owner.name }}</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:block>No</itunes:block>
+      <itunes:episode>{{ forloop.index }}</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <media:content url="{{ site.url }}/{{ site.data.podcast.cover }}" medium="image">
+        <media:title type="html">{{ episode.title }}</media:title>
+      </media:content>
+    </item>
+    {% endfor %}
+  </channel>
+</rss>
