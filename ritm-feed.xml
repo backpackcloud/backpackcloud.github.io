@@ -11,7 +11,7 @@
     <description>{{ site.data.podcast.description }}</description>
     <link>{{ site.url }}</link>
     <language>{{ site.data.podcast.language }}</language>
-    <copyright>&#xA9;2020</copyright>
+    <copyright>&#xA9;2021</copyright>
     <image>
       <url>{{ site.url }}/{{ site.data.podcast.cover }}</url>
       <title>{{ site.data.podcast.name }}</title>
@@ -19,7 +19,7 @@
     </image>
     <pubDate>{{ site.posts.first.date | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ "now" | date_to_rfc822 }}</lastBuildDate>
-    <atom:link href="{{ site.url }}/ritm-feed.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="{{ site.url }}/{{ site.data.podcast.feed }}" rel="self" type="application/rss+xml"/>
     <itunes:owner>
       <itunes:name>{{ site.data.owner.name }}</itunes:name>
       <itunes:email>{{ site.data.owner.email }}</itunes:email>
