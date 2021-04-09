@@ -19,7 +19,7 @@ exclude:
   - test
   - .sass-cache
 
-url: http://www.backpackcloud.com
+url: https://www.backpackcloud.com
 github: https://github.com/backpack-cloud/backpack-cloud.github.io
 
 plugins:
