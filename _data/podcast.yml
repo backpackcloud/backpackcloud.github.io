@@ -15,7 +15,7 @@ episodes:
     duration: "13:24"
     description: Have you ever thought about development as a science?
     file:
-      url: https://rightinthemiddle.s3.eu-north-1.amazonaws.com/Right+in+the+Middle+-+001+-+Science+Oriented+Development.mp3
+      url: https://rightinthemiddle.s3.eu-north-1.amazonaws.com/Right+in+the+Middle+-+001+-+Science+Driven+Development.mp3
       size: 15181183
 
   - title:  A Giteresting Story
