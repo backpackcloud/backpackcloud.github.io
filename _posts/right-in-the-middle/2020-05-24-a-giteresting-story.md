@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: podcast
 title: A Giteresting Story
 category: right-in-the-middle
 number: 4

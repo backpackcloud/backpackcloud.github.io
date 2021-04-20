@@ -11,10 +11,17 @@ layout: default
           <a href="/{{ category_id }}">
             {{ category['name'] }}
           </a>
+          <span class="badge">{{ category['language'] }}</span>
         </h2>
         <p>
           {{ category['description'] }}
         </p>
+        <h3>Last Post</h3>
+        {% for post in site.categories[category_id] limit:1 %}
+        <div class="well">
+          {% include post-summary.html %}
+        </div>
+        {% endfor %}
     </div>
     {% endfor %}
 </div>

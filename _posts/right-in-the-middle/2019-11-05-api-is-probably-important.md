@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: podcast
 title:  "API is Probably Important"
 categories: right-in-the-middle
 number: 1

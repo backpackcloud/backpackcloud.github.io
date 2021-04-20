@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: podcast
 title: Science Driven Development
 categories: right-in-the-middle
 number: 3

@@ -2,43 +2,43 @@
 layout: default
 ---
 <div class="container">
-    <div class="row">
-        <div class="col-sm-10">
-            <h1>Right in the Middle</h1>
-        </div>
-        <div class="col-sm-2 text-right">
-            <h1>
-                {% for platform in site.data.podcast.platforms %}
-                    <a href="{{ platform[1] }}"><i class="fa fa-{{ platform[0] }}"></i></a>
-                {% endfor %}
-            </h1>
-        </div>
+  <div class="row">
+    <div class="col-sm-10">
+      <h1>Right in the Middle</h1>
     </div>
-    {% for episode in site.categories['right-in-the-middle'] %}
-    <div class="episode">
-        <div class="well">
-            <div class="row">
-                <div class="col-sm-3">
-                    <h2>
-                        <img src="/assets/images/ritm-cover-small.jpg" alt="Right in the Middle" width="160px" height="160px">
-                    </h2>
-                </div>
-                <div class="col-sm-9">
-                    <h2>
-                        {{ episode.title }}
-                    </h2>
-                    {% assign post = episode %}
-                    {% include post-info.html %}
-                    {% include post-tags.html %}
-                    <p class="episode-description">
-                        {{ episode.description }}
-                    </p>
-                    <audio id="player" controls>
-                        <source src="{{ episode.file.url }}" type="audio/mp3"/>
-                    </audio>
-                </div>
-            </div>
-        </div>
+    <div class="col-sm-2 text-right">
+      <h1>
+        {% for platform in site.data.podcast.platforms %}
+        <a href="{{ platform[1] }}"><i class="fa fa-{{ platform[0] }}"></i></a>
+        {% endfor %}
+      </h1>
     </div>
-    {% endfor %}
+  </div>
+  {% for episode in site.categories['right-in-the-middle'] %}
+  <div class="episode">
+    <div class="well">
+      <div class="row">
+        <div class="col-sm-3">
+          <h2>
+            <img src="/assets/images/ritm-cover-small.jpg" alt="Right in the Middle" width="160px" height="160px">
+          </h2>
+        </div>
+        <div class="col-sm-9">
+          <h2>
+            {{ episode.title }}
+          </h2>
+          {% assign post = episode %}
+          {% include post-info.html %}
+          {% include post-tags.html %}
+          <p class="episode-description">
+            {{ episode.description }}
+          </p>
+          <audio id="player" controls>
+            <source src="{{ episode.file.url }}" type="audio/mp3"/>
+          </audio>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
 </div>

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: podcast
 title: The Rise of the API Market
 categories: right-in-the-middle
 number: 2
