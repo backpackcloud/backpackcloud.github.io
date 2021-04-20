@@ -3,8 +3,8 @@ layout: default
 ---
 <div class="container">
     <div class="row">
-        <div class="col-lg-10">
-            <h1>Right in the Middle Podcast</h1>
+        <div class="col-sm-10">
+            <h1>Right in the Middle</h1>
         </div>
         <div class="col-sm-2 text-right">
             <h1>
@@ -14,18 +14,18 @@ layout: default
             </h1>
         </div>
     </div>
-    {% for episode in site.data.podcast.episodes reversed %}
+    {% for episode in site.categories['right-in-the-middle'] %}
     <div class="episode">
         <div class="well">
             <div class="row">
-                <div class="col-sm-2">
+                <div class="col-sm-3">
                     <h2>
-                        <img src="/assets/images/ritm-cover-small.jpg" alt="Right in the Middle" width="100%" height="100%">
+                        <img src="/assets/images/ritm-cover-small.jpg" alt="Right in the Middle" width="160px" height="160px">
                     </h2>
                 </div>
-                <div class="col-lg">
+                <div class="col-sm-9">
                     <h2>
-                        Episode {{ episode.number }} - {{ episode.title }}
+                        {{ episode.title }}
                     </h2>
                     {% assign post = episode %}
                     {% include post-info.html %}

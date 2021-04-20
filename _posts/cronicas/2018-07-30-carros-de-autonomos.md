@@ -6,7 +6,7 @@ tags:
   - aplicativo
   - motorista
   - hospital
-categories: cronicas
+categories: cronicas-cronicas
 ---
 
 Carros autônomos não são novidade. Desde 1920 eles já são alvos de pesquisa e polêmica. Eu sou louco por carros desde criança, mas confesso que hoje me apavoro quando entro em um quatro-rodas cujo motorista não me inspira confiança. Por isso, a ideia de entrar em um veículo autônomo me conforta, exceto quando eu lembro dos sistemas que costumava dar manutenção. "Pessoal, o cliente solicitou um alerta para quando o disco passar de 100% de utilização." – Seria interessante ver algo semelhante para nível de combustível. O fato é que se eu fosse atendido por um carro autônomo ao solicitar uma corrida, teria evitado alguns transtornos. Como os da história de hoje.

@@ -1,0 +1,16 @@
+unbelievable-exception:
+  menu: Blog
+  name: Unbelievable Exception
+  language: en
+  description: A place where I dump some ideas around IT. Some of the texts might become part of various
+    podcast episodes.
+right-in-the-middle:
+  menu: Podcast
+  name: Right in the Middle
+  language: en
+  description: A storytelling podcast around IT with a strong focus on self criticisms and reflections.
+cronicas-cronicas:
+  menu: Void
+  name: Crônicas Crônicas
+  language: pt
+  description: Random stories in Portuguese (the language I know how to curse better).

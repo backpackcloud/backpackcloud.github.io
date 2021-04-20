@@ -6,7 +6,7 @@ tags:
   - sign-on
   - saigon
   - paródia
-categories: cronicas
+categories: cronicas-cronicas
 ---
 
 Esses dias um cara queria saber mais sobre um tal de Single "Saigon". Comecei então a imaginar como

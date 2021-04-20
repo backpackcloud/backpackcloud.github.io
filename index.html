@@ -2,10 +2,19 @@
 layout: default
 ---
 <div class="container">
-  <h1>Blog</h1>
-  {% for post in site.categories.blog %}
-  <div class="well">
-    {% include post-summary.html %}
-  </div>
-  {% endfor %}
+  <h1>Categories</h1>
+    {% for c in site.data.categories %}
+    {% assign category_id = c[0] %}
+    {% assign category = c[1] %}
+    <div class="well">
+        <h2>
+          <a href="/{{ category_id }}">
+            {{ category['name'] }}
+          </a>
+        </h2>
+        <p>
+          {{ category['description'] }}
+        </p>
+    </div>
+    {% endfor %}
 </div>
