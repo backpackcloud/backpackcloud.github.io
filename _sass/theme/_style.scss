@@ -8,6 +8,10 @@ body {
   text-align: justify;
 }
 
+blockquote p {
+  font-size: 1.3em;
+}
+
 input, button, select, textarea, label {
   font-family: inherit;
 }
@@ -46,27 +50,13 @@ h1, h2, h3, h4, h5 {
   color: $brand-primary;
 }
 
-.share {
-  ul {
-    padding-left: 0;
-    li {
-      list-style: none;
-      display: inline;
-      padding-left: 10px;
-
-      a:hover {
-        text-decoration: none;
-      }
-    }
-  }
-}
-
 .post-details {
   font-style: italic;
 }
 
 .post-info {
   padding-left: 0;
+
   li {
     list-style: none;
     display: inline;
@@ -81,11 +71,6 @@ h1, h2, h3, h4, h5 {
 .site-description {
   padding-top: 10%;
   display: block;
-  color: $color-gray;
-}
-
-.post-date {
-  color: $color-yellow;
 }
 
 .post-title {
@@ -110,7 +95,6 @@ h1, h2, h3, h4, h5 {
 
 .post-tag {
   font-family: $font-family-sans-serif;
-  color: $color-orange;
 }
 
 .category {
@@ -125,7 +109,9 @@ h1, h2, h3, h4, h5 {
 article {
 
   font-size: 1.3em;
-  
+  width: 90%;
+  padding-left: 10%;
+
   p {
     padding-bottom: 15px;
   }
@@ -202,8 +188,8 @@ article {
 
 }
 
-.logo {
-  text-align: left;
+.logo::before {
+  content: url("/assets/images/logo-small.png");
 }
 
 .intro {
@@ -236,7 +222,6 @@ article {
   li {
     list-style: none;
   }
-  padding-right: 2.5em;
 }
 
 #footer {
