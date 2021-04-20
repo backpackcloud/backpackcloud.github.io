@@ -9,7 +9,7 @@ right-in-the-middle:
   language: en
   description: A storytelling podcast about IT with a strong focus on self criticisms and reflections.
 cronicas-cronicas:
-  menu: Null
+  menu: "Null"
   name: Crônicas Crônicas
   language: pt
   description: Random stories in Portuguese (the language I know how to curse better).
