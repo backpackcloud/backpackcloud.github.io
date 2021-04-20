@@ -53,7 +53,7 @@
       <itunes:author>{{ site.data.owner.name }}</itunes:author>
       <itunes:explicit>no</itunes:explicit>
       <itunes:block>No</itunes:block>
-      <itunes:episode>{{ forloop.index }}</itunes:episode>
+      <itunes:episode>{{ episode.number }}</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
       <media:content url="{{ site.url }}/{{ site.data.podcast.cover }}" medium="image">
         <media:title type="html">{{ episode.title }}</media:title>

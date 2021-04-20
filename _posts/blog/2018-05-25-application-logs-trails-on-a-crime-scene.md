@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Episode 3 - Application Logs: Trails on a Crime Scene!"
+title:  "Application Logs: Trails on a Crime Scene!"
 tags:
   - troubleshooting
   - oss
   - logs
   - command line
-categories: episodes
+categories: blog
 intro: >
   Logs are the trails left by an application. Can we say the more log we have, the more accurate can be an analysis? Find out the answer in this episode!
 image: sherlog-holmes.jpg

@@ -14,44 +14,85 @@ tags:
 platforms:
   apple: https://podcasts.apple.com/dk/podcast/right-in-the-middle/id1516387775
   spotify: https://open.spotify.com/show/4ljJasTpo2uRv1jqySXYBv
+  rss: /ritm-feed.xml
+  # deezer: https://www.deezer.com/us/show/2522602
 
 episodes:
   - title: API is Probably Important
+    number: 1
     date: 2019-11-05
     duration: "10:46"
     description: The Pilot is probably not important.
+    tags:
+      - pilot
+      - time machine
+      - amazon
+      - api (yeah, kinda obvious)
     file:
       url: https://rightinthemiddle.s3.eu-north-1.amazonaws.com/Right+in+the+Middle+-+001+-+API+is+Probably+Important.mp3
       size: 11364016
 
   - title: The Rise of the API Market
+    number: 2
     date: 2019-12-18
     duration: "18:10"
     description: What could be better than to hear the story from someone who was a key part of it?
+    tags:
+      - interview
+      - mark cheshire
+      - zubair
+      - abrupt ending because I couldn't keep teca away from the dashboard
     file:
       url: https://rightinthemiddle.s3.eu-north-1.amazonaws.com/Right+in+the+Middle+-+002+-+The+Rise+of+the+API+Market.mp3
       size: 17687231
 
   - title: Science Driven Development
+    number: 3
     date: 2020-03-26
     duration: "13:24"
     description: Have you ever thought about development as a science?
+    tags:
+      - rum
+      - science
+      - right
+      - wrong
+      - success
+      - elections
+      - flat earth
     file:
       url: https://rightinthemiddle.s3.eu-north-1.amazonaws.com/Right+in+the+Middle+-+003+-+Science+Driven+Development.mp3
       size: 15181183
 
   - title: A Giteresting Story
+    number: 4
     date: 2020-05-24
     duration: "19:26"
     description: When we lost patience we changed to git.
+    tags:
+      - rum
+      - git
+      - linus torvalds
+      - cvs
+      - branches
+      - pipeline
+      - I don't know in wich branch I put the rest of the tags
     file:
       url: https://rightinthemiddle.s3.eu-north-1.amazonaws.com/Right+in+the+Middle+-+004+-+A+Giteresting+Story.mp3
       size: 20979190
 
   - title: The Quark Side of Java
+    number: 5
     date: 2020-07-24
     duration: "16:22"
     description: Scaling Java to the cloud... finally!
+    tags:
+      - rum
+      - quarkus
+      - java
+      - cloud
+      - compilation
+      - containers
+      - the rest of the tags are still being computed by the old app
     file:
       url: https://rightinthemiddle.s3.eu-north-1.amazonaws.com/Right+in+the+Middle+-+005+-+The+Quark+Side+of+Java.mp3
       size: 15966477

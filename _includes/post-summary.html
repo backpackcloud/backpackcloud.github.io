@@ -1,14 +1,12 @@
-<p class="post-preview">
-  <h2>
-    <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
-  </h2>
-  {% include post-info.html %}
-  {% include post-tags.html %}
-  <div class="intro">
-  {% if post.intro %}
-    {{ post.intro }}
-  {% else %}
-    {{ post.excerpt }}
-  {% endif %}
-  </div>
-</p>
+<h2>
+  <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
+</h2>
+{% include post-info.html %}
+{% include post-tags.html %}
+<div class="intro">
+{% if post.intro %}
+  {{ post.intro }}
+{% else %}
+  {{ post.excerpt }}
+{% endif %}
+</div>

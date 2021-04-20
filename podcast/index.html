@@ -1,0 +1,44 @@
+---
+layout: default
+---
+<div class="container">
+    <div class="row">
+        <div class="col-lg-10">
+            <h1>Right in the Middle Podcast</h1>
+        </div>
+        <div class="col-sm-2 text-right">
+            <h1>
+                {% for platform in site.data.podcast.platforms %}
+                    <a href="{{ platform[1] }}"><i class="fa fa-{{ platform[0] }}"></i></a>
+                {% endfor %}
+            </h1>
+        </div>
+    </div>
+    {% for episode in site.data.podcast.episodes reversed %}
+    <div class="episode">
+        <div class="well">
+            <div class="row">
+                <div class="col-sm-2">
+                    <h2>
+                        <img src="/assets/images/ritm-cover-small.jpg" alt="Right in the Middle" width="100%" height="100%">
+                    </h2>
+                </div>
+                <div class="col-lg">
+                    <h2>
+                        Episode {{ episode.number }} - {{ episode.title }}
+                    </h2>
+                    {% assign post = episode %}
+                    {% include post-info.html %}
+                    {% include post-tags.html %}
+                    <p class="episode-description">
+                        {{ episode.description }}
+                    </p>
+                    <audio id="player" controls>
+                        <source src="{{ episode.file.url }}" type="audio/mp3"/>
+                    </audio>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>

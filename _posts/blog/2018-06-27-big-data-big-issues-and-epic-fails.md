@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Episode 4 - Big Data, Big Issues and Epic Fails"
+title:  "Big Data, Big Issues and Epic Fails"
 tags:
   - big data
   - complex event processing
   - real-time
-categories: episodes
+categories: blog
 intro: >
   Big Data is changing the world, no one can deny that. Smartphone sensors came to add even more data to process. This episode shows a great Big Data application, some issues caused by trusting user input data and an epic fail that allowed me to cause some trouble.
 image: waze.jpg

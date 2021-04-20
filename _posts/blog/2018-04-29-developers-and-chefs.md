@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Episode 2 - Developers and Chefs"
+title:  "Developers and Chefs"
 tags:
   - development
   - automation
   - consistency
-categories: episodes
+categories: blog
 intro: >
   Releasing software is like serving food: you need to have consistency. In this episode, I had a moment to think about it while having dinner at the hotel.
 image: devchef.jpg

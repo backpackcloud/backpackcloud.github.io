@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Episode 5 - Scaling Java to the Cloud"
+title:  "Scaling Java to the Cloud"
 tags:
   - java
   - cloud
   - scalability
   - quarkus
   - graalvm
-categories: episodes
+categories: blog
 intro: >
   Java is still widely used for classic workloads, but not that much for cloud workloads. On this episode, I had a moment to think about that when things got bad with the public transportation.
 ---
