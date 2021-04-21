@@ -16,7 +16,6 @@ layout: default
         <p>
           {{ category['description'] }}
         </p>
-        <h3>Last Post</h3>
         {% for post in site.categories[category_id] limit:1 %}
         <div class="well">
           {% include post-summary.html %}
