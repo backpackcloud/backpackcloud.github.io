@@ -12,16 +12,9 @@
     </div>
     <div class="navbar-collapse collapse navbar-responsive-collapse" id="navbar-main">
       <ul class="nav navbar-nav navbar-right">
-        {% for c in site.data.categories %}
-        {% assign category_id = c[0] %}
-        {% assign category = c[1] %}
-        <li>
-          <a href="/{{ category_id }}">
-            {{ category['name'] }}
-            <span class="badge">{{ site.categories[category_id].size }}</span>
-          </a>
+        <li class="site-description">
+          {{ site.description }}
         </li>
-        {% endfor %}
       </ul>
     </div>
   </div>
