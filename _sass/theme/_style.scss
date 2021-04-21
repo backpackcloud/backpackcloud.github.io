@@ -108,10 +108,7 @@ h1, h2, h3, h4, h5 {
 }
 
 article {
-
   font-size: 1.3em;
-  width: 90%;
-  padding-left: 10%;
 
   p {
     padding-bottom: 15px;
@@ -195,6 +192,7 @@ article {
 
 .avatar {
   border-radius: 50%;
+  margin-left: 10px;
 }
 
 .intro {
