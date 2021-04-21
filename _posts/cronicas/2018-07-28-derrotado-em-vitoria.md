@@ -7,6 +7,9 @@ tags:
   - motorista
   - espirito santo
 categories: cronicas-cronicas
+audio:
+  url: https://cronicas-cronicas.s3.eu-north-1.amazonaws.com/Cronica+-+Derrotado+em+Vitoria.mp3
+  size: 7901017
 ---
 
 Olá, me chamo Ataxexe, sou de algum planeta maluco e caí aqui por acaso quando meus pais tiveram uma amizade colorida no

@@ -12,6 +12,13 @@ layout: default
     {% include post-intro.html %}
     {% include post-image.html %}
     <div class="well post-content">
+      {% if page.audio %}
+      <p>
+        <audio id="player" controls>
+          <source src="{{ post.audio.url }}" type="audio/mp3"/>
+        </audio>
+      </p>
+      {% endif %}
       {{ content }}
     </div>
     {% include post-navigator.html %}
