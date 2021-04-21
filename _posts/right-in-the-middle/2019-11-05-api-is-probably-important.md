@@ -10,7 +10,7 @@ tags:
   - time machine
   - amazon
   - api (yeah, kinda obvious)
-file:
+audio:
   url: https://rightinthemiddle.s3.eu-north-1.amazonaws.com/Right+in+the+Middle+-+001+-+API+is+Probably+Important.mp3
   size: 11364016
 ---

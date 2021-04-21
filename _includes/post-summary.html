@@ -4,9 +4,18 @@
 {% include post-info.html %}
 {% include post-tags.html %}
 <div class="intro">
-{% if post.intro %}
-  {{ post.intro }}
-{% else %}
-  {{ post.excerpt }}
-{% endif %}
+  {% if post.intro %}
+    {{ post.intro }}
+  {% elsif post.description %}
+    {{ post.description }}
+  {% else %}
+    {{ post.excerpt }}
+  {% endif %}
+  {% if post.audio %}
+  <p>
+    <audio id="player" controls>
+      <source src="{{ post.audio.url }}" type="audio/mp3"/>
+    </audio>
+  </p>
+  {% endif %}
 </div>

@@ -3,24 +3,33 @@ layout: default
 ---
 <div class="container">
   <h1>Categories</h1>
-    {% for c in site.data.categories %}
-    {% assign category_id = c[0] %}
-    {% assign category = c[1] %}
+  {% for c in site.data.categories %}
+  {% assign category_id = c[0] %}
+  {% assign category = c[1] %}
+  <div class="well">
+    <h2>
+      <a href="/{{ category_id }}">
+        <i class="fa fa-{{ category['icon'] }}"></i>
+        {{ category['name'] }}
+      </a>
+      <span class="badge">{{ category['language'] }}</span>
+    </h2>
+    <p>
+      {{ category['description'] }}
+    </p>
+    <h3>Last Posts</h3>
+    {% for post in site.categories[category_id] limit:2 %}
     <div class="well">
-        <h2>
-          <a href="/{{ category_id }}">
-            {{ category['name'] }}
-          </a>
-          <span class="badge">{{ category['language'] }}</span>
-        </h2>
-        <p>
-          {{ category['description'] }}
-        </p>
-        {% for post in site.categories[category_id] limit:1 %}
-        <div class="well">
-          {% include post-summary.html %}
-        </div>
-        {% endfor %}
+      {% include post-summary.html %}
     </div>
     {% endfor %}
+    <div class="intro">
+      <p>
+        <a href="/{{ category_id }}">
+          See more...
+        </a>
+      </p>
+    </div>
+  </div>
+  {% endfor %}
 </div>

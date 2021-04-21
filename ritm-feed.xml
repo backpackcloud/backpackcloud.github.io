@@ -41,9 +41,9 @@
 {{ episode.description }}
 ]]>
       </content:encoded>
-      <enclosure url="{{ episode.file.url }}"
+      <enclosure url="{{ episode.audio.url }}"
                  type="audio/mpeg"
-                 length="{{ episode.file.size }}"/>
+                 length="{{ episode.audio.size }}"/>
       <guid isPermaLink="false">{{ episode.number }}-{{ episode.title | downcase | replace: " ", "-" }}</guid>
       <pubDate>{{ episode.date | date_to_rfc822 }}</pubDate>
       <itunes:title>{{ episode.title }}</itunes:title>

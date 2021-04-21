@@ -13,7 +13,7 @@ tags:
 - branches
 - pipeline
 - I don't know in wich branch I put the rest of the tags 
-file:
+audio:
   url: https://rightinthemiddle.s3.eu-north-1.amazonaws.com/Right+in+the+Middle+-+004+-+A+Giteresting+Story.mp3
   size: 20979190
 ---

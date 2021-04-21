@@ -3,14 +3,15 @@ layout: default
 ---
 <div class="container">
   <div class="row">
-    <div class="col-sm-10">
+    <div class="col-sm-8">
       <h1>Right in the Middle</h1>
     </div>
-    <div class="col-sm-2 text-right">
+    <div class="col-sm-4 text-right">
       <h1>
         {% for platform in site.data.podcast.platforms %}
-        <a href="{{ platform[1] }}"><i class="fa fa-{{ platform[0] }}"></i></a>
+        <a href="{{ platform[1] }}"><i class="fab fa-{{ platform[0] }}"></i></a>
         {% endfor %}
+        <a href="{{ site.data.podcast.rss[1] }}"><i class="fa fa-rss"></i></a>
       </h1>
     </div>
   </div>
@@ -34,7 +35,7 @@ layout: default
             {{ episode.description }}
           </p>
           <audio id="player" controls>
-            <source src="{{ episode.file.url }}" type="audio/mp3"/>
+            <source src="{{ episode.audio.url }}" type="audio/mp3"/>
           </audio>
         </div>
       </div>

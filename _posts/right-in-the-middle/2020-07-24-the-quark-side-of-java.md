@@ -14,7 +14,7 @@ tags:
 - containers
 - the rest of the tags are still being computed by the old app
 image: ritm-cover-small.jpg
-file:
+audio:
   url: https://rightinthemiddle.s3.eu-north-1.amazonaws.com/Right+in+the+Middle+-+005+-+The+Quark+Side+of+Java.mp3
   size: 15966477
 ---
