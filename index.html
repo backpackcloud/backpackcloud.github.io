@@ -12,7 +12,7 @@ layout: default
         <i class="fa fa-{{ category['icon'] }}"></i>
         {{ category['name'] }}
       </a>
-      <span class="badge">{{ category['language'] }}</span>
+      <span class="badge alert-info">{{ category['language'] }}</span>
     </h2>
     <p>
       {{ category['description'] }}
@@ -26,7 +26,7 @@ layout: default
     <div class="intro">
       <p>
         <a href="/{{ category_id }}">
-          See more...
+          See more <span class="badge alert-info">{{ site.categories[category_id].size }}</span>...
         </a>
       </p>
     </div>
