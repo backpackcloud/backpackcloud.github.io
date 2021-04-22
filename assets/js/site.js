@@ -478,8 +478,11 @@ causes = [
     "Null is null or is not an object",
 ]
 
-$('pre code').each(function (i, block) {
-    hljs.highlightBlock(block);
+$(document).ready(function () {
+    $('pre code').each(function (i, block) {
+        hljs.highlightBlock(block);
+    });
+    $("#alert-error").text(errors[Math.floor((Math.random() * errors.length))])
+    $("#alert-cause").text(causes[Math.floor((Math.random() * causes.length))])
+    $("#alert").css('visibility', 'visible').hide().fadeIn()
 });
-$("#alert-error").text(errors[Math.floor((Math.random() * errors.length))])
-$("#alert-cause").text(causes[Math.floor((Math.random() * causes.length))])
