@@ -483,6 +483,6 @@ $(document).ready(function () {
         hljs.highlightBlock(block);
     });
     $("#alert-error").text(errors[Math.floor((Math.random() * errors.length))])
-    $("#alert-cause").text(causes[Math.floor((Math.random() * causes.length))])
+    $("#alert-cause").text("Caused by: " + causes[Math.floor((Math.random() * causes.length))])
     $("#alert").css('visibility', 'visible').hide().fadeIn()
 });
