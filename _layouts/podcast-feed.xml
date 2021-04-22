@@ -1,40 +1,40 @@
----
----
 <?xml version="1.0" encoding="utf-8"?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/"
      xmlns:atom="http://www.w3.org/2005/Atom"
      xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
      xmlns:media="http://search.yahoo.com/mrss/"
      version="2.0">
+  {% assign category = site.data.categories[page.category] %}
   <channel>
-    <title>{{ site.data.podcast.name }}</title>
-    <description>{{ site.data.podcast.description }}</description>
+    <title>{{ category.name }}</title>
+    <description>{{ category.description }}</description>
     <link>{{ site.url }}</link>
-    <language>{{ site.data.podcast.language }}</language>
+    <language>{{ category.language }}</language>
     <copyright>&#xA9;2021</copyright>
     <image>
-      <url>{{ site.url }}/{{ site.data.podcast.cover }}</url>
-      <title>{{ site.data.podcast.name }}</title>
+      <url>{{ site.url }}/{{ category.cover }}</url>
+      <title>{{ category.name }}</title>
       <link>{{ site.url }}</link>
     </image>
     <pubDate>{{ site.categories['right-in-the-middle'].last.date | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ "now" | date_to_rfc822 }}</lastBuildDate>
-    <atom:link href="{{ site.url }}/{{ site.data.podcast.feed }}" rel="self" type="application/rss+xml"/>
+    <atom:link href="{{ site.url }}/{{ category.feed }}" rel="self" type="application/rss+xml"/>
     <itunes:owner>
       <itunes:name>{{ site.data.owner.name }}</itunes:name>
       <itunes:email>{{ site.data.owner.email }}</itunes:email>
     </itunes:owner>
     <itunes:category text="Technology"/>
-    <itunes:keywords>{{ site.data.podcast.tags | join: ", " }}</itunes:keywords>
+    <itunes:keywords>{{ category.tags | join: ", " }}</itunes:keywords>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:image href="{{ site.url }}/{{ site.data.podcast.cover }}"/>
+    <itunes:image href="{{ site.url }}/{{ category.cover }}"/>
     <itunes:author>{{ site.data.owner.name }}</itunes:author>
-    <itunes:summary>{{ site.data.podcast.description }}</itunes:summary>
-    <itunes:subtitle>{{ site.short_description }}</itunes:subtitle>
-    {% for episode in site.categories['right-in-the-middle'] %}
+    <itunes:summary>{{ category.description }}</itunes:summary>
+    <itunes:subtitle>{{ category.description }}</itunes:subtitle>
+
+    {% for episode in site.categories[page.category] %}
     <item>
       <title>{{ episode.title }}</title>
-      <link>{{ site.url }}</link>
+      <link>{{site.url}}{{ episode.url }}</link>
       <description>{{ episode.description }}</description>
       <content:encoded>
         <![CDATA[
@@ -44,7 +44,7 @@
       <enclosure url="{{ episode.audio.url }}"
                  type="audio/mpeg"
                  length="{{ episode.audio.size }}"/>
-      <guid isPermaLink="false">{{ episode.number }}-{{ episode.title | downcase | replace: " ", "-" }}</guid>
+      <guid isPermaLink="true">{{ site.url }}{{ episode.url }}</guid>
       <pubDate>{{ episode.date | date_to_rfc822 }}</pubDate>
       <itunes:title>{{ episode.title }}</itunes:title>
       <itunes:duration>{{ episode.duration }}</itunes:duration>
@@ -55,7 +55,7 @@
       <itunes:block>No</itunes:block>
       <itunes:episode>{{ episode.number }}</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <media:content url="{{ site.url }}/{{ site.data.podcast.cover }}" medium="image">
+      <media:content url="{{ site.url }}/{{ category.cover }}" medium="image">
         <media:title type="html">{{ episode.title }}</media:title>
       </media:content>
     </item>

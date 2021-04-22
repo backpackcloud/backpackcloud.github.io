@@ -6,12 +6,22 @@ unbelievable-exception:
 right-in-the-middle:
   name: Right in the Middle
   language: en
-  description: A storytelling podcast about IT with a strong focus on self criticisms and reflections.
+  description: A grumpy geek and a clumsy assistant will make your ideas shine with a different way of presenting technical content.
   icon: podcast
   platforms:
     apple: https://podcasts.apple.com/dk/podcast/right-in-the-middle/id1516387775
     spotify: https://open.spotify.com/show/4ljJasTpo2uRv1jqySXYBv
     deezer: https://www.deezer.com/us/show/2522602
+  cover: assets/images/ritm-cover.jpg
+  feed: ritm-feed.xml
+  tags:
+    - storytelling
+    - technology
+    - reflections
+    - ideas
+    - geek
+    - grumpy
+
 cronicas-cronicas:
   name: Crônicas Crônicas
   language: pt
