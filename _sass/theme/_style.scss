@@ -219,17 +219,9 @@ article {
   display: none;
 }
 
-#copyright {
-  font-style: italic;
-  font-size: small;
-  li {
-    list-style: none;
-  }
-}
-
 #footer {
   border-top: 1px solid $brand-primary;
-  text-align: right;
+
   .contact-link {
     list-style: none;
     display: inline;
@@ -237,4 +229,26 @@ article {
   .contact-link a:hover {
     text-decoration: none;
   }
+
+  .copyright {
+    text-align: right;
+    font-style: italic;
+    font-size: small;
+    li {
+      list-style: none;
+    }
+  }
+
+  .logo {
+    text-align: left;
+  }
+
+}
+
+.error-message {
+  font-weight: bold;
+}
+
+.error-cause {
+  font-style: italic;
 }

@@ -1,25 +1,31 @@
 <div id="footer">
-  <div id="copyright" class="well well-sm">
+  <div class="well well-sm">
     <div class="container">
-      <ul>
-        <li>This work is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons
-          Attribution 4.0 International License</a>.
-        </li>
-        <li>Written by <span class="site-owner">{{ site.data.owner.name }}</span></li>
-        <li>
-          <ul>
-            {% for contact in site.data.owner.contacts %}
-            <li class="contact-link">
-              <a href="{{contact[1]}}" target="_blank">
-                <i class="fab fa-fw fa-lg fa-{{contact[0] | downcase | replace: '_', '-'}}"></i>
-              </a>
+      <div class="row">
+        <div class="col-sm-2">
+          <div class="container">
+            <div class="logo"></div>
+          </div>
+        </div>
+        <div class="col-sm-10">
+          <ul class="copyright">
+            <li><i class="fa fa-copyright"></i> This work is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons
+              Attribution 4.0 International License</a>.
             </li>
-            {% endfor %}
+            <li>Written by <span class="site-owner">{{ site.data.owner.name }}</span></li>
+            <li>
+              <ul>
+                {% for contact in site.data.owner.contacts %}
+                <li class="contact-link">
+                  <a href="{{contact[1]}}" target="_blank">
+                    <i class="fab fa-fw fa-lg fa-{{contact[0] | downcase | replace: '_', '-'}}"></i>
+                  </a>
+                </li>
+                {% endfor %}
+              </ul>
+            </li>
           </ul>
-        </li>
-      </ul>
-      <div class="container">
-        <div class="logo"></div>
+        </div>
       </div>
     </div>
   </div>
