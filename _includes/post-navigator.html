@@ -6,13 +6,13 @@
         {% if post.url == page.url %}
           {% assign found = true %}
         {% elsif found %}
-        <i class="fa fa-long-arrow-left"></i> <a href="{{ post.url }}">{{ post.title }}</a>
+        <i class="fa fa-arrow-left"></i> <a href="{{ post.url }}">{{ post.title }}</a>
         {% break %}
         {% endif %}
       {% endfor %}
     </div>
     <div class="col-sm-2 post-list">
-      <a href="{{ post.url }}/../../../../"><i class="fa fa-level-up"></i></a>
+      <a href="{{ post.url }}/../../../../"><i class="fa fa-level-up-alt"></i></a>
     </div>
     <div class="col-xs-5 previous-post">
       {% assign found = false %}
@@ -20,7 +20,7 @@
         {% if post.url == page.url %}
           {% assign found = true %}
         {% elsif found %}
-        <i class="fa fa-long-arrow-right"></i> <a href="{{ post.url }}">{{ post.title }}</a>
+        <i class="fa fa-arrow-right"></i> <a href="{{ post.url }}">{{ post.title }}</a>
         {% break %}
         {% endif %}
       {% endfor %}
