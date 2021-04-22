@@ -6,3 +6,4 @@ Gemfile.lock
 assets/css/site.css
 assets/css/site.css.map
 _drafts
+.jekyll-cache
