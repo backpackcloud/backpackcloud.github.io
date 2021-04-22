@@ -9,7 +9,7 @@ right-in-the-middle:
   description: A grumpy geek and a clumsy assistant will make your ideas shine with a different way of presenting technical content.
   icon: podcast
   platforms:
-    apple: https://podcasts.apple.com/dk/podcast/right-in-the-middle/id1516387775
+    #apple: https://podcasts.apple.com/dk/podcast/right-in-the-middle/id1516387775
     spotify: https://open.spotify.com/show/4ljJasTpo2uRv1jqySXYBv
   cover: assets/images/ritm-cover.jpg
   tags:
