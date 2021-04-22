@@ -16,9 +16,7 @@ layout: default
         {% for platform in page_category['platforms'] %}
         <a target="_blank" href="{{ platform[1] }}"><i class="fab fa-{{ platform[0] }}"></i></a>
         {% endfor %}
-        {% if page_category['feed'] %}
-        <a target="_blank" href="{{ page_category['feed'] }}"><i class="fa fa-rss"></i></a>
-        {% endif %}
+        <a target="_blank" href="/{{ category_id }}/feed.xml"><i class="fa fa-rss"></i></a>
       </h1>
     </div>
   </div>
