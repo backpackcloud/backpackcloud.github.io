@@ -10,17 +10,11 @@ paginate_path: :num
 
 permalink: date
 
-defaults:
-  -
-    values:
-      highlight: androidstudio
-
 exclude:
   - test
   - .sass-cache
 
 url: https://www.backpackcloud.com
-github: https://github.com/backpack-cloud/backpack-cloud.github.io
 
 plugins:
   - jekyll-paginate

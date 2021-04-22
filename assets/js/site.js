@@ -5,7 +5,9 @@ phrases = [
     "No error occurred",
     "Keyboard error, press F1 to continue",
     "Catastrophic failure",
-    "Failure while failing"
+    "Failure while failing",
+    "Mouse not found... should I beat down the cat?",
+    "(╯°□°）╯︵ ┻━┻"
 ]
 
 $(document).ready(function () {

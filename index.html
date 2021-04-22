@@ -7,13 +7,27 @@ layout: default
   {% assign category_id = c[0] %}
   {% assign category = c[1] %}
   <div class="well">
-    <h2>
-      <a href="/{{ category_id }}">
-        <i class="fa fa-{{ category['icon'] }}"></i>
-        {{ category['name'] }}
-      </a>
-      <span class="badge alert-info">{{ category['language'] }}</span>
-    </h2>
+    <div class="row">
+      <div class="col-sm-8">
+        <h2>
+          <a href="/{{ category_id }}">
+            <i class="fa fa-{{ category['icon'] }}"></i>
+            {{ category['name'] }}
+          </a>
+          <span class="badge alert-info">{{ category['language'] }}</span>
+        </h2>
+      </div>
+      <div class="col-sm-4 text-right">
+        <h2>
+          {% for platform in category['platforms'] %}
+          <a target="_blank" href="{{ platform[1] }}"><i class="fab fa-{{ platform[0] }}"></i></a>
+          {% endfor %}
+          {% if category['feed'] %}
+          <a target="_blank" href="{{ category['feed'] }}"><i class="fa fa-rss"></i></a>
+          {% endif %}
+        </h2>
+      </div>
+    </div>
     <p>
       {{ category['description'] }}
     </p>

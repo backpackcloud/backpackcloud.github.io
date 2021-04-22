@@ -2,11 +2,26 @@
 layout: default
 ---
 <div class="container">
-  <h1>
-    <i class="fa fa-{{ site.data.categories[page.category]['icon'] }}"></i>
-    {{ page.title }}
-    <span class="badge alert-info">{{ site.data.categories[page.category]['language'] }}</span>
-  </h1>
+  <div class="row">
+    {% assign page_category = site.data.categories[page.category] %}
+    <div class="col-sm-8">
+      <h1>
+        <i class="fa fa-{{ page_category['icon'] }}"></i>
+        {{ page.title }}
+        <span class="badge alert-info">{{ page_category['language'] }}</span>
+      </h1>
+    </div>
+    <div class="col-sm-4 text-right">
+      <h1>
+        {% for platform in page_category['platforms'] %}
+        <a target="_blank" href="{{ platform[1] }}"><i class="fab fa-{{ platform[0] }}"></i></a>
+        {% endfor %}
+        {% if page_category['feed'] %}
+        <a target="_blank" href="{{ page_category['feed'] }}"><i class="fa fa-rss"></i></a>
+        {% endif %}
+      </h1>
+    </div>
+  </div>
   {% for post in site.categories[page.category] %}
   <div class="well">
     {% include post-summary.html %}

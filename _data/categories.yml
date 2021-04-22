@@ -3,13 +3,20 @@ unbelievable-exception:
   language: en
   description: A place where I dump some ideas around IT in general.
   icon: pencil-alt
+  feed: /unbelievable-exception/feed.xml
 right-in-the-middle:
   name: Right in the Middle
   language: en
   description: A storytelling podcast about IT with a strong focus on self criticisms and reflections.
   icon: podcast
+  platforms:
+    apple: https://podcasts.apple.com/dk/podcast/right-in-the-middle/id1516387775
+    spotify: https://open.spotify.com/show/4ljJasTpo2uRv1jqySXYBv
+    deezer: https://www.deezer.com/us/show/2522602
+  feed: /ritm-feed.xml
 cronicas-cronicas:
   name: Crônicas Crônicas
   language: pt
   description: Random stories in Portuguese (the language I know how to curse better).
   icon: toilet
+  feed: /cronicas-cronicas/feed.xml
