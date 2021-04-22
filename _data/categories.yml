@@ -13,7 +13,6 @@ right-in-the-middle:
     spotify: https://open.spotify.com/show/4ljJasTpo2uRv1jqySXYBv
     deezer: https://www.deezer.com/us/show/2522602
   cover: assets/images/ritm-cover.jpg
-  feed: ritm-feed.xml
   tags:
     - storytelling
     - technology
