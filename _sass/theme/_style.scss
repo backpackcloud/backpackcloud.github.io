@@ -246,6 +246,11 @@ article {
 
 .error-message {
   font-weight: bold;
+
+  .fa-exclamation-triangle {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
 }
 
 .error-cause {
