@@ -1,5 +1,8 @@
 {% if post.image %}
-<div class="post-image">
-  <img src="/assets/images/{{ post.categories.first }}/{{ post.image }}">
+<div class="well">
+  <div class="post-image">
+    <img src="/assets/images/{{ post.categories.first }}/{{ post.image.file }}">
+    <figcaption>{{ post.image.caption }}</figcaption>
+  </div>
 </div>
 {% endif %}

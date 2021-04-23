@@ -10,13 +10,12 @@ categories: cronicas-cronicas
 audio:
   url: https://cronicas-cronicas.s3.eu-north-1.amazonaws.com/Cronica+-+Derrotado+em+Vitoria.mp3
   size: 7901017
+intro: Olá, me chamo Ataxexe, sou de algum planeta maluco e caí aqui por acaso quando meus pais tiveram uma amizade
+    colorida no final de 1984. Mas meu nome terráqueo acabou sendo Marcelo. De lá pra cá, tive a estranha ideia de ir 
+    para o mundo da TI e acabei me tornando um viajante sem sorte.
 ---
 
-Olá, me chamo Ataxexe, sou de algum planeta maluco e caí aqui por acaso quando meus pais tiveram uma amizade colorida no
-final de 1984. Mas meu nome terráqueo acabou sendo Marcelo. De lá pra cá, tive a estranha ideia de ir para o mundo da TI
-e acabei me tornando um viajante sem sorte.
-
-A história de hoje aconteceu em Julho de 2018, em Vitória, terra dos capixabas. Um município com mais de 300 mil 
+Esta história aconteceu em Julho de 2018, em Vitória, terra dos capixabas. Um município com mais de 300 mil 
 habitantes e um IDH de dar injeva aos demais municípios brasileiros. É também um dos poucos lugares onde meus óculos
 embaçam quando eu saio do táxi e, provavelmente, o único lugar no mundo onde o cinema local exibiu a estréia dos 
 Vingadores com vários lugares vazios.

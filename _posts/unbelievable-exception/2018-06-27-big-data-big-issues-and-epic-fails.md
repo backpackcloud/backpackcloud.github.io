@@ -10,7 +10,9 @@ intro: >
   Big Data is changing the world, no one can deny that. Smartphone sensors came to add even more data to process. This 
     episode shows a great Big Data application, some issues caused by trusting user input data and an epic fail that 
     allowed me to cause some trouble.
-image: waze.jpg
+image: 
+    file: waze.jpg
+    caption: The actual speed was 10x faster, but it didn't fit in the circle...
 ---
 
 "Look! I'm almost a king!" Anderson told me. I didn't understand why and asked him to explain his madness. He then told 

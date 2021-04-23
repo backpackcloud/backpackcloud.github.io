@@ -7,11 +7,12 @@ tags:
   - viagem
   - cantoria
 categories: cronicas-cronicas
-image: cantor.jpg
+intro: Desde criança sou apaixonado por cupuaçu. E nem foi isso que fez aquela ida a Belém algo memorável. A cidade que 
+    cura até sinusite marcou muito mais do que somente minhas narinas.
+image:
+    file: cantor.jpg
+    caption: Deveria ser uma figura folclórica do lugar...
 ---
-
-Desde criança sou apaixonado por cupuaçu. E nem foi isso que fez aquela ida a Belém algo memorável. A cidade que cura
-até sinusite marcou muito mais do que somente minhas narinas.
 
 Obviamente, toda aventura desse tipo começa no aeroporto. E apesar de também ser óbvio uma placa escrito "Win Club" na 
 fila preferencial do raio-x, ainda assim as pessoas insistem em fazer fila de bandejão do outro lado. Abri o aplicativo

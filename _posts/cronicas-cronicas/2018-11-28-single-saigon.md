@@ -7,10 +7,9 @@ tags:
   - saigon
   - paródia
 categories: cronicas-cronicas
+intro: Esses dias um cara queria saber mais sobre um tal de Single "Saigon". Comecei então a imaginar como
+    seria se Emílio Santiago fosse da área de TI...
 ---
-
-Esses dias um cara queria saber mais sobre um tal de Single "Saigon". Comecei então a imaginar como
-seria se Emílio Santiago fosse da área de TI...
 
 Tantos sistemas  
 Meios sistemas  

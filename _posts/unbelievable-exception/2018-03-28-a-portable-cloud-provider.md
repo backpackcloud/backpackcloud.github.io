@@ -11,7 +11,9 @@ categories: unbelievable-exception
 intro: >
   Every idea has a story behind it. In this episode, I tell the story behind the Backpack Cloud Project. The story about
     how I managed to be my own cloud provider.
-image: nuc.jpg
+image: 
+    file: nuc.jpg
+    caption: The MVP was enough to slow me down in the airports
 ---
 
 Beep, beep! The alarm sounded. It's 4 a.m. and I can't even feel my thoughts. I gotta leave without making any noise. 

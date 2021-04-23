@@ -7,9 +7,11 @@ tags:
   - consistency
 categories: unbelievable-exception
 intro: >
-  Releasing software is like serving food: you need to have consistency. In this episode, I had a moment to think about 
-    it while having dinner at the hotel.
-image: devchef.jpg
+  Releasing software is like serving food: you need to have consistency. I had a moment to think about it while having 
+    dinner at the hotel.
+image: 
+    file: devchef.jpg
+    caption: Give it to us... raw!!
 ---
 
 Something is wrong here. This is not the same plate I ordered last week. The food is not bad, but it doesn't taste like 

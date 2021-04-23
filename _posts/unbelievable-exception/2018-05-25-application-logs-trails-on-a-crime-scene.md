@@ -9,8 +9,10 @@ tags:
 categories: unbelievable-exception
 intro: >
   Logs are the trails left by an application. Can we say the more log we have, the more accurate can be an analysis? 
-    Find out the answer in this episode!
-image: sherlog-holmes.jpg
+    Find out the answer down below!
+image: 
+    file: sherlog-holmes.jpg
+    caption: Ah, the command line... one of the best places to have fun...
 ---
 
 “Hey, here’s the log file, the error is in there!” - He told me. How fool I was when I lend him my pendrive, hoping to

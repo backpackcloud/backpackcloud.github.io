@@ -9,8 +9,8 @@ tags:
   - graalvm
 categories: unbelievable-exception
 intro: >
-  Java is still widely used for classic workloads, but not that much for cloud workloads. On this episode, I had a 
-  moment to think about that when things got bad with the public transportation.
+  Java is still widely used for classic workloads, but not that much for cloud workloads. I had a moment to think about
+    that when things got bad with the public transportation.
 ---
 
 A couple of days ago I was planning to go out with my family by public transportation since we don't have a car. Just
