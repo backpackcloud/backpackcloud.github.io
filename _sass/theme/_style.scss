@@ -230,11 +230,11 @@ article {
   }
 
   .copyright {
-    text-align: right;
-    font-style: italic;
-    font-size: small;
+    text-align: justify;
+    font-size: 90%;
     li {
       list-style: none;
+      margin-bottom: 15px;
     }
   }
 
