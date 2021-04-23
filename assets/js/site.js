@@ -472,10 +472,11 @@ causes = [
     "Leap second overloaded RHEL6 servers",
     "DNS server drank too much and had a hiccup",
     "Your machine had the fuses in backwards.",
-    "Mouse not found... should I beat down the cat?",
+    "Mouse not found... please find the cat",
     "No error occurred",
     "Keyboard error, press F1 to continue",
     "Null is null or is not an object",
+    "BIOS (Big Ignorant Operating the System)"
 ]
 
 $(document).ready(function () {
