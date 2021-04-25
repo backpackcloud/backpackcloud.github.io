@@ -6,7 +6,7 @@ layout: default
     {% assign page_category = site.data.categories[page.category] %}
     <div class="col-sm-8">
       <h1>
-        <i class="fa fa-{{ page_category['icon'] }}"></i>
+        <i class="{{ page_category['icon'] }}"></i>
         {{ page.title }}
         <span class="badge alert-info">{{ page_category['language'] }}</span>
       </h1>

@@ -11,8 +11,11 @@ layout: default
       <div class="col-sm-8">
         <h2>
           <a href="/{{ category_id }}">
-            <i class="fa fa-{{ category['icon'] }}"></i>
+            <i class="{{ category['icon'] }}"></i>
             {{ category['name'] }}
+            {% if category.slogan %}
+            - {{ category.slogan }}
+            {% endif %}
           </a>
           <span class="badge alert-info">{{ category['language'] }}</span>
         </h2>

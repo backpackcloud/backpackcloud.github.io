@@ -2,13 +2,13 @@ unbelievable-exception:
   name: Unbelievable Exception
   language: en
   description: A place where I dump some ideas around IT in general in form of stories.
-  icon: pencil-alt
+  icon: fa fa-pencil-alt
 
 right-in-the-middle:
   name: Right in the Middle
   language: en
   description: A grumpy geek and a clumsy assistant will make your ideas shine with a different way of presenting technical content.
-  icon: podcast
+  icon: fa fa-podcast
   platforms:
     #apple: https://podcasts.apple.com/dk/podcast/right-in-the-middle/id1516387775
     spotify: https://open.spotify.com/show/4ljJasTpo2uRv1jqySXYBv
@@ -21,15 +21,21 @@ right-in-the-middle:
     - geek
     - grumpy
 
-devoops:
-  name: DevOops
-  language: pt
-  description: >-
-    My grumpy-ray-gun in its best form, targeting anything I have time to write about IT. Expect any language here.
-  icon: biohazard
-
 cronicas-cronicas:
   name: Crônicas Crônicas
   language: pt
-  description: Random stories in Portuguese (the language I know how to curse better).
-  icon: toilet
+  description: Histórias aleatórias.
+  icon: fa fa-toilet
+
+devoops:
+  name: DevOops
+  language: pt
+  description: Quando o velho rabugento dentro de mim quer falar sobre TI, dá nisso aí.
+  icon: fa fa-biohazard
+
+androidoctor:
+  name: AndroiDoctor
+  language: pt
+  description: Velharias de um antigo blog sobre dispositivos Android.
+  slogan: Faça mais do que trocar a capinha!!
+  icon: fab fa-android
