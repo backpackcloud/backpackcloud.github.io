@@ -1,8 +1,9 @@
 unbelievable-exception:
   name: Unbelievable Exception
   language: en
-  description: A place where I dump some ideas around IT in general.
+  description: A place where I dump some ideas around IT in general in form of stories.
   icon: pencil-alt
+
 right-in-the-middle:
   name: Right in the Middle
   language: en
@@ -19,6 +20,13 @@ right-in-the-middle:
     - ideas
     - geek
     - grumpy
+
+devoops:
+  name: DevOops
+  language: pt
+  description: >-
+    My grumpy-ray-gun in its best form, targeting anything I have time to write about IT. Expect any language here.
+  icon: biohazard
 
 cronicas-cronicas:
   name: Crônicas Crônicas

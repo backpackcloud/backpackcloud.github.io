@@ -1,7 +1,7 @@
 ---
 layout: podcast
 title: Science Driven Development
-categories: right-in-the-middle
+category: right-in-the-middle
 number: 3
 duration: "13:24"
 description: Have you ever thought about development as a science?

@@ -5,7 +5,7 @@ tags:
   - big data
   - complex event processing
   - real-time
-categories: unbelievable-exception
+category: unbelievable-exception
 intro: >
   Big Data is changing the world, no one can deny that. Smartphone sensors came to add even more data to process. This 
     episode shows a great Big Data application, some issues caused by trusting user input data and an epic fail that 

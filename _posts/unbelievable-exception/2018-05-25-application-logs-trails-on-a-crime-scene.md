@@ -6,7 +6,7 @@ tags:
   - oss
   - logs
   - command line
-categories: unbelievable-exception
+category: unbelievable-exception
 intro: >
   Logs are the trails left by an application. Can we say the more log we have, the more accurate can be an analysis? 
     Find out the answer down below!

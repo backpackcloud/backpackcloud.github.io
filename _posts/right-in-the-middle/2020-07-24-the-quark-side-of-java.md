@@ -1,7 +1,7 @@
 ---
 layout: podcast
 title: The Quark Side of Java
-categories: right-in-the-middle
+category: right-in-the-middle
 number: 5
 duration: "16:22"
 description: Scaling Java to the cloud... finally!

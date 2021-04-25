@@ -6,7 +6,7 @@ tags:
   - futum
   - viagem
   - cantoria
-categories: cronicas-cronicas
+category: cronicas-cronicas
 intro: Desde criança sou apaixonado por cupuaçu. E nem foi isso que fez aquela ida a Belém algo memorável. A cidade que 
     cura até sinusite marcou muito mais do que somente minhas narinas.
 image:

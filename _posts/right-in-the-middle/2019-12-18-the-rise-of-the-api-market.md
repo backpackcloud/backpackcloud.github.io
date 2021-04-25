@@ -1,7 +1,7 @@
 ---
 layout: podcast
 title: The Rise of the API Market
-categories: right-in-the-middle
+category: right-in-the-middle
 number: 2
 duration: "18:10"
 description: What could be better than to hear the story from someone who was a key part of it?

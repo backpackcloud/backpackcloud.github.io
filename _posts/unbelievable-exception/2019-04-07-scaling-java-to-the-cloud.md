@@ -7,7 +7,7 @@ tags:
   - scalability
   - quarkus
   - graalvm
-categories: unbelievable-exception
+category: unbelievable-exception
 intro: >
   Java is still widely used for classic workloads, but not that much for cloud workloads. I had a moment to think about
     that when things got bad with the public transportation.

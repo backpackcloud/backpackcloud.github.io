@@ -6,7 +6,7 @@ tags:
   - hinode
   - motorista
   - espirito santo
-categories: cronicas-cronicas
+category: cronicas-cronicas
 audio:
   url: https://cronicas-cronicas.s3.eu-north-1.amazonaws.com/Cronica+-+Derrotado+em+Vitoria.mp3
   size: 7901017

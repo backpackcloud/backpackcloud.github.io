@@ -1,7 +1,7 @@
 ---
 layout: podcast
 title:  "API is Probably Important"
-categories: right-in-the-middle
+category: right-in-the-middle
 number: 1
 duration: "10:46"
 description: The Pilot is probably not important.

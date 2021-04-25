@@ -5,7 +5,7 @@ tags:
   - development
   - automation
   - consistency
-categories: unbelievable-exception
+category: unbelievable-exception
 intro: >
   Releasing software is like serving food: you need to have consistency. I had a moment to think about it while having 
     dinner at the hotel.
