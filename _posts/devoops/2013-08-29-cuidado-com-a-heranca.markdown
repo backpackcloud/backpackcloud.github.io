@@ -12,7 +12,7 @@ images: /assets/images/devoops/heranca-composicao
 ---
 
 Muitos autores dizem para evitarmos a herança e usarmos composição sempre que possível. Muitos leitores não entendem o 
-porquê. Ou por falta de conhecimento de boas práticas ou por as conhecerem tão bem que fica difícil entender como algo 
+porquê. Ou por falta de conhecimento de boas práticas, ou por as conhecerem tão bem que fica difícil entender como algo 
 aparentemente tão óbvio possa ser motivo de discórdia.
 
 Neste post tentarei mostrar qual é a herança perigosa e o porquê de ser preferível usar a composição em vez dela.
@@ -118,9 +118,9 @@ coisa qualquer ser tratada como uma `Lista`, é necessário que ela tenha os com
 ## A composição
 
 Voltando à última implementação das listas do Juquinha, perceba que as especializações sincronizada e imutável de lista 
-não possuem, de fato, uma implementação concreta de uma lista pois a implementação em si é passada pelos construtores. 
-É aí que está a composição: uma `ListaImutavel` é composta de outra `Lista` que detém, de fato, a implementação concreta 
-de como uma lista deve ser, deixando a `ListaImutavel` com a implementação de como a imutabilidade deve ser.
+não possuem, de fato, uma implementação concreta de uma lista, pois a implementação é passada via construtor. É aí que
+está a composição: uma `ListaImutavel` é composta de outra `Lista` que detém, de fato, a implementação concreta de como
+uma lista deve ser, deixando a `ListaImutavel` com a implementação de como a imutabilidade deve ser.
 
 É justamente essa herança que deve ser evitada em favor da composição: a herança para **adicionar comportamento**. Nesse
 caso, a `ListaImutavel` irá apenas adicionar o comportamento da imutabilidade a uma implementação de `Lista`, delegando 
