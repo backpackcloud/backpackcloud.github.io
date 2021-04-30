@@ -1,5 +1,18 @@
-<h1 class="text-left post-title">
-  <i class="{{ site.data.categories[page.category]['icon'] }}"></i>
-  {{ page.title }}
-  <span class="badge alert-info">{{ site.data.categories[page.categories.first]['language'] }}</span>
-</h1>
+<div class="row">
+  {% assign page_category = site.data.categories[page.category] %}
+  <div class="col-sm-8">
+    <h1>
+      <a href="/{{ page.category }}"><i class="{{ page_category['icon'] }}"></i></a>
+      {{ page.title }}
+      <span class="badge alert-info">{{ page_category['language'] }}</span>
+    </h1>
+  </div>
+  <div class="col-sm-4 text-right">
+    <h1>
+      {% for platform in page_category['platforms'] %}
+      <a target="_blank" href="{{ platform[1] }}"><i class="fab fa-{{ platform[0] }}"></i></a>
+      {% endfor %}
+      <a target="_blank" href="/{{ category_id }}/feed.xml"><i class="fa fa-rss"></i></a>
+    </h1>
+  </div>
+</div>
