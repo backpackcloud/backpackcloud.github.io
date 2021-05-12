@@ -34,7 +34,7 @@ one is about logs.
 
 The Twelve-Factor App states that logs are event streams. The application writes the events, one per line, to the
 `stdout`. The execution environment collects those events and routes them to an indexing system for further analysis. 
-Stacks like ElasticSearch/Fluentd/Grafana can easily do all the steps and provides developers a nice dashboard so they
+Stacks like ElasticSearch/Fluentd/Kibana can easily do all the steps and provides developers a nice dashboard so they
 can follow the trails; and business can grow.
 
 Of course this solves just one problem: log availability. The other one is more difficult: log quality. Unfortunately,
