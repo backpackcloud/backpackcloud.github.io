@@ -1,9 +1,3 @@
-unbelievable-exception:
-  name: Unbelievable Exception
-  language: en
-  description: A place where I dump some ideas around IT in general in form of stories.
-  icon: fa fa-pencil-alt
-
 right-in-the-middle:
   name: Right in the Middle
   language: en
@@ -12,6 +6,7 @@ right-in-the-middle:
   platforms:
     apple: https://podcasts.apple.com/us/podcast/right-in-the-middle/id1516387775
     spotify: https://open.spotify.com/show/4ljJasTpo2uRv1jqySXYBv
+    deezer: https://deezer.com/show/2856082    
   cover: assets/images/ritm-cover.jpg
   tags:
     - storytelling
@@ -20,6 +15,12 @@ right-in-the-middle:
     - ideas
     - geek
     - grumpy
+
+unbelievable-exception:
+  name: Unbelievable Exception
+  language: en
+  description: A place where I dump some ideas around IT in general in form of stories.
+  icon: fa fa-pencil-alt
 
 cronicas-cronicas:
   name: Crônicas Crônicas
