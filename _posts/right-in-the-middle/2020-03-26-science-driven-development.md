@@ -14,6 +14,6 @@ tags:
 - elections
 - flat earth 
 audio:
-  url: https://rightinthemiddle.s3.eu-north-1.amazonaws.com/Right+in+the+Middle+-+003+-+Science+Driven+Development.mp3
+  url: https://f000.backblazeb2.com/file/right-in-the-middle/Right+in+the+Middle+-+003+-+Science+Driven+Development.mp3
   size: 15181183
 ---

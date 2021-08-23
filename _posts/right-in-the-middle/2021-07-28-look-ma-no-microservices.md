@@ -13,6 +13,6 @@ tags:
 - I like to cat log files in front of people and pretend to be reading it all
 image: ritm-cover-small.jpg
 audio:
-  url: https://rightinthemiddle.s3.eu-north-1.amazonaws.com/Right+in+the+Middle+-+006+-+Look+Ma+No+Microservices.mp3
+  url: https://f000.backblazeb2.com/file/right-in-the-middle/Right+in+the+Middle+-+006+-+Look+Ma+No+Microservices.mp3
   size: 36518993
 ---

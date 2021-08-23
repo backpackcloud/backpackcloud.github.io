@@ -12,6 +12,6 @@ tags:
 - dinosaurs
 - abrupt ending because I couldn't keep teca away from the dashboard
 audio:
-  url: https://rightinthemiddle.s3.eu-north-1.amazonaws.com/Right+in+the+Middle+-+002+-+The+Rise+of+the+API+Market.mp3
+  url: https://f000.backblazeb2.com/file/right-in-the-middle/Right+in+the+Middle+-+002+-+The+Rise+of+the+API+Market.mp3
   size: 17687231
 ---

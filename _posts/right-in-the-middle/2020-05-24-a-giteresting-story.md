@@ -14,6 +14,6 @@ tags:
 - pipeline
 - I don't know in wich branch I put the rest of the tags 
 audio:
-  url: https://rightinthemiddle.s3.eu-north-1.amazonaws.com/Right+in+the+Middle+-+004+-+A+Giteresting+Story.mp3
+  url: https://f000.backblazeb2.com/file/right-in-the-middle/Right+in+the+Middle+-+004+-+A+Giteresting+Story.mp3
   size: 20979190
 ---

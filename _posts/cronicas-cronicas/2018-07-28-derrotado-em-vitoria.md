@@ -8,7 +8,7 @@ tags:
   - espirito santo
 category: cronicas-cronicas
 audio:
-  url: https://cronicas-cronicas.s3.eu-north-1.amazonaws.com/Cronica+-+Derrotado+em+Vitoria.mp3
+  url: https://f000.backblazeb2.com/file/cronicas-cronicas/Cronica+-+Derrotado+em+Vitoria.mp3
   size: 7901017
 intro: Olá, me chamo Ataxexe, sou de algum planeta maluco e caí aqui por acaso quando meus pais tiveram uma amizade
     colorida no final de 1984. Mas meu nome terráqueo acabou sendo Marcelo. De lá pra cá, tive a estranha ideia de ir 

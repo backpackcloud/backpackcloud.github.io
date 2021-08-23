@@ -11,6 +11,6 @@ tags:
   - amazon
   - api (yeah, kinda obvious)
 audio:
-  url: https://rightinthemiddle.s3.eu-north-1.amazonaws.com/Right+in+the+Middle+-+001+-+API+is+Probably+Important.mp3
+  url: https://f000.backblazeb2.com/file/right-in-the-middle/Right+in+the+Middle+-+001+-+API+is+Probably+Important.mp3
   size: 11364016
 ---
