@@ -4,7 +4,7 @@ title: I See Dead Problems
 category: right-in-the-middle
 number: 7
 duration: "14:22"
-description: 
+description: Start with the solution... and you will have a big problem to solve.
 tags:
 - rum
 - problem solving
