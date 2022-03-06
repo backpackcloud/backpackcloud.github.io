@@ -6,7 +6,7 @@ tags:
   - sign-on
   - saigon
   - paródia
-category: cronicas-cronicas
+category: devoops
 intro: Esses dias um cara queria saber mais sobre um tal de Single "Saigon". Comecei então a imaginar como
     seria se Emílio Santiago fosse da área de TI...
 ---
