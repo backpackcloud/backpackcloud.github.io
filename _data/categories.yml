@@ -16,17 +16,17 @@ right-in-the-middle:
     - geek
     - grumpy
 
-unbelievable-exception:
-  name: Unbelievable Exception
-  language: en
-  description: A place where I dump some ideas around IT in general in form of stories.
-  icon: fa fa-pencil-alt
-
 cronicas-cronicas:
   name: Crônicas Crônicas
   language: pt
   description: Histórias aleatórias.
   icon: fa fa-toilet
+
+unbelievable-exception:
+  name: Unbelievable Exception
+  language: en
+  description: A place where I dump some ideas around IT in general in form of stories.
+  icon: fa fa-pencil-alt
 
 devoops:
   name: DevOops
