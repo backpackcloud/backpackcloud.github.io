@@ -7,6 +7,11 @@ tags:
   - motorista
   - hospital
 category: cronicas-cronicas
+number: 2
+duration: "06:15"
+audio:
+  url: https://f000.backblazeb2.com/file/cronicas-cronicas/002+-+Carros+de+Autonomos.mp3
+  size: 15025920
 intro: Carros autônomos não são novidade. Desde 1920 eles já são alvos de pesquisa e polêmica. Eu sou louco por carros 
     desde criança, mas confesso que hoje me apavoro quando entro em um quatro-rodas cujo motorista não me inspira 
     confiança. Por isso, a ideia de entrar em um veículo autônomo me conforta, exceto quando eu lembro dos sistemas que 
