@@ -24,6 +24,9 @@ cronicas-cronicas:
   icon: fa fa-podcast
   cover: assets/images/cronicas-cronicas/logo.png
   type: Storytelling
+  platforms:
+    #apple: https://podcasts.apple.com/us/podcast/crônicas-crônicas/id1614330573
+    spotify: https://open.spotify.com/show/2Xbba2H4Q04aTfOklgqAiO
   tags:
     - storytelling
     - humor
