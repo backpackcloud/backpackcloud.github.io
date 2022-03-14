@@ -16,7 +16,9 @@ image:
 
 Obviamente, toda aventura desse tipo começa no aeroporto. E apesar de também ser óbvio uma placa escrito "Win Club" na 
 fila preferencial do raio-x, ainda assim as pessoas insistem em fazer fila de bandejão do outro lado. Abri o aplicativo
-e passei pela preferencial. Como estava por outra companhia aérea, não seria beneficiado pelos zilhões de milhas que acumulei durante meses em cárcere aéreo. Havia escolhido a poltrona 15D e ativado o check-in automático do aplicativo de viagens que uso pra não me preocupar. Era só chegar no aeroporto e ir pra fila do embarque com minhas tralhas.
+e passei pela preferencial. Como estava por outra companhia aérea, não seria beneficiado pelos zilhões de milhas que 
+acumulei durante meses em cárcere aéreo. Havia escolhido a poltrona 15D e ativado o check-in automático do aplicativo de
+viagens que uso pra não me preocupar. Era só chegar no aeroporto e ir pra fila do embarque com minhas tralhas.
 
 Óbvio que eu obviamente levava minha mochila e uma óbvia mala pequena. Afinal, seria uma infinita semana longe da 
 família e eu não sou muito fã do benefício que os lados de dentro e de fora das roupas oferecem aos viajantes que sofrem

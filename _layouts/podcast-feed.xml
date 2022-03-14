@@ -32,6 +32,7 @@
     <itunes:subtitle>{{ category.description }}</itunes:subtitle>
 
     {% for episode in site.categories[page.category] %}
+    {% if episode.audio %}
     <item>
       <title>{{ episode.title }}</title>
       <link>{{site.url}}{{ episode.url }}</link>
@@ -59,6 +60,7 @@
         <media:title type="html">{{ episode.title }}</media:title>
       </media:content>
     </item>
+    {% endif %}
     {% endfor %}
   </channel>
 </rss>

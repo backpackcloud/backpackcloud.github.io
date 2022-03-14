@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: podcast
 title:  "Carros de Autônomos"
 tags:
   - brasília
@@ -12,13 +12,15 @@ duration: "06:15"
 audio:
   url: https://f000.backblazeb2.com/file/cronicas-cronicas/002+-+Carros+de+Autonomos.mp3
   size: 15025920
-intro: Carros autônomos não são novidade. Desde 1920 eles já são alvos de pesquisa e polêmica. Eu sou louco por carros 
-    desde criança, mas confesso que hoje me apavoro quando entro em um quatro-rodas cujo motorista não me inspira 
-    confiança. Por isso, a ideia de entrar em um veículo autônomo me conforta, exceto quando eu lembro dos sistemas que 
-    costumava dar manutenção. "Pessoal, o cliente solicitou um alerta para quando o disco passar de 100% de utilização."
-    – Seria interessante ver algo semelhante para nível de combustível. O fato é que se eu fosse atendido por um carro
-    autônomo ao solicitar uma corrida, teria evitado alguns transtornos.
+description: A classificação de estrelas teve um significado bem cartunesco desta vez.
 ---
+
+Carros autônomos não são novidade. Desde 1920 eles já são alvos de pesquisa e polêmica. Eu sou louco por carros
+desde criança, mas confesso que hoje me apavoro quando entro em um quatro-rodas cujo motorista não me inspira
+confiança. Por isso, a ideia de entrar em um veículo autônomo me conforta, exceto quando eu lembro dos sistemas que
+costumava dar manutenção. "Pessoal, o cliente solicitou um alerta para quando o disco passar de 100% de utilização."
+– Seria interessante ver algo semelhante para nível de combustível. O fato é que se eu fosse atendido por um carro
+autônomo ao solicitar uma corrida, teria evitado alguns transtornos.
 
 Aquele motorista tinha 5 estrelas. Mas eu não chequei há quanto tempo ele estava ativo na plataforma. Quando percebi que
 ele tinha apenas um mês, já era tarde demais pra cancelar a corrida. Chegando em minha casa, prontamente disse para ele
