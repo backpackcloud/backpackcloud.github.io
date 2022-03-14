@@ -16,7 +16,7 @@
       <title>{{ category.name }}</title>
       <link>{{ site.url }}</link>
     </image>
-    <pubDate>{{ site.categories['right-in-the-middle'].last.date | date_to_rfc822 }}</pubDate>
+    <pubDate>{{ site.categories[page.category].last.date | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ "now" | date_to_rfc822 }}</lastBuildDate>
     <atom:link href="{{ site.url }}/{{ page.category }}/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:owner>

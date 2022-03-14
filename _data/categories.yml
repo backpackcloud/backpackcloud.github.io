@@ -7,7 +7,7 @@ right-in-the-middle:
     apple: https://podcasts.apple.com/us/podcast/right-in-the-middle/id1516387775
     spotify: https://open.spotify.com/show/4ljJasTpo2uRv1jqySXYBv
     deezer: https://deezer.com/show/2856082    
-  cover: assets/images/ritm-cover.jpg
+  cover: assets/images/right-in-the-middle/logo.jpg
   tags:
     - storytelling
     - technology
@@ -20,7 +20,12 @@ cronicas-cronicas:
   name: Crônicas Crônicas
   language: pt
   description: Histórias aleatórias.
-  icon: fa fa-toilet
+  icon: fa fa-podcast
+  cover: assets/images/cronicas-cronicas/logo.png
+  tags:
+    - storytelling
+    - humor
+    - sarcasmo
 
 unbelievable-exception:
   name: Unbelievable Exception
