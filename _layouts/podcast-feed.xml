@@ -23,7 +23,7 @@
       <itunes:name>{{ site.data.owner.name }}</itunes:name>
       <itunes:email>{{ site.data.owner.email }}</itunes:email>
     </itunes:owner>
-    <itunes:category text="Technology"/>
+    <itunes:category text="{{ category.type }}"/>
     <itunes:keywords>{{ category.tags | join: ", " }}</itunes:keywords>
     <itunes:explicit>no</itunes:explicit>
     <itunes:image href="{{ site.url }}/{{ category.cover }}"/>

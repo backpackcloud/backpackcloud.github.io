@@ -8,6 +8,7 @@ right-in-the-middle:
     spotify: https://open.spotify.com/show/4ljJasTpo2uRv1jqySXYBv
     deezer: https://deezer.com/show/2856082    
   cover: assets/images/right-in-the-middle/logo.jpg
+  type: Technology
   tags:
     - storytelling
     - technology
@@ -22,6 +23,7 @@ cronicas-cronicas:
   description: Histórias aleatórias.
   icon: fa fa-podcast
   cover: assets/images/cronicas-cronicas/logo.png
+  type: Storytelling
   tags:
     - storytelling
     - humor
