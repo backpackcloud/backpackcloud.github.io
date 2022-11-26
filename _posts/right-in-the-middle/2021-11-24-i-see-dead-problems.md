@@ -17,7 +17,7 @@ audio:
   size: 34730371
 ---
 
-_Transcript_
+_Script_
 
 Teca, I'm so tired today. It seems I've been fighting against all my nightmares at the same time. The output changes
 even if I change the documentation. I think I need vacations.
