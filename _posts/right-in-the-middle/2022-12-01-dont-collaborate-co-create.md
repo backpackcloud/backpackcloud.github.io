@@ -2,7 +2,7 @@
 layout: podcast
 title: Don't collaborate... co-create
 category: right-in-the-middle
-number: 7
+number: 8
 duration: "13:57"
 description: Collaboration is not enough.
 tags:
