@@ -3,7 +3,7 @@ layout: podcast
 title: Don't collaborate... co-create
 category: right-in-the-middle
 number: 8
-duration: "13:57"
+duration: "13:21"
 description: Collaboration is not enough.
 tags:
 - rum
@@ -14,7 +14,7 @@ tags:
 image: ritm-cover-small.jpg
 audio:
   url: https://f000.backblazeb2.com/file/right-in-the-middle/Right+in+the+Middle+-+008+-+Do+not+collaborate...+co-create.mp3
-  size: 33761797
+  size: 32059392
 ---
 
 _Script_
