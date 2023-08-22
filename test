@@ -3,4 +3,5 @@
 if [[ -d "_site" ]]; then
   rm -rf _site
 fi
+
 bundle exec jekyll serve --future --watch --drafts --config _config.yml --trace
