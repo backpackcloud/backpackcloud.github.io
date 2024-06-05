@@ -27,8 +27,8 @@ $brand-info:            #5bc0de;
 // Scaffolding
 // -------------------------
 
-$body-bg:               #f9f9f9;
-$text-color:            $gray-dark;
+$body-bg:               $gray-darker;
+$text-color:            $gray-lighter;
 
 // Links
 // -------------------------
@@ -354,20 +354,20 @@ $jumbotron-heading-color:        inherit;
 // Form states and alerts
 // -------------------------
 
-$state-warning-text:             #c09853;
-$state-warning-bg:               #fcf8e3;
+$state-warning-text:             #fcf8e3;
+$state-warning-bg:               #c09853;
 $state-warning-border:           darken(adjust-hue($state-warning-bg, -10), 3%);
 
-$state-danger-text:              #b94a48;
-$state-danger-bg:                #f2dede;
+$state-danger-text:              #f2dede;
+$state-danger-bg:                #b94a48;
 $state-danger-border:            darken(adjust-hue($state-danger-bg, -10), 3%);
 
-$state-success-text:             #468847;
-$state-success-bg:               #dff0d8;
+$state-success-text:             #dff0d8;
+$state-success-bg:               #468847;
 $state-success-border:           darken(adjust-hue($state-success-bg, -10), 5%);
 
-$state-info-text:                #3a87ad;
-$state-info-bg:                  #d9edf7;
+$state-info-text:                #d9edf7;
+$state-info-bg:                  #3a87ad;
 $state-info-border:              darken(adjust-hue($state-info-bg, -10), 7%);
 
 
