@@ -72,3 +72,5 @@ proletariado barato de Uruk-hai.
 Após esfregar o asfalto com uma mistura caseira de corpo e dignidade, comecei a refletir sobre a
 vida. Sempre pensei em deixar uma marca para as gerações futuras, mas não era bem nesse tipo de
 marca que eu pensava.
+
+O pacto de sangue já foi selado, não tem mais volta. Só espero que o aslfato não me cobre tão cedo.
