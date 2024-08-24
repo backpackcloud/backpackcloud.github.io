@@ -48,7 +48,7 @@ aguardava a alta de Gomez da UTI do hospital psiquiátrico.
 
 Aquiles foi outro que conheceu a fúria das três rodas. Após derrotar Heitor, o bravo guerreiro,
 ainda domado por sua ira, criou um portal para o submundo, de onde o Doom Guy, auxiliado pelas
-criaturas do inferno, jogaram o inconveniente Pégasus na Terra e sumiram instantaneamente. Aquiles
+criaturas do inferno, jogou o inconveniente Pégasus na Terra e sumiram instantaneamente. Aquiles
 pensou que seria triunfal desfilar com Heitor amarrado ao Pégasus, e assim o fez. A vergonhosa queda
 o deixou com o pé tão inchado que seu calcanhar se transformou em um alvo óbvio.
 
