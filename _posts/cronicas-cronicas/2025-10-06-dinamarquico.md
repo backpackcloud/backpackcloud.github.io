@@ -8,6 +8,7 @@ tags:
   - sequestro
 category: cronicas-cronicas
 description: Há algo de podre...
+pdf: https://drive.google.com/file/d/1UO0ZjpUhCTBb9guduyVCV2-2SuKDfaNY/view?usp=sharing
 ---
 
 Eu fico reparando nos olhares distantes das pessoas, não consigo deixar de notar. É como se existisse uma barreira entre pais e filhos, uma barreira invisível que os impedissem de se conectar. E isso vai além do aeroporto, é notável fora daqui também. Mas, já que estou aqui sem fazer nada, passo o tempo observando o que tem de orgânico ao redor.

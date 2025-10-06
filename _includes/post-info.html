@@ -7,4 +7,14 @@
       <span class="post-date">{{ post.date | date: "%d/%m/%Y" }}</span>
     </li>
   </ul>
+  {% if post.pdf %}
+  <ul class="post-info">
+    <li>
+      <i class="fa fa-file-pdf"></i>
+    </li>
+    <li>
+      <a href="{{ post.pdf }}">PDF version</a>
+    </li>
+  </ul>
+  {% endif %}
 </div>
