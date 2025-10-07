@@ -11,8 +11,6 @@ description: Há algo de podre...
 pdf: https://drive.google.com/file/d/1UO0ZjpUhCTBb9guduyVCV2-2SuKDfaNY/view?usp=sharing
 ---
 
-# Dinamárquico
-
 Eu fico reparando nos olhares distantes das pessoas, não consigo deixar de notar. É como se existisse uma barreira entre pais e filhos, uma barreira invisível que os impedissem de se conectar. E isso vai além do aeroporto, é notável fora daqui também. Mas, já que estou aqui sem fazer nada, passo o tempo observando o que tem de orgânico ao redor.
 
 Aeroportos são iguais em essência: nivelam o ser humano por baixo. Os mesmos desprazeres que eu tinha no Aeroporto Internacional de Brasília eu também tenho aqui no Aeroporto de Copenhague. Todos relacionados aos péssimos hábitos dos seres humanos quando estão correndo contra o relógio.
@@ -254,6 +252,8 @@ Repeti a operação na consulta com a psicóloga do racional. Foi fantástico po
 Quanto ao resto da prefeitura, mandei um email avisando que minha família já não estava mais na Dinamarca, e que não seria mais necessária a reunião na semana seguinte com a escola. Nunca me responderam.
 
 Na escola, fiz questão de agradecer a professora do meu filho. Ela não era especializada com autistas, mas tentava de todas as formas fazer com que a estadia do meu filho fosse boa. A assistente foi excepcional com meu filho, tentando de todas as formas fazê-lo se sentir bem. Uma pena não tê-la encontrado lá.
+
+A professora de dinamarquês me escreveu no sistema escolar, Aula. Ela perguntou porque minha filha não foi à escola. Respondi seco que ela não morava mais na Dinamarca. A professora me pediu para ir à escola, pois ela queria entregar algumas coisas para a minha filha. Respondi que meu endereço continuava o mesmo, e que poderia deixar o que quisesse lá. Nunca me responderam, tampouco deixaram algo na caixa de correio.
 
 Meus filhos tiveram a sorte de sempre terem pessoas boas ao redor. Eles foram a um jardim da infância particular, que era inclusive mais barato que o público. Lá, as educadoras eram super atenciosas com eles, independe de diagnóstico, cultura, língua materna ou comida na lancheira. Meu filho foi para um jardim da infância público depois, e lá sua situação foi terrível. Somente uma educadora o ajudava, e a diretora inclusive fez questão de cobrar pela comida que ele não comia. Ela alegava que, enquanto não saísse o diagnóstico dele, ele seria tratado como uma criança normal. Ele até apanhava normalmente com galhos de árvore de outras crianças. Me lembro que a diretora de uma das escolas me disse no primeiro dia:
 
