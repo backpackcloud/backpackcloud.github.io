@@ -8,7 +8,7 @@ tags:
   - sequestro legalizado
   - verdade adaptada
 category: cronicas-cronicas
-description: Há algo de podre...
+intro: Há algo de podre...
 pdf: https://drive.google.com/file/d/1UO0ZjpUhCTBb9guduyVCV2-2SuKDfaNY/view?usp=sharing
 ---
 
