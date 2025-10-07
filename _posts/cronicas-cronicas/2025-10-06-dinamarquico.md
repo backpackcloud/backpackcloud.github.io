@@ -11,6 +11,8 @@ description: Há algo de podre...
 pdf: https://drive.google.com/file/d/1UO0ZjpUhCTBb9guduyVCV2-2SuKDfaNY/view?usp=sharing
 ---
 
+# Dinamárquico
+
 Eu fico reparando nos olhares distantes das pessoas, não consigo deixar de notar. É como se existisse uma barreira entre pais e filhos, uma barreira invisível que os impedissem de se conectar. E isso vai além do aeroporto, é notável fora daqui também. Mas, já que estou aqui sem fazer nada, passo o tempo observando o que tem de orgânico ao redor.
 
 Aeroportos são iguais em essência: nivelam o ser humano por baixo. Os mesmos desprazeres que eu tinha no Aeroporto Internacional de Brasília eu também tenho aqui no Aeroporto de Copenhague. Todos relacionados aos péssimos hábitos dos seres humanos quando estão correndo contra o relógio.
@@ -228,6 +230,10 @@ A Páscoa é um evento do tipo bolas-de-feno-rolando-na-rua. Tudo para durante a
 Compramos passagens para o dia 14 de Maio. Eu levaria a família para o Brasil e retornaria em seguida para resolver as pendências fiscais na Dinamarca. As crianças não faziam ideia do plano. Para elas, iríamos para Portugal passar umas férias e, de lá, a vovó iria embora para o Brasil. Deixamos as malas prontas e seguimos com a vida. Não contamos a ninguém sobre o plano. Apesar de não ter nenhuma barreira legal para sairmos do país, já entendemos que a prefeitura sempre terá amparo legal, mesmo que seja para agir na ilegalidade.
 
 Somente o casal dinamarquês que nos amparou desde o início ficou sabendo da nossa partida. Despedidas são muito difíceis, mas foi muito bom podermos nos despedir deles em família. Eu voltaria logo em seguida, mas a despedida em família foi reconfortante.
+
+No último dia de aula, minha filha mencionou que estava indo passar uns dias em Portugal. A professora de dinamarquês veio dar um abraço nela. Notamos um semblante bem triste na professora, em um abraço mais apertado do que o normal, e um ímpeto de choro. Penso que ela já sabia que seria a última vez que veria minha filha.
+
+Nunca iremos saber a verdade, mas não se pode negar que havia um sentimento muito forte da parte dela.
 
 Tudo o que deveria dar certo acabou dando certo na saída do país. Saímos de madrugada, e creio ter sido um momento muito difícil pra minha esposa. Ela não pôde se despedir de mais ninguém. Suas magníficas colegas da Cruz Vermelha, sua fantástica fisioterapeuta, nosso caríssimo amigo brasileiro, a nossa querida consultora familiar (que embora deposta da função logo no início, manteve contato comigo durante todo o processo), todos estavam alheios ao nosso plano. Eu logo retornaria para falar com eles, mas ela não. Entramos no carro e fomos rumo ao aeroporto. Estávamos tensos ainda, mas decididos e comprometidos a ir embora.
 
