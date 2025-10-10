@@ -12,6 +12,16 @@ intro: Há algo de podre...
 pdf: https://drive.google.com/file/d/1UO0ZjpUhCTBb9guduyVCV2-2SuKDfaNY/view?usp=sharing
 ---
 
+*Uma história sobre família, perda, resiliência e o quão tenebrosa pode ser a aliança entre escola e prefeitura.*
+
+---
+
+## Prefácio
+
+Esta é uma história real, escrita com a clareza emocional da sobrevivência. Não é uma acusação, tampouco um apelo. É um testemunho de como a burocracia pode se tornar uma arma, a como o amor pode se manter intacto mesmo durante os momentos mais angustiantes. Os nomes dos locais foram preservados para honrar a verdade, não incitar vingança. Cada linha transpira o ar da Dinamarca, cada pausa carrega o peso do silêncio. Este é um relato para todas as famílias que já se viram em uma emboscada, e se recusaram a se render.
+
+## Parte I – A Viagem
+
 Eu fico reparando nos olhares distantes das pessoas, não consigo deixar de notar. É como se existisse uma barreira entre pais e filhos, uma barreira invisível que os impedissem de se conectar. E isso vai além do aeroporto, é notável fora daqui também. Mas, já que estou aqui sem fazer nada, passo o tempo observando o que tem de orgânico ao redor.
 
 Aeroportos são iguais em essência: nivelam o ser humano por baixo. Os mesmos desprazeres que eu tinha no Aeroporto Internacional de Brasília eu também tenho aqui no Aeroporto de Copenhague. Todos relacionados aos péssimos hábitos dos seres humanos quando estão correndo contra o relógio.
@@ -21,6 +31,8 @@ Claro, apesar de corrida em um aeroporto, a vida pode ser muito mais calma aqui 
 A vida aqui não tem sido fácil. Apesar de pacata, lidamos constantemente com problemas que não deveriam existir aqui. Já começamos pagando propina pra conseguir alugar uma casa, e é claro que o dono também aumentou o aluguel pra fazer um belo combo de deixar muito brasileiro com inveja. Conta no banco? Claro que não! Quem iria abrir conta pra um brasileiro recém-chegado? Por sorte um colega de trabalho conseguiu convencer um banco de menor porte a abrir uma conta super limitada pra que eu pudesse pagar a propina e, eventualmente, receber meu salário.
 
 Acho que eu estava errado sobre os aeroportos. Nada presta aqui na terceira estação solar.
+
+## Parte II – O Preço da Paz
 
 As coisas começaram a se ajustar meses depois. Assinei uma lista de espera para alugar uma casa geminada em uma cidadezinha bem tranquila ao norte de Roskilde, e que me levou mais tempo ainda pra aprender a pronunciar o nome: Jyllinge. Não fomos contemplados na primeira chamada, mas houve uma série de desistências e acabamos sendo contemplados na segunda leva. A mudança estava programada para Outubro daquele ano, quando as casas seriam entregues.
 
@@ -40,7 +52,9 @@ Mas a estrela do show era a vizinhança. Todo mundo se mudou no mesmo dia, ou se
 
 Se bem que no depósito era um pouco mais de 40 tipos de containers. O aeroporto tem mais de 50 portões de embarque. Mesmo que não haja um padrão aqui, alguém precisa explicar pros dinamarqueses que tais grandezas não deveriam se aplicar a sons de vogais. Quando alguém me liga, me sinto um modem realizando conexão discada.
 
-Mas eu não esperava receber uma ligação em português naquele fatídico dia, 25 de Fevereiro de 2025. Eu voltava do mercado e já atravessava a escola dos meus filhos quando o telefone tocou. Uma moça falou comigo em um sotaque de português europeu, quase tão incompreensível quanto o dinamarquês, e se apresentou como tradutora contratada pela prefeitura de Roskilde. Ela disse que minha filha teve um problema na escola e que a prefeitura marcou uma reunião conosco naquele mesmo dia.
+## Parte III – Uma Burocracia Sem Alma
+
+Eu não esperava receber uma ligação em português naquele fatídico dia, 25 de Fevereiro de 2025. Eu voltava do mercado e já atravessava a escola dos meus filhos quando o telefone tocou. Uma moça falou comigo em um sotaque de português europeu, quase tão incompreensível quanto o dinamarquês, e se apresentou como tradutora contratada pela prefeitura de Roskilde. Ela disse que minha filha teve um problema na escola e que a prefeitura marcou uma reunião conosco naquele mesmo dia.
 
 Eu achei super estranho. Primeiro, a prefeitura nunca marca nada na informalidade, muito menos via tradutores. Segundo, pra minha filha ter um problema a nível de sensibilizar a prefeitura, deveria ser algo muito sério. Tomei a única atitude sensata: desviei do caminho e fui direto à sala da minha filha conversar com ela.
 
@@ -56,6 +70,8 @@ E o preço veio muito alto! Ao chegarmos na prefeitura, nos informaram que nosso
 
 Não sabia que sequestro era legalizado no país.
 
+## Parte IV – O Sequestro
+
 De início, nossos filhos foram levados para a casa da professora de dinamarquês da minha filha. Ela foi a responsável por dar queixa na prefeitura, e agora mantinha a custódia dos nossos filhos. Descobrimos depois que isso é ilegal, e que ela também levou uma boa grana da prefeitura por estar com a custódia das crianças.
 
 Na Dinamarca, existe uma atividade econômica ao redor disso. Qualquer um pode se registrar como "família profissional" e receber a custódia de crianças que são removidas dos pais pelo estado a troco de uma gorda ajuda de custo. Descobrimos que a professora orientou minha filha a dizer algumas coisas contra nós, ou nunca mais voltariam pra casa.
@@ -69,6 +85,8 @@ A consultora da família, que nos acompanhava em nome da prefeitura há quase do
 Dias depois, finalmente conseguimos, com a ajuda de uma assistente social privada, ao menos ter acesso à documentação oficial do caso. A narrativa construída unilateralmente pela prefeitura foi chocante. Aparentemente, nós espancávamos diariamente nossos filhos das mais variadas formas. O documento era tão esdrúxulo que até os nossos médicos ficaram horrorizados com a criatividade perversa da prefeitura. Há anos tentávamos ajuda do estado porque nossos dois filhos são autistas e carecem de ajuda especializada. Todas as vezes em que os nossos médicos pediam ajuda, sempre éramos investigados por coisas absurdas, e os casos eram sempre encerrados alegando que éramos bons pais. Quando eu perguntei à sorridente assistente se ela havia lido os outros casos, ela somente me respondeu "não, e não irei ler". Ao menos uma pessoa foi ajudada nisso tudo (apesar de ser a que menos precisava): a professora de dinamarquês da minha filha.
 
 E eis que mais famílias passam pelos portões de embarque. A sensação de não ter direitos parentais é assustadora. Todas essas famílias estão a uma mentira de serem psicologicamente esquartejadas pelo estado. Todos esses olhares se traduzem, pra mim, em uma temerosa sensação de impotência. Já se tornou parte da sociedade. Já está enraizada na cultura.
+
+## Parte V – A Guerra Psicológica
 
 No começo eu pensava que, se fôssemos nativos, isso não teria acontecido. Ledo engano. Meu colega dinamarquês, aquele que nos ajudou com a conta bancária, tem um filho autista também, e de nível de suporte mais elevado. Ele e sua esposa já ficaram mais de 5 anos tentando ajuda para o filho, e estão constantemente em batalhas com a prefeitura mesmo após terem conseguido uma escola especial para ele. Eu entendo que isso não envolva raça, mas também entendo que estamos em uma posição mais fraca por não termos conhecimento profundo do idioma e do sistema.
 
@@ -96,6 +114,8 @@ Em paralelo, comecei a juntar todas as provas contra a prefeitura e a escola par
 
 Grandes guerras são vencidas por estrategistas. E no nosso caso não seria diferente. Começamos a preparar um pedido de apoio para a embaixada e para o conselho tutelar. A ideia era de apresentar um pedido para que o caso fosse transferido ao conselho tutelar no Brasil, onde seríamos julgados provavelmente por pessoas dotadas de massa encefálica.
 
+## Parte VI – O Teatro da Audiência
+
 E eis que o dia da audiência chega, 6 de Março de 2025. Para a nossa surpresa, a tradutora questionável fora substituída por uma tradutora de verdade. Ao telefone, ela pacientemente relatava frase à frase o que era nos dito e o que dizíamos à toda aquela corte teatral. Pedimos a ela que não traduzisse o que nossa advogada iria dizer, pois já havíamos conversado sobre a defesa.
 
 Existe uma célebre frase, talvez anônima, que diz "a culpa é minha e eu a coloco em quem eu quiser". Isso resume bem a audiência. A prefeitura constatou que foram cometidas quatro falhas severas contra nós, mas ainda assim decidiu por tomar a guarda das crianças.
@@ -118,6 +138,8 @@ Retornamos à sala, e foi solicitada uma reunião somente com a minha mãe. Como
 
 As crianças sairiam do cárcere estatal no dia seguinte, 7 de Março de 2025, no início da tarde. Foi uma sexta-feira muito aguardada, porém corrida. Saímos de casa logo pela manhã, rumo a uma cidadezinha do outro lado dos fiordes: Kirke Hyllinge. Nossa amiga estava morando em uma casinha lá, e alternava as semanas entre Dinamarca e Suécia. A semana que passaria na Suécia casou com a nossa forçada saída de casa. O dinheiro já estava acabando, e essa solução foi essencial para mantermos ao menos o que sobrou alicerce financeiro.
 
+## Parte VII – Dois Lares
+
 Assim que as crianças retornaram, minha mãe se deu conta de um fato preocupante: minha filha não tomou um banho sequer. Tanto seu cabelo quanto seu cheiro denunciavam mais de uma semana sem banho. O banho na casa da família profissional era dado com o resto da água que usavam para banhar os filhos legítimos da família. Meu filho tomou um único banho lá. Para piorar a situação, ela relatou que dormia em um colchão no chão, enquanto seu irmão dormia na cama com a senhora nua.
 
 A casa era muito suja, e as pulgas se aproveitaram para deixar diversas marcas na minha filha. Ela também não ia ao banheiro, pois ninguém a ajudava com o trauma que ela tinha de banheiros. Teve uma forte diarréia assim que entrou no banheiro da nossa casa. Ela necessitava urgentemente de um banho e de um médico.
@@ -135,6 +157,8 @@ Na semana seguinte, minha mãe estava incumbida de levar as crianças à escola.
 Eu já sabia que a escola iria tramar com a prefeitura novamente. Então, pedi a minha mãe que tirasse fotos das lancheiras. A cada hora a escola reclamava de algo com a minha mãe, que manteve a calma e se saiu bem nos dias seguintes. Ela teve que lidar com uma criança terrível, com certeza ia se sair bem lidando com aquela professora maluca.
 
 Foi maravilhoso ter a oportunidade de mostrar a foto das lancheiras quando a prefeitura nos acusou de não levar alimento suficiente para as crianças na escola. Pedi a opinião da prefeitura acerca das fotos das lancheiras. Após mudar a expressão facial, a responsável disse que só estava repetindo o que a escola relatou, e que não faria mais aquilo.
+
+## Parte VIII – O Contra-Ataque
 
 No dia 12 de Março, reunimos o pelotão de batalha na prefeitura para o tão aguardado plano de ação. A prefeitura só não contava com uma participação em específico: a embaixada do Brasil. A embaixada estava presente representando os interesses das crianças em nome do conselho tutelar. O representante agiu somente como ouvinte, e falou em inglês. Eu havia mencionado o problema da tradução pra a embaixada, por isso o representante não deixou a prefeitura saber que ele era fluente em dinamarquês.
 
@@ -157,6 +181,8 @@ Mais horrível ainda foi voltar pra casa sabendo que não poderia ficar com ela.
 Casais precisam buscar o equilíbrio. Se os dois estão fortes, é bom, mas os dois não podem estar fracos ao mesmo tempo. Minha esposa acabou juntando energia depois de me ver naquela situação. Continuamos com o psicológico equilibrado na nossa frente de ataque, e eu consegui espaço pra me recuperar daquele trauma.
 
 Não consigo imaginar como ela se reergueu daquela forma. Ela havia passado o aniversário ali, longe de casa e dos filhos. Lutando para não precisar de remédios pra dormir. Talvez seja exatamente isso que signifique o "na alegria e na tristeza". É uma questão de equilíbrio. Ela fez com que o equilíbrio se mantivesse. Levantando no momento da minha queda.
+
+## Parte IX – Sinergia
 
 No dia 19 de Março, estávamos em uma nova reunião junto à prefeitura. O teatro era o mesmo, e as ameaças também. Apesar de eu estar mais quieto e apático, minha esposa estava plena e mais do que preparada para manter o status quo.
 
@@ -193,6 +219,8 @@ Isso piorou quando cruzamos aquela informação com algumas mensagens que troque
 Era costume da escola nos atacar por qualquer coisa. Reclamavam porque eu era o que mais levava e buscava as crianças na escola. Na cabeça da escola, as tarefas deveriam ser divididas igualmente entre pai e mãe. Pro inferno o que a escola pensa! Minha esposa já passava quase todo o tempo disponível com os guris, qual o problema em eu levá-los e buscá-los? As psicólogas também não viam problema algum nisso. Era clara a perseguição da escola. E mais clara ainda era a falta de respeito à nossa cultura. A prefeitura era boa nisso também, nos atacaram dizendo que estávamos dando comida de recém-nascido para as crianças. A comida? Açaí com leite em pó. A primeira psicóloga ficou visivelmente chocada com isso.
 
 Tivemos ótimos momentos com as duas psicólogas. A primeira focava no emocional, enquanto a segunda, no racional. Aproveitamos ao máximo todas as consultas, ora em nossa casa, ora na prefeitura. Aprendemos muito sobre nossos filhos e sobre nós mesmos. Arrisco dizer que era exatamente a ajuda que precisávamos há cinco anos, mas que nos foi oferecida após uma punição sem sentido. Depois do trauma, aquilo estava muito aquém do necessário, infelizmente.
+
+## Parte X – A Última Esperança
 
 O dia 27 de Março começou com uma ponta de esperança, mas ela não durou muito. A responsável pelo caso já começou a reunião com sangue nos olhos, disposta a provar que nós não só espancávamos nossos filhos como ainda estávamos a fazê-lo todos os dias. A embaixada ainda nos acompanhava nas reuniões, sempre como ouvinte e representando o conselho tutelar. Optamos por ainda não mostrar a carta do conselho que pedia a transferência do caso, mas eu estava disposto a usá-la naquele dia, a depender do resultado da reunião.
 
@@ -234,6 +262,8 @@ No último dia de aula, minha filha mencionou que estava indo passar uns dias em
 
 Nunca iremos saber a verdade, mas não se pode negar que havia um sentimento muito forte da parte dela.
 
+## Parte XI – A Partida e a Partilha
+
 Tudo o que deveria dar certo acabou dando certo na saída do país. Saímos de madrugada, e creio ter sido um momento muito difícil pra minha esposa. Ela não pôde se despedir de mais ninguém. Suas magníficas colegas da Cruz Vermelha, sua fantástica fisioterapeuta, nossos caríssimos amigos brasileiros, a nossa querida consultora familiar (que embora deposta da função logo no início, manteve contato comigo durante todo o processo), os maravilhosos vizinhos, todos os outros que fizeram parte do processo estavam alheios ao nosso plano. Eu logo retornaria para falar com eles, mas ela não. Entramos no carro e fomos rumo ao aeroporto. Estávamos tensos ainda, mas decididos e comprometidos a ir embora.
 
 Tudo aconteceu da melhor forma possível. Minha mãe remanejou a passagem de volta para o mesmo vôo, e as passagens de nós quatro saíram por menos do que a minha passagem de volta pra Dinamarca dias depois. A conexão foi apertadíssima, mas também deu tudo certo. Os guris acharam muito estranho terem que embarcar em Lisboa. Foi aí que contamos a verdade a eles. Eles festejaram!
@@ -253,6 +283,8 @@ Repeti a operação na consulta com a psicóloga do racional. Foi fantástico po
 Quanto ao resto da prefeitura, mandei um email avisando que minha família já não estava mais na Dinamarca, e que não seria mais necessária a reunião na semana seguinte com a escola. Nunca me responderam.
 
 Na escola, fiz questão de agradecer a professora do meu filho. Ela não era especializada com autistas, mas tentava de todas as formas fazer com que a estadia do meu filho fosse boa. A assistente foi excepcional com meu filho, tentando de todas as formas fazê-lo se sentir bem. Uma pena não tê-la encontrado lá.
+
+## Parte XII – O Lado Oculto do Fiorde
 
 Meus filhos tiveram a sorte de sempre terem pessoas boas ao redor. Eles foram a um jardim da infância particular, que era inclusive mais barato que o público. Lá, as educadoras eram super atenciosas com eles, independe de diagnóstico, cultura, língua materna ou comida na lancheira. Meu filho foi para um jardim da infância público depois, e lá sua situação foi terrível. Somente uma educadora o ajudava, e a diretora inclusive fez questão de cobrar pela comida que ele não comia. Ela alegava que, enquanto não saísse o diagnóstico dele, ele seria tratado como uma criança normal. Ele até apanhava normalmente com galhos de árvore de outras crianças. Me lembro que a diretora de uma das escolas me disse no primeiro dia:
 
@@ -297,6 +329,8 @@ Mas eu não tinha direito a isso por causa da minha faixa salarial acima da méd
 Uma escola especial custa em média 400 mil coroas dinamarquesas por criança por ano. Os meus dois filhos iriam custar ao estado muito mais do que o que o estado arrecada comigo. O processo também envolve alguns custos operacionais, que devem ser pagos pela escola atual das crianças. Como a escola recebe dinheiro por criança matriculada, ela não só perderia o dinheiro das crianças como também teria que arcar com as custas da transferência. É lógico que isso nunca iria acontecer. Principalmente depois que a Dinamarca aprovou uma lei em que escolas normais podem receber crianças que necessitem de escolas especiais, independente de constar nos laudos médicos a necessidade de uma escola especial. Escolas privadas não só carecem de especialistas na área de neurodivergência, como também não são acessíveis para a população que vive apenas de salário.
 
 No fim das contas, a Dinamarca não é pra classe média. Tampouco para neurodivergentes. Uma família de classe média cujos filhos e o pai são autistas não tem um futuro muito promissor ali. Junte a isso o fato de o estado, em colaboração com a prefeitura, ter total direito sobre seus filhos e nenhum tato para lidar com crianças neurodivergentes e não fica difícil mensurar o tamanho da cilada. Mas o fato de eu ter amado esse país me coloca em uma posição delicada.
+
+## Parte XIII – A Distância e o Eco
 
 Alguns dizem que o contrário do amor é o ódio. Na verdade, o contrário do amor é a apatia.
 
