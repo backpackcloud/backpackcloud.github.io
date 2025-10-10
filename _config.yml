@@ -21,3 +21,4 @@ plugins:
   - i18n
   - closure-compiler
   - sass
+  - jekyll-redirect-from
