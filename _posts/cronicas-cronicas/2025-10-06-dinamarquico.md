@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Dinamárquico"
+title:  "Dinamarcante"
 tags:
   - Dinamarca
   - prefeitura
