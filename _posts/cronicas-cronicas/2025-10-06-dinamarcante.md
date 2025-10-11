@@ -14,9 +14,15 @@ redirect_from:
   - /cronicas-cronicas/2025/10/06/dinamarquico
 ---
 
-## Prefácio
+# Dinamarcante
 
-Esta é uma história real, escrita com a clareza emocional da sobrevivência. Não é uma acusação, tampouco um apelo. É um testemunho de como a burocracia pode se tornar uma arma, e como o amor pode se manter intacto mesmo durante os momentos mais angustiantes. Os nomes dos locais foram preservados para honrar a verdade, não incitar vingança. Cada linha transpira o ar da Dinamarca, cada pausa carrega o peso do silêncio. Uma experiência que classifico como *dinamarcante*. Seria algo bom? Seria algo ruim? Seria ambos?
+Por: Marcelo "Ataxexe" Guimarães
+
+*Uma história sobre família, perda, resiliência e o quão tenebrosa pode ser a aliança entre escola e prefeitura.*
+
+---
+
+Esta é uma história real, escrita com a clareza emocional da sobrevivência. Não é uma acusação, tampouco um apelo. É um testemunho de como a burocracia pode se tornar uma arma, e como o amor pode se manter intacto mesmo durante os momentos mais angustiantes. As datas e os nomes dos locais foram preservados para honrar a verdade, não incitar vingança. Cada linha transpira o ar da Dinamarca, cada pausa carrega o peso do silêncio e cada angústia retratada esconde uma sensação de impotência que nunca imaginei sentir na vida. Uma experiência que classifico como *dinamarcante*. Seria esta uma palavra boa? Uma palavra ruim? Provavelmente seja o fruto de um paradoxo, em que o alto índice de desenvolvimento humano não explica um sistema frio e calculista, onde qualquer comportamento que ouse destoar da cartilha do sistema pode levar a uma espiral descendente e pôr fim a uma família.
 
 ## Parte I – A Viagem
 
@@ -304,7 +310,7 @@ Retornar à Dinamarca iria me custar muito caro, e eu o faria somente para tenta
 
 Como eu bem suspeitava, a imobiliária ordenou que eu removesse a parede. Segundo eles, tudo o que eu coloquei, eu deveria retirar. Após infrutíferas tentativas de negociação, eu disse que a parede foi colocada antes do início do contrato do aluguel, ou seja, ela iria ficar lá. Disse ainda que eu não iria mais morar na Dinamarca, e que se eles não aceitassem a minha saída da casa, eu iria embora de qualquer jeito. Se a imobiliária não aceitar a sua saída, você não pode alugar outro imóvel. Novamente, caguei.
 
-A imobiliária também ordenou que a minha esposa assinasse presencialmente o documento de saída da casa, mesmo ela tendo saído oficialmente do país. Segundo a imobiliária, eles queriam ter certeza de que minha esposa não iria voltar para a Dinamarca e encontrar a casa vazia. Quando foram além e disseram que todos os que assinam o aluguel devem assinar a saída eu perguntei o que eles fazem quando uma das pessoas morre. Após um curto silêncio, disseram que ela poderia assinar e enviar uma foto.
+A imobiliária também ordenou que a minha esposa assinasse presencialmente o documento de saída da casa, mesmo ela tendo saído oficialmente do país. Segundo a imobiliária, eles queriam ter certeza de que minha esposa não iria voltar para a Dinamarca e encontrar a casa vazia. Reiterei que ela havia deixado o país com as crianças e que todos eles já não tinham mais documento algum de residência no país, tampouco número de seguro social válido. Claro que não adiantou. Quando foram além e disseram que todos os que assinam o contrato de aluguel devem assinar a saída, eu perguntei o que eles fazem quando uma das pessoas morre. Após um curto silêncio, disseram que ela poderia assinar e enviar uma foto.
 
 Alugar um imóvel na Dinamarca por si só já é um feito e tanto. Eles podem, por lei, exigir o pagamento de 7 meses de aluguel adiantados:
 
