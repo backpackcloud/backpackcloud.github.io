@@ -14,13 +14,7 @@ redirect_from:
   - /cronicas-cronicas/2025/10/06/dinamarquico
 ---
 
-# Dinamarcante
-
-Por: Marcelo "Ataxexe" Guimarães
-
-*Uma história sobre família, perda, resiliência e o quão tenebrosa pode ser a aliança entre escola e prefeitura.*
-
----
+## Prefácio
 
 Esta é uma história real, escrita com a clareza emocional da sobrevivência. Não é uma acusação, tampouco um apelo. É um testemunho de como a burocracia pode se tornar uma arma, e como o amor pode se manter intacto mesmo durante os momentos mais angustiantes. As datas e os nomes dos locais foram preservados para honrar a verdade, não incitar vingança. Cada linha transpira o ar da Dinamarca, cada pausa carrega o peso do silêncio e cada angústia retratada esconde uma sensação de impotência que nunca imaginei sentir na vida. Uma experiência que classifico como *dinamarcante*. Seria esta uma palavra boa? Uma palavra ruim? Provavelmente seja o fruto de um paradoxo, em que o alto índice de desenvolvimento humano não explica um sistema frio e calculista, onde qualquer comportamento que ouse destoar da cartilha do sistema pode levar a uma espiral descendente e pôr fim a uma família.
 
