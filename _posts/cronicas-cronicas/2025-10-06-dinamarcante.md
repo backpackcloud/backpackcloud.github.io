@@ -10,8 +10,12 @@ tags:
 category: cronicas-cronicas
 intro: Uma história sobre família, perda, resiliência e o quão tenebrosa pode ser a aliança entre escola e prefeitura.
 downloads:
-  pdf: Dinamarcante.pdf
-  epub: Dinamarcante.epub
+  - icon: file-pdf
+    link: https://f000.backblazeb2.com/file/ataxexe/texts/Dinamarcante.pdf
+    description: pdf
+  - icon: book
+    link: https://f000.backblazeb2.com/file/ataxexe/texts/Dinamarcante.epub
+    description: epub
 redirect_from:
   - /cronicas-cronicas/2025/10/06/dinamarquico
 ---

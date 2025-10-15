@@ -7,24 +7,11 @@
       <span class="post-date">{{ post.date | date: "%d/%m/%Y" }}</span>
     </li>
   </ul>
-  {% if post.downloads %}
   <ul class="post-info">
-    {% if post.downloads.pdf %}
+    {% for download in post.downloads %}
     <li>
-      <i class="fa fa-file-pdf"></i>
+      <a target="_blank" href="{{ download.link }}"><i class="fa fa-{{ download.icon }}"></i>{{ download.description }}</a>
     </li>
-    <li>
-      <a target="_blank" href="/assets/downloads/{{ post.downloads.pdf }}">Download</a>
-    </li>
-    {% endif %}
-    {% if post.downloads.pdf %}
-    <li>
-      <i class="fa fa-book"></i>
-    </li>
-    <li>
-      <a target="_blank" href="/assets/downloads/{{ post.downloads.epub }}">Download</a>
-    </li>
-    {% endif %}
+    {% endfor %}
   </ul>
-  {% endif %}
 </div>
