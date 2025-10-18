@@ -21,3 +21,5 @@ redirect_from:
 ---
 
 O conteúdo acabou ficando grande demais, então decidi fazer formatos mais direcionados pra leitura, em vez de socar tudo em um mero post no blog.
+
+Vai ali em cima e clica no formato que for melhor pra você :)
