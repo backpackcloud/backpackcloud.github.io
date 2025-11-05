@@ -12,10 +12,16 @@ intro: Uma história sobre família, perda, resiliência e o quão tenebrosa pod
 downloads:
   - icon: file-pdf
     link: https://f000.backblazeb2.com/file/ataxexe/texts/Dinamarcante.pdf
-    description: pdf
+    description: "[pt] pdf"
   - icon: book
     link: https://f000.backblazeb2.com/file/ataxexe/texts/Dinamarcante.epub
-    description: epub
+    description: "[pt] epub"
+  - icon: file-pdf
+    link: https://f000.backblazeb2.com/file/ataxexe/texts/Denmarkable.pdf
+    description: "[en] pdf"
+  - icon: book
+    link: https://f000.backblazeb2.com/file/ataxexe/texts/Denmarkable.epub
+    description: "[en] epub"
 redirect_from:
   - /cronicas-cronicas/2025/10/06/dinamarquico
 ---
