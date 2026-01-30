@@ -36,7 +36,7 @@ Eu penso em te instalar
 E é só eu começar  
 Pra eu esquecer de mim  
 
-Aconteceu!  
+Anoiteceu!  
 Olho pro log  
 E vejo como é bom  
 Ver os sistemas  
