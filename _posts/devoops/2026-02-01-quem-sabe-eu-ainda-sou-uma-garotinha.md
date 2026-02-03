@@ -11,9 +11,9 @@ intro: Não sei como isso surgiu, só sei que terminou assim...
 
 Quem sabe eu ainda sou uma garotinha  
 Esperando o Cursor abrir, sozinha  
-Cansada com minhas apps em quarkus  
+Cansada com minhas apps em Quarkus  
 Rezando baixo pelos cantos  
-Por ter que depender de IA  
+Por ter que depender da IA  
 
 Quem sabe o suporte virou um chato  
 Que vive rejeitando meu chamado  
