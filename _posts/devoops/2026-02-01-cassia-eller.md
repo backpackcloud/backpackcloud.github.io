@@ -1,12 +1,14 @@
 ---
 layout: post
-title:  "Quem sabe eu ainda sou uma garotinha"
+title:  "CássIA Eller"
 tags:
   - nerd
   - ia
   - paródia
 category: devoops
 intro: Não sei como isso surgiu, só sei que terminou assim...
+redirect_from:
+  - /devoops/2026/02/01/quem-sabe-eu-ainda-sou-uma-garotinha
 ---
 
 Quem sabe eu ainda sou uma garotinha  
