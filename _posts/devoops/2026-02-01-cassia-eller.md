@@ -5,7 +5,7 @@ tags:
   - nerd
   - ia
   - paródia
-  - não usei IA pra escrever essa merda
+  - não usei ia pra escrever essa merda
   - nem álcool
 category: devoops
 intro: Não sei como isso surgiu, só sei que terminou assim...
