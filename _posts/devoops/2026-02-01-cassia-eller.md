@@ -13,7 +13,7 @@ redirect_from:
 
 Quem sabe eu ainda sou uma garotinha  
 Esperando o Cursor abrir, sozinha  
-Cansada com minhas apps em Quarkus  
+Cansada das minhas apps em Quarkus  
 Rezando baixo pelos cantos  
 Por ter que depender da IA  
 
