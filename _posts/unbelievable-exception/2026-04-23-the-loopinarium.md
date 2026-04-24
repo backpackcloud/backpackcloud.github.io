@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Looπnarium"
+title:  "The Loo(π)narium"
 tags:
   - music
   - pedalboard
