@@ -22,7 +22,7 @@ image:
 
 ## Before You Begin
 
-I've generated a conversation between two hosts regarding this article using (pretend surprise) AI. I've chopped some parts and added a bonus to the ones who would can be brave enough to follow it to the end.
+I've generated a conversation between two hosts regarding this article using (pretend surprise) AI. I've chopped some parts and added a bonus to the ones who will be brave enough to follow it to the end.
 
 ## Talk is cheap... show me the rig!
 
