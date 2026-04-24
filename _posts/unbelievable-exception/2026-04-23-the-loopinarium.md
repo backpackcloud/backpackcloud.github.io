@@ -185,13 +185,13 @@ This is not just a synth. In system terms, this is the chaos engine. While every
 
 It doesn’t just generate sound, it negotiates with it. One moment it’s a delicate pad, the next it’s speaking in tongues, and somehow it’s still technically in key... most of the time.
 
-From a programming perspective, it's that service in your architecture that:
+From a programming perspective, it's thatr rogue service in your architecture that:
 
 - nobody fully understands
 - does things no other component can do
 - and if you remove it, everything else still works… but feels suspiciously boring
 
-It’s also the only instrument here that feels like it’s collaborating instead of obeying.  You don’t control the MicroFreak, you make suggestions and hope it agrees.
+It’s also the only instrument here that feels like it’s collaborating instead of obeying. You don’t control the MicroFreak, you make suggestions and hope it agrees.
 
 And yet, when it locks in, the absolute weirdness of it all lines up with the rest of the system. That’s when things stop sounding like a setup and start sounding like something alive.
 
