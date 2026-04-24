@@ -13,6 +13,21 @@ intro: >
   This is how software engineering principles like state machines and
   convention-over-configuration can transform traditional instruments 
   into a programmable creative platform.
+audio:
+  url: https://f000.backblazeb2.com/file/ataxexe/the-loopinarium.mp3
+image: 
+  file: loopinarium.png
+  caption: The Loo(π)narium
+---
+
+## Before You Begin
+
+I've generated a conversation between two hosts regarding this article using (pretend surprise) AI. I've chopped some parts and added a bonus to the ones who would can be brave enough to follow it to the end.
+
+## Talk is cheap... show me the rig!
+
+[Here you go](https://youtu.be/9s396Tet8J8)!
+
 ---
 
 ## Intro
@@ -223,7 +238,3 @@ All loosely coupled, mildly synchronized, and held together by duck tape, cable 
 In other words: it’s a perfectly normal setup for a guy like me.
 
 Hope it compiles.
-
-## Talk is cheap... show me the rig!
-
-[Here you go!](https://youtu.be/9s396Tet8J8)
