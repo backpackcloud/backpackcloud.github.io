@@ -126,9 +126,9 @@ Under the hood, it’s just firing off messages and trusting the rest of this cr
 
 It's a known fact that distributed systems only have two challenges:
 
-2- Sending the message just once  
-1- Sending the messages in order  
-2- Sending the messages just once
+2. Sending the message just once
+1. Sending the messages in order
+2. Sending the messages just once
 
 Inside the Raspberry Pi, there's a software from Bitfocus called Companion. If everything else in this setup is a collection of instruments and devices, then Companion is the translation layer between what I want and what actually happens. Because, let's be honest, none of these devices were designed to talk to each other like this. They all speak MIDI... but with accents. Strong ones.
 
