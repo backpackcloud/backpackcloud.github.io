@@ -24,15 +24,15 @@ I’m a programmer. Which means two things:
 
 If something can be automated, it will be. If it can’t… well.. it’s probably because I haven’t over-engineered it yet.
 
-Now, most people pick up a guitar to express emotion. I picked up a guitar and immediately thought: “This could use a control plane.”
+Now, most people pick up a guitar to express emotion. I picked up a guitar and immediately thought: "This could use a control plane."
 
-So instead of just playing music, I built… whatever this is.
+So instead of just playing music, I built... whatever this is.
 
 A looper that acts like a scheduler.
 A drummer that never complains about tempo changes.
 An amp modeler which I spend more time adjusting than playing through it.
 A chaotic synthesizer that always transports me to the nearest worm whole.
-And somewhere in the middle of all this… a Raspberry Pi quietly making decisions I may or may not understand or regret.
+And somewhere in the middle of all this... a Raspberry Pi quietly making decisions I may or may not understand or regret.
 
 This is not a setup. This is an unstable molecule. Every button is a MIDI message. Every loop is a state machine. Every song is basically an unpredictable runtime environment that somehow hasn’t crashed yet.
 
