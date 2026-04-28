@@ -18,22 +18,6 @@ image:
   caption: The Loo(π)narium
 ---
 
-## Before You Begin
-
-I've generated a conversation between two hosts regarding this article using (pretend surprise) AI. I've chopped some parts and added a bonus to the ones who will be brave enough to follow it to the end.
-
-<p>
-  <audio id="player" controls>
-    <source src="https://f000.backblazeb2.com/file/ataxexe/the-loopinarium.mp3" type="audio/mp3"/>
-  </audio>
-</p>
-
-## Talk is cheap... show me the rig!
-
-[Here you go](https://youtu.be/9s396Tet8J8)!
-
----
-
 ## Intro
 
 I’m a programmer. Which means two things:
@@ -242,3 +226,27 @@ All loosely coupled, mildly synchronized, and held together by duck tape, cable 
 In other words: it’s a perfectly normal setup for a guy like me.
 
 Hope it compiles.
+
+---
+
+## Before You Go
+
+I've generated a conversation between two hosts regarding this article using (pretend surprise) AI. I've chopped some parts and added a bonus to the ones who will be brave enough to follow it to the end.
+
+<p>
+  <audio controls>
+    <source src="https://f000.backblazeb2.com/file/ataxexe/the-loopinarium.mp3" type="audio/mp3"/>
+  </audio>
+</p>
+
+I've also generated a debate around the text:
+
+<p>
+  <audio controls>
+    <source src="https://f000.backblazeb2.com/file/ataxexe/the-loopinarium-debate.m4a" type="audio/m4a"/>
+  </audio>
+</p>
+
+## Talk is cheap... show me the rig!
+
+[Here you go](https://youtu.be/9s396Tet8J8)!
