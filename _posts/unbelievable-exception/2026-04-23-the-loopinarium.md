@@ -243,7 +243,7 @@ I've also generated a debate around the text:
 
 <p>
   <audio controls>
-    <source src="https://f000.backblazeb2.com/file/ataxexe/the-loopinarium-debate.m4a" type="audio/m4a"/>
+    <source src="https://f000.backblazeb2.com/file/ataxexe/the-loopinarium-debate.mp3" type="audio/mp3"/>
   </audio>
 </p>
 
