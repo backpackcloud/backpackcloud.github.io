@@ -170,7 +170,7 @@ I'll be honest here. I'm quite far from being a sound expert, but I did my best 
 - A crunchy sound that's suitable for rhythms and general solos
 - A lead sound that makes me think I can shred
 
-The forth snapshot is always an experimental one. Right now I'm having fun with the acoustic simulator while I don't fix my real acoustic guitar.
+The forth snapshot is always an experimental one. I've had fun with the acoustic simulator, bass octaver, synth effects...
 
 I've setup the preset in a way that I can alter the level and pan using MIDI messages. This allows me to place the sound exactly where I want for maximum disturbance in the force. This plays nice when I'm designing loops, as I can easily construct the layers without delving into multiple knobs. I have a fully setup 6-track template for my loops, but it's always nice to prove you're wrong, and having a super flexible way of challenging my own choices is definitely a good start.
 
