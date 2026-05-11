@@ -126,9 +126,9 @@ Under the hood, it’s just firing off messages and trusting the rest of this cr
 
 It's a known fact that distributed systems only have two challenges:
 
-2- Sending the message just once  
-1- Sending the messages in order  
-2- Sending the messages just once
+2- Deliver the message just once  
+1- Deliver the messages in order  
+2- Deliver the messages just once
 
 Inside the Raspberry Pi, there's a software from Bitfocus called Companion. If everything else in this setup is a collection of instruments and devices, then Companion is the translation layer between what I want and what actually happens. Because, let's be honest, none of these devices were designed to talk to each other like this. They all speak MIDI... but with accents. Strong ones.
 
@@ -209,7 +209,7 @@ This is insanely fun. I can spend hours tweaking and having a great time trying 
 
 ## Why L∞π∩∆rium?
 
-You might be wondering why I spell it L∞π∩∆rium. It's not just to make the logo look like a mathematical panic attack. The name itself is a visual representation of the exact audio and data flow of the rig.
+You might be wondering why I spell it L∞π∩∆rium. It's not just to make the name look like a mathematical panic attack. The name itself is a visual representation of the exact audio and data flow of the rig.
 
 It tells the story of a signal that starts normally, gets processed through a beautifully chaotic distributed system, and somehow makes it out alive on the other side. Here is the architectural breakdown of the name:
 
@@ -217,7 +217,7 @@ The Normal Start: "L" This represents the clean input. It's the "perfectly reaso
 
 The Shift Into Chaos: "∞π∩∆" The middle of the word is where the signal enters the unpredictable runtime environment.
 
-∞ (Infinity): The signal hits the Boss RC-600 Looper. This is the scheduler, the timeline, and the keeper of loops. The symbol represents the continuous flow of the music without falling into a disastrous infinite MIDI echo.
+∞ (Infinity): The signal hits the Boss RC-600 Looper. This is the scheduler, the timeline, and the keeper of loops. The symbol represents the continuous flow of the music, layer by layer.
 
 π (Pi): The MIDI messages are intercepted by the Raspberry Pi. This is the middleware layer sitting quietly underneath, making executive decisions and orchestrating the rig.
 
