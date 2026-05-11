@@ -38,7 +38,7 @@ This is not a setup. This is an unstable molecule. Every button is a MIDI messag
 
 And today, I’m going to show you how I turned a perfectly reasonable guitar rig into a chaotic creative platform.
 
-Welcome to the Loopinarium (or L∞π∩∆rium): an orchestration problem with strings attached.
+Welcome to the Loopinarium (or L∞π∩∆rium, as I prefer to spell it): an orchestration problem with strings attached.
 
 ## Setting the Stage
 
