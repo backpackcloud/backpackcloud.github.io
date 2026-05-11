@@ -60,7 +60,7 @@ Of course, this wouldn't have a purpose if there was no audio flowing through th
 - Stereo sound from the BeatBuddy
 - Stereo sound from a bluetooth adapter
 
-The bluetooth adapter is there so I can hook up external resources, like guitar course materials that I don't really need to store inside the looper.
+The bluetooth adapter is there so I can hook up external resources, like music apps on my tablet (essentially chord bots and backing track generators) and guitar course materials that I don't really need to store inside the looper.
 
 The sound gets out if this madness via a stereo output from the looper itself. There are three different outputs and each of them can have different mix configurations. I save two exact copies, one for the output to my interface and another to attach to my recorder.
 
@@ -239,6 +239,8 @@ In short, just as a biologist builds a vivarium to observe how wild organisms be
 
 Last, but not least, "pina" is my ultimate pun: "pinna", also known as the auricle. The pinna is essential for humans to determine the direction of a sound. Remember that little button in the StreamDeck that tells me where the guitar is located in the sound stage? And also the opposite panning to separate the chaotic synth from the guitar in the stereo spectrum?
 
+Conceptually, the "pi-na" hidden in the middle of the rig's name could represent the listener's ear, trapped right between the deterministic loops on the left and the chaotic variance on the right!
+
 Now ask me how many songs have I made with this? Well... let's say I'm sure I will come up with something soon™.
 
 ## The End
@@ -259,24 +261,6 @@ In other words: it’s a perfectly normal setup for a guy like me.
 Hope it compiles.
 
 ---
-
-## Before You Go
-
-I've generated a conversation between two hosts regarding this article using (pretend surprise) AI. I've chopped some parts and added a bonus to the ones who will be brave enough to follow it to the end.
-
-<p>
-  <audio controls>
-    <source src="https://f000.backblazeb2.com/file/ataxexe/the-loopinarium.mp3" type="audio/mp3"/>
-  </audio>
-</p>
-
-I've also generated a debate around the text:
-
-<p>
-  <audio controls>
-    <source src="https://f000.backblazeb2.com/file/ataxexe/the-loopinarium-debate.mp3" type="audio/mp3"/>
-  </audio>
-</p>
 
 ## Talk is cheap... show me the rig!
 
