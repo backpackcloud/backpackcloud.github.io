@@ -128,7 +128,7 @@ It's a known fact that distributed systems only have two challenges:
 
 2- Deliver the message just once  
 1- Deliver the messages in order  
-2- Deliver the messages just once
+2- Deliver the message just once
 
 Inside the Raspberry Pi, there's a software from Bitfocus called Companion. If everything else in this setup is a collection of instruments and devices, then Companion is the translation layer between what I want and what actually happens. Because, let's be honest, none of these devices were designed to talk to each other like this. They all speak MIDI... but with accents. Strong ones.
 
