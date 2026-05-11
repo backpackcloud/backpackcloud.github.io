@@ -13,9 +13,6 @@ intro: >
   This is how software engineering principles like state machines and
   convention-over-configuration can transform traditional instruments 
   into a programmable creative platform.
-image: 
-  file: loopinarium.png
-  caption: The Loo(π)narium
 ---
 
 ## Intro
