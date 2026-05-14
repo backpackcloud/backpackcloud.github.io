@@ -171,6 +171,8 @@ There are some ways of making sure you have a fixed way of referring to the MIDI
 
 And that's Open Source in a nutshell: it's free of cost, but not free of effort. The key part hidden in the effort is the freedom to modify anything to suit your own need, and that alone dwarfs any possible paid solution for a crazy guy like me.
 
+Actually, I've even started coding my own plugin based on the generic MIDI plugin provided by Bitfocus. The main benefit is to have all the logic packed directly inside the Companion runtime, instead of building blocks that makes me think I'm a beginner into the programming world. Don't get me wrong, the Companion interface is really nice, but if you can find yourself under the hood, why not going in?
+
 Now I'm realizing something: what's a guitar rig with no guitar sound? Let's move to the tone.
 
 ### The Modeler
