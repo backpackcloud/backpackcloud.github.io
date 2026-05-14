@@ -239,11 +239,11 @@ The Normal Start: "L" This represents the clean input. It's the "perfectly reaso
 
 The Shift Into Chaos: "∞π∩∆" The middle of the word is where the signal enters the unpredictable runtime environment.
 
-∞ (Infinity): The signal hits the Boss RC-600 Looper. This is the scheduler, the timeline, and the keeper of loops. The symbol represents the continuous flow of the music, layer by layer.
+∞ (Infinity): The signal hits the Boss RC-600 Looper and gets in the mix with the drum patterns provided by the BeatBuddy and the recorded loop tracks. The symbol represents the continuous flow of the music, layer by layer, drum beat by drum beat.
 
 π (Pi): The MIDI messages are intercepted by the Raspberry Pi. This is the middleware layer sitting quietly underneath, making executive decisions and orchestrating the rig.
 
-∩ (Intersection): In set theory, this denotes an intersection. Here, it represents the Companion software. It acts as the diplomat and control plane, intersecting and translating the various "strong accents" of MIDI messages from devices that were never meant to talk to each other. It also represents the fragile, but beautiful, intersection point where determinism meets creativity.
+∩ (Intersection): In set theory, this denotes an intersection. Here, it represents the Companion software. It acts as the diplomat and control plane, intersecting and translating the various "strong accents" of MIDI messages from devices that were never meant to talk to each other. It also represents the fragile, but beautiful, intersection point where determinism meets creativity by delicately touching chaos.
 
 ∆ (Delta): In mathematics, Delta means variance. Here, it represents the Arturia MicroFreak. This is the chaos engine exploring alternate timelines. It injects organic variance and "flesh-accented" randomness into an otherwise rigidly deterministic grid.
 
