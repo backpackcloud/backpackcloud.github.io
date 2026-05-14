@@ -66,13 +66,35 @@ The sound gets out if this madness via a stereo output from the looper itself. T
 
 As the last piece of this convoluted puzzle, I've plugged a portable router for emergency situations. The Raspberry Pi is configured to access my home router, but if I'm on the go and need to tweak something in the Companion app, I can just connect to the portable router and make the adjustments without too much hassle.
 
+But that didn't happen immediately. There's some story I need to tell about my early days jamming alone.
+
+## The Prototype
+
+Back in the days, I was experimenting with just the Helix and the RC-600. The StreamDeck was actually plugged directly to my desktop, and the rig was directly attached to my audio interface. It didn't do much to the rig itself, it was just a board where I could fire some backing tracks. But I did have some MIDI controllers that were controlling some aspects of the Helix.
+
+When I bought the Arturia MicroFreak and started playing around with, I got one of the chord progressions I was jamming around, turned the synth on, recorded 6 tracks, pressed record, and this happened:
+
+<audio id="player" controls>
+  <source src="https://f000.backblazeb2.com/file/loopinarium/Lollipop.mp3" type="audio/mp3"/>
+</audio>
+
+That mix between the synth and the guitar put a smile on my ears that I can't describe in words. I spent days listening just to that recording, trying to understand what was going on my mind.
+
+Then I realized I wanna do more like that. And my engineer DNA immediately though I should combine that experience with the idea of setting up the loops in a more geeky way.
+
+For a long time I failed to integrate everything in an interesting way, because it sounded (pun intended) too normal. Using a desktop to manage the MIDI stuff and an audio interface to capture the audio signals and mix them together in a DAW was too reliable to my taste.
+
+Then I decided to go normal (or "go nuts", as some earthlings would say) and started sketching some ways of making a self-contained rig that I could just carry outside of my cubicle, plug in a power socket and pray it won't melt the power system.
+
+That's when the L∞π∩∆rium was born. No buildings were set on fire (yet).
+
 ## Describing Chaos
 
-Let me walk you through the architecture, because calling this thing a “pedalboard” at this point feels legally inaccurate.
+Let me walk you through the architecture, because calling this thing a "pedalboard" at this point feels legally inaccurate.
 
 ### The User Interface
 
-Let's start with the control surface: the StreamDeck.  This is where I pretend I’m not just playing, I’m deploying changes to production, choosing the set list moments before the show. Every button is a high-level command: “change the pattern,” “go to my backing tracks,” “make this sound expensive.”
+Let's start with the control surface: the StreamDeck.  This is where I pretend I’m not just playing, I’m deploying changes to production, choosing the set list moments before the show. Every button is a high-level command: "change the pattern", "go to my backing tracks", "make this sound expensive".
 
 The Companion app is straightforward. It recognized the StreamDeck and configured it automatically. I had to spend some time to populate a couple of pages with useful information and actions. My approach is to use the top row as a kind of status bar. The top left button switches to a debug page and the two top right buttons switch to a Helix and a BeatBuddy controller.
 
