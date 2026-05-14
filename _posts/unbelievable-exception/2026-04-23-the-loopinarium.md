@@ -80,7 +80,7 @@ When I bought the Arturia MicroFreak and started playing around with, I got one 
 
 That mix between the synth and the guitar put a smile on my ears that I can't describe in words. I spent days listening just to that recording, trying to understand what was going on my mind.
 
-Then I realized I wanna do more like that. And my engineer DNA immediately though I should combine that experience with the idea of setting up the loops in a more geeky way.
+Then I realized I wanna do more like that. And my engineer-DNA immediately though I should combine that experience with the idea of setting up the loops in a more geeky way.
 
 For a long time I failed to integrate everything in an interesting way, because it sounded (pun intended) too normal. Using a desktop to manage the MIDI stuff and an audio interface to capture the audio signals and mix them together in a DAW was too reliable to my taste.
 
