@@ -94,7 +94,7 @@ Let me walk you through the architecture, because calling this thing a "pedalboa
 
 ### The User Interface
 
-Let's start with the control surface: the StreamDeck.  This is where I pretend I’m not just playing, I’m deploying changes to production, choosing the set list moments before the show. Every button is a high-level command: "change the pattern", "go to my backing tracks", "make this sound expensive".
+Let's start with the control surface: the StreamDeck.  This is where I pretend I'm not just playing, I'm deploying changes to production, choosing the set list moments before the show. Every button is a high-level command: "change the pattern", "go to my backing tracks", "make this sound expensive".
 
 The Companion app is straightforward. It recognized the StreamDeck and configured it automatically. I had to spend some time to populate a couple of pages with useful information and actions. My approach is to use the top row as a kind of status bar. The top left button switches to a debug page and the two top right buttons switch to a Helix and a BeatBuddy controller.
 
@@ -108,13 +108,13 @@ Like any piece of software, this thing will never be complete, but will always b
 
 ### The Looper
 
-Let's move to the boss (pun intended). At the center of the system, we have the brain… or at least the thing that thinks it’s in charge: the Boss RC-600. This is the scheduler, the timeline, the keeper of loops. It speaks in MIDI clock, which is basically its way of saying “trust me bro”.
+Let's move to the boss (pun intended). At the center of the system, we have the brain… or at least the thing that thinks it’s in charge: the Boss RC-600. This is the scheduler, the timeline, the keeper of loops. It speaks in MIDI clock, which is basically its way of saying "trust me bro".
 
 I've divided its 99 memory blocks into three separate categories:
 
-1. Loop templates
-2. Loop songs
-3. Backing tracks
+1. Loop templates (9 blocks)
+2. Loop songs (39 blocks, 1 template)
+3. Backing tracks (59 blocks, 1 template - 6 tracks per block)
 
 The templates are there to store basic loop settings (like no rhythm sound) and the time signature, since the RC-600 doesn't expose this setting for external modification via MIDI messages. The idea is to use any of the templates to create the tracks and then store the result in one of the blocks for the Loop songs.
 
@@ -130,7 +130,7 @@ I added two particular folders to my BeatBuddy, one for the favorite patterns, s
 
 The second folder is where I store the patterns for the songs I create. Since I'm not using the native sounds of my looper, I had to store this information elsewhere. The problem with mapping each song to a pattern is that I would need to manually do the mapping each time I create a song, and this process requires access to the Raspberry Pi from a web browser. It's time to use some of my poorly acquired programming skills.
 
-When programming software, using conventions over configurations is almost always a better choice. Since I adopted a range of memory banks for the songs, I correlated them to a particular folder of patterns inside the BeatBuddy.
+When programming software, using conventions over configurations is almost always a better choice. Since I adopted a range of memory banks for the songs, I correlated them to a particular folder of patterns inside the BeatBuddy. The idea is simple: count the song position within its range of dedicated blocks in the looper (block #15 is the 5th song - the first block in the range is the template), then set the BeatBuddy to the pattern representing that position inside the songs folder (in the previous example, the 5th pattern).
 
 The process now gets way easier. After I select a pattern for a new song, I just need to open the BeatBuddy manager on my local machine, copy the pattern to the position in the folder that matches the position of the song in the specific range of the looper, and sync the changes with the BeatBuddy's SD card.
 
