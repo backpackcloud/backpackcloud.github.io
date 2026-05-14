@@ -72,7 +72,7 @@ But that didn't happen immediately. There's some story I need to tell about my e
 
 Back in the days, I was experimenting with just the Helix and the RC-600. The StreamDeck was actually plugged directly to my desktop, and the rig was directly attached to my audio interface. It didn't do much to the rig itself, it was just a board where I could fire some backing tracks. But I did have some MIDI controllers that were controlling some aspects of the Helix.
 
-When I bought the Arturia MicroFreak and started playing around with, I got one of the chord progressions I was jamming around, turned the synth on, recorded 6 tracks, pressed record, and this happened:
+When I bought the Arturia MicroFreak and started playing around with, I got one of the chord progressions I was jamming around, turned the synth on, recorded 6 tracks, pressed record, played through it, alternating between the synth and the guitar - and some times playing both together. This is what happened:
 
 <audio id="player" controls>
   <source src="https://f000.backblazeb2.com/file/loopinarium/Lollipop.mp3" type="audio/mp3"/>
