@@ -265,6 +265,8 @@ Conceptually, the "pi-na" hidden in the middle of the rig's name could represent
 
 Now ask me how many songs have I made with this? Well... let's say I'm sure I will come up with something soon™.
 
+At least I have that one from the prototype...
+
 ## The End
 
 This isn’t just gear. This is:
