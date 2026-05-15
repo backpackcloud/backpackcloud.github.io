@@ -78,7 +78,7 @@ When I bought the Arturia MicroFreak and started playing around with, I got one 
   <source src="https://f000.backblazeb2.com/file/loopinarium/Lollipop.mp3" type="audio/mp3"/>
 </audio>
 
-That mix between the synth and the guitar put a smile on my ears that I can't describe in words. I spent days listening just to that recording, trying to understand what was going on my mind.
+That mix between the synth and the guitar put a smile on my ears that I can't describe in words. I spent days listening just to that recording, trying to understand what was going on my mind. 
 
 Then I realized I wanna do more like that. And my engineer-DNA immediately though I should combine that experience with the idea of setting up the loops in a more geeky way.
 
@@ -171,9 +171,9 @@ There are some ways of making sure you have a fixed way of referring to the MIDI
 
 And that's Open Source in a nutshell: it's free of cost, but not free of effort. The key part hidden in the effort is the freedom to modify anything to suit your own need, and that alone dwarfs any possible paid solution for a crazy guy like me.
 
-Actually, I've even started coding my own plugin based on the generic MIDI plugin provided by Bitfocus. The main benefit is to have all the logic packed directly inside the Companion runtime, instead of building blocks that makes me think I'm a beginner into the programming world. Don't get me wrong, the Companion interface is really nice, but if you can find yourself under the hood, why not going in?
+Actually, I've even started coding my own plugin based on the generic MIDI plugin provided by Bitfocus and I'm using it now. The main benefit is to have all the logic packed directly inside the Companion runtime, instead of building blocks that makes me think I'm a beginner into the programming world. Don't get me wrong, the Companion interface is really nice, but if you can find yourself under the hood, why not going in? Total control and accountability. What else would I want?
 
-Now I'm realizing something: what's a guitar rig with no guitar sound? Let's move to the tone.
+Now I'm realizing something: what's a guitar rig with no guitar sound? Let's move to the tone. I might actually want to have some sound coming from this rig at some point.
 
 ### The Modeler
 
@@ -183,7 +183,7 @@ Ah yes… tone. I love that crazy controversy where people say "it's in the wood
 
 Right! Because when you plug into a fully digital signal chain, run through converters, DSP, impulse responses, stereo routing, and enough processing power to simulate a weather system... the real bottleneck is the tree.
 
-Tone is everything happening after the cable leaves the guitar. In other words: tone is in the system. Especially inside MIDI CC values which control how a bunch of DSP blocks will process my guitar signal after I pluck the strings.
+In the context of this fully digital rig, tone is everything happening after the cable leaves the guitar. In other words: tone is in the system. Especially inside MIDI CC values which control how a bunch of DSP blocks will process my guitar signal after I pluck the strings.
 
 I'll be honest here. I'm quite far from being a sound expert, but I did my best at making 3 solid snapshots that sounds good to my taste:
 
