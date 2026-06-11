@@ -169,9 +169,9 @@ Assim como o cérebro reage a estímulos, dispositivos musicais também precisam
 
 Sistemas distribuídos são bem simples, possuem apenas dois desafios:
 
-2- Entregar a mensagem somente uma vez
-1- Entregar as mensagens em ordem
-2- Entregar a mensagem somente uma vez
+2- Entregar a mensagem somente uma vez  
+1- Entregar as mensagens em ordem  
+2- Entregar a mensagem somente uma vez  
 
 Bem simples!
 
