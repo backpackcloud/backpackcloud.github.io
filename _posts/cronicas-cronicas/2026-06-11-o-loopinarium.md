@@ -153,10 +153,10 @@ Pois bem, sem o *MIDI Clock* fluindo pela aparelhagem, a parafernalha toda fica 
 
 Em termos de áudio, a conexão ficou assim:
 
-> Guitarra → Modeler
-> Sintetizador → Modeler
-> Drum Machine → Modeler
-> Modeler → Looper
+> Guitarra → Modeler  
+> Sintetizador → Modeler  
+> Drum Machine → Modeler  
+> Modeler → Looper  
 > Looper → saída de áudio
 
 Apesar de o sintetizador suportar MIDI, ele não entra no anel. Isso porque ele precisa de um apoio para que eu o toque e, como em uma estrutura de anel, todos os elementos precisam estar funcionando para que o anel funcione, remover o sintetizador faria com que o sistema falhasse. Deixei o sintetizador conectado via USB a um Raspberry Pi, que também se conecta ao Looper via USB.
