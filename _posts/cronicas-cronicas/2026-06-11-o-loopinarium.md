@@ -223,7 +223,7 @@ A primeira camada é formada pelos símbolos. E a história também começa nela
 
 O "L" inicial representa o sinal comum que vem da minha guitarra (e espero que venha de um violão também, em breve). A letra representa o sinal limpo, que é usado na criação da estrutura determinística dos loops.
 
-O "∞", símbolo do infinito, representa exatamente o *Looper*. O sinal chega nele, onde é combinado com a percussão vinda do *Drum Machine* e pode ser armazenado em uma das faixas. É a minha jaula determinística que, de certo modo, me dá um local seguro e racional.
+O "∞", símbolo do infinito, representa exatamente o *Looper*. O sinal chega nele, onde é combinado com a percussão vinda do *Drum Machine* e pode ser armazenado em uma das faixas. É a minha jaula determinística que, de certo modo, me dá um local seguro e racional para me expressar emocionalmente.
 
 O "π", letra grega Pi, representa o Raspberry Pi. O cerne da estrutura caótica que tenta orquestrar tudo.
 
