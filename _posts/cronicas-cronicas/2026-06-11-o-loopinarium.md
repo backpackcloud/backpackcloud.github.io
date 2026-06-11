@@ -187,7 +187,7 @@ As interações são tão triviais quanto a Segunda Lei de Newton: a ação de p
 
 Vale lembrar que, no caso dos pedais de controle, eles enviam mensagens MIDI diretamente de dentro do anel, mas elas são endereçadas ao próprio Raspberry, que irá fazer o mesmo processo de conversão. Ele é basicamente um diplomata.
 
-As mensagens MIDI, em sua maioria, tem um valor denominado "canal". Ele pode ter valores entre 0 e 15, ou seja, é possível configurar cada dispositivo musical para escutar somente a mensagens para um canal específico. Cada um dos meus dispositivos, inclusive o Raspberry Pi, tem canais exclusivos. E eu também reservei um canal somente para testar o equipamento dentro de pequenos intervalos de tempo.
+As mensagens MIDI, em sua maioria, tem um pedaço denominado "canal". Ele pode ter valores entre 0 e 15, ou seja, é possível configurar cada dispositivo musical para escutar somente a mensagens para um canal específico. Cada um dos meus dispositivos, inclusive o Raspberry Pi, tem canais exclusivos. E eu também reservei um canal somente para testar o equipamento dentro de pequenos intervalos de tempo.
 
 Sim, é preciso testar constantemente se as coisas estão funcionando. Eu implementei uma espécie de *ping* usando um canal MIDI dedicado. O Raspberry Pi envia uma mensagem pré-definida para o Looper e, como ela irá passar por todo o anel, terminará no Looper. Se a mensagem não chegar após um breve período, um dos botões me mostra um alerta de forma bem visual.
 
