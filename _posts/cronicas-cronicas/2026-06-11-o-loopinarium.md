@@ -179,7 +179,7 @@ Sistemas distribuídos são bem simples, possuem apenas dois desafios:
 
 Bem simples!
 
-Eu não pretendo chegar no nível supremo do sadismo arquitetural e usar microsserviços ou qualquer outra porcaria da moda que é vendida. Enviar mensagens para os componentes usando um barramento em comum torna as coisas menos acopladas. Do contrário, eu criaria um belo espaguete de dependências, com uma alta probabilidade de algumas serem circulares. Até eu tenho limites.
+Eu não pretendo chegar no nível supremo do sadismo arquitetural e usar microsserviços ou qualquer outra porcaria da moda que é vendida por influenciadores gananciosos. Enviar mensagens para os componentes usando um barramento em comum torna as coisas menos acopladas. Do contrário, eu criaria um belo espaguete de dependências, com uma alta probabilidade de algumas serem circulares. Até eu tenho limites.
 
 Os eventos que estimulam o comportamento da estrutura toda são basicamente dois: interação via superfície de controle ou mensagens MIDI.
 
