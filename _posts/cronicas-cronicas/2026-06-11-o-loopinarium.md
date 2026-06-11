@@ -71,7 +71,11 @@ Como eu tinha praticamente zero formação musical, minhas composições eram me
 
 E onde entra o *looping* aí? Simples: com poucos acordes e várias camadas, talvez seria possível criar composições mais agradáveis e que servissem de base para algo que eu aprendi muito a gostar: improvisação musical.
 
-Parece que as coisas estavam fazendo sentido. Aquela rigidez agressiva do *loop* me enjaulava, enquanto a improvisação me libertava. Àquela época eu já estava tocando guitarra, e a variedade de efeitos que saía dos meus pedais me encantava de uma forma que mesmo o violão, o instrumento da minha vida, não era capaz de fazer.
+Eu ainda me lembro do dia em que andava com o violão nas costas e avistei um senhor levando sua cachorrinha pra passear. Em vez de um pirulito, ele me ofereceu aulas de violão. Mal sabia eu que ele era o magnífico violonista João Domingues. Nosso interesse comum por Bossa Nova e música brasileira em geral nos transformou de aluno e professor para parceiros musicais em poucos meses.
+
+Conforme eu aprendia a fazer instrumentais com os Songbooks do Almir Chediak, eu também aprendia a passear pelos acordes. A improvisação ainda não é algo natural pra mim, e talvez nunca seja, mas ali eu dei os primeiros passos e nunca mais consegui parar. Uma vez passamos mais de 50 minutos nos divertindo apenas com a música "A Felicidade". Só paramos porque o celular dele tocou, e estava fora do tom.
+
+O loop era a desculpa perfeita para a improvisação. Parece que as coisas estavam fazendo sentido. Aquela rigidez agressiva do *loop* me enjaulava, enquanto a improvisação me libertava. Àquela época eu já estava tocando guitarra, e a variedade de efeitos que saía dos meus pedais me encantava de uma forma que mesmo o violão, o instrumento da minha vida, não era capaz de fazer.
 
 Anos depois e outro amigo entra em cena: o Ingo. Durante a pandemia, estávamos trocando muitas ideias sobre guitarra, já que ele estava aprendendo a tocar. Eu havia me mudado recentemente e precisei vender minha guitarra e os pedais de efeito pra ajudar a custear a mudança. A conversa, mais o fato de que eu não iria mais viajar por um bom tempo, me animaram a comprar uma guitarra e voltar a tocar. Eu havia levado um pequeno pedal de *loop*. Podia voltar a me exercitar musicalmente.
 
