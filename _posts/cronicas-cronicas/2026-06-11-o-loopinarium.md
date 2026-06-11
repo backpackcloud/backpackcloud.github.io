@@ -10,6 +10,9 @@ category: cronicas-cronicas
 intro: >
   Como lidar com a dualidade cerebral de forma ainda mais... dual.
   Esta é a alquimia matemática do som e da lógica.
+image:
+  file: loopinarium.png
+  caption: Sim, gerei com IA... mas o texto é original!
 ---
 
 ## Introdução
