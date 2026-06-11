@@ -159,7 +159,7 @@ Em termos de áudio, a conexão ficou assim:
 > Modeler → Looper  
 > Looper → saída de áudio
 
-Apesar de o sintetizador suportar MIDI, ele não entra no anel. Isso porque ele precisa de um apoio para que eu o toque e, como em uma estrutura de anel, todos os elementos precisam estar funcionando para que o anel funcione, remover o sintetizador faria com que o sistema falhasse. Deixei o sintetizador conectado via USB a um Raspberry Pi, que também se conecta ao Looper via USB.
+Apesar de o sintetizador suportar MIDI, ele não entra no anel. Isso porque ele precisa de um apoio para que eu o toque e como, em uma estrutura de anel, todos os elementos precisam estar funcionando para que o anel funcione, remover o sintetizador faria com que o sistema falhasse. Deixei o sintetizador conectado via USB a um Raspberry Pi, que também se conecta ao Looper via USB.
 
 O pequeno computador acaba não só sendo um mensageiro, que encaminha uma cópia de tudo o que trafega no anel MIDI pro sintetizador, como também faz as vias de uma central de controle automatizada. É nele que está o cérebro do L∞π∩∆rium.
 
