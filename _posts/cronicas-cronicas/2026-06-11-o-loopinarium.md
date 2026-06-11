@@ -19,7 +19,7 @@ Eu sou um programador. Isso significa, basicamente, duas coisas:
 1. Eu sou preguiçoso.
 2. Eu levo isso **muito** a sério.
 
-Se algo pode ser automatizado, será. Se não puder... bem... é porque eu ainda não adicionei complexidade desnecessária.
+Se algo puder ser automatizado, será. Se não puder... bem... é porque eu ainda não adicionei complexidade desnecessária.
 
 Um exemplo atual: pessoas normais pegam uma guitarra para expressar emoção. Certa vez eu peguei uma e pensei: "Isso carece de uma central de controle".
 
