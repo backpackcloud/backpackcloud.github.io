@@ -33,7 +33,7 @@ Esse é o Loopinarium (ou L∞π∩∆rium, como eu prefiro escrever). Parece um
 
 Era uma época sombria, eu tinha ataques de pânico com certa frequência e, ao que parece, episódios de epilepsia (não daqueles em que a língua enrola). O complicado de se avaliar condições como esta é justamente a de estar em um maquinário exatamente quando se tem a crise. Fiz Cintilografia de Perfusão Cerebral, Doppler Transcraniano e até um teste de Rorschach.
 
-Aliás, uma das linhas da conclusão desse teste me chamou muito a atenção: alta inteligência, bloqueada emocionalmente. Estaria isso relacionado com o que minha psiquiatra disse?
+Aliás, uma das linhas da conclusão desse teste me chamou muito a atenção: alta inteligência bloqueada emocionalmente. Estaria isso relacionado com o que minha psiquiatra disse?
 
 Eu provavelmente nunca vou entender ao certo. Não segui em frente com os exames, apesar de indicarem algumas linhas desconfortantes. Nunca fui chegado a rótulos, e por anos me esqueci de alguns dos diagnósticos que tive quando criança. Só me lembrei deles depois da febre romantizada de alguns acéfalos na internet, estudando pra passarem na prova de neurodivergência e receberem o certificado que, aparentemente, concede o aval para que continuem sendo imbecis sem serem culpados pelos próprios atos ou falas. Podem agora se esconder atrás de quem realmente precisa de compreensão.
 
