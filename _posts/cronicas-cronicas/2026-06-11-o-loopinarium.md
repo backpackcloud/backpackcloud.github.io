@@ -227,7 +227,7 @@ O "∞", símbolo do infinito, representa exatamente o *Looper*. O sinal chega n
 
 O "π", letra grega Pi, representa o Raspberry Pi. O cerne da estrutura caótica que tenta orquestrar tudo.
 
-O "∩", símbolo que, na teoria dos conjuntos, denota interseção. Ele representa a camada de software que eu construí em cima do Companion, o ponto onde as mensagens MIDI se encontram e são traduzidas em informação pra orquestrar tudo.
+O "∩", símbolo que, na teoria dos conjuntos, denota interseção. Ele representa a camada de software que eu construí em cima do Companion, o ponto onde as mensagens MIDI se encontram e são traduzidas em informação para os diversos componentes exercerem seu papel.
 
 O "∆", letra grega delta, representa variância. Ele é o símbolo atrelado ao sintetizador. Representando a domesticação das ondas, apimentada pelas sutis variâncias causadas pelo contato da pele.
 
