@@ -195,7 +195,7 @@ Como a ideia principal é a de fazer loops musicais, o MIDI Clock é essencial p
 
 O principal, no entanto, é sincronizar as ações para que elas aconteçam exatamente no recebimento do Clock desejado. Transições de valores, por exemplo, ficam muito mais suaves se a cada Clock o valor sofrer uma leve alteração até chegar ao valor desejado.
 
-Porém, lembra dos 96 pulsos por segundo em uma pulsação de 120 batidas por minuto? Pois é! Imagina só 96 processamentos acontecendo simultaneamente por segundo, muitos dos quais envolvem alguns cálculos. A CPU estava com utilização acima de 50% em alguns momentos. Foi aí que eu resolvi aplicar uma estratégia de controle de fluxo, ou *throttling* (pra quem gosta de falar o dialeto da Faria Lima).
+Porém, lembra dos 96 pulsos por segundo em uma pulsação de 120 batidas por minuto? Pois é! Imagina só: 96 eventos por segundo gerando vários processamentos, tudo acontecendo dentro de um computadorzinho do tamanho de um cartão de crédito. A CPU estava com utilização acima de 50% em alguns momentos. Foi aí que eu resolvi aplicar uma estratégia de controle de fluxo, ou *throttling* (pra quem gosta de falar o dialeto da Faria Lima).
 
 Resolvi reduzir o número de estímulos drasticamente. Para cada 12 clocks recebidos, um estímulo é enviado internamente para os componentes. Isso basicamente reduz tudo para meros 8 eventos por segundo, em comparação com os 96 anteriores. No fim das contas, dois pulsos internos (que chamarei de *tick*) equivalem a uma semínima (em vez dos 24 pulsos do MIDI Clock).
 
