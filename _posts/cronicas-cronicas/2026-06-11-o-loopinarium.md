@@ -245,7 +245,7 @@ No fim das contas, isso não é só um equipamento musical. Isso é:
 
 - um motor de loops
 - um motor de ritmos
-- um motor de tons
+- um motor de efeitos e timbres
 - um motor do caos
 - uma camada de *middleware*
 - e uma interface de uso
