@@ -101,7 +101,7 @@ Enquanto eu brincava com a interface, notei que diversos parâmetros poderiam se
 
 Comecei a brincar com algumas automações sonoras. Os botões que eu pressionava no computador sendo traduzidos em mudanças no modelador me deixavam tão entusiasmados quanto um solo improvisado de blues.
 
-Mas mesmo assim ainda faltava alguma coisa. Como eu me vi brincando de disparar mensagens, acabei me voltando mais a tocar com *playbacks*. Pra suprir a falta de uma banda, colocava músicas sem a guitarra solo pra tocar e solava por cima. O *loop station* ficou encostado.
+Mas mesmo assim ainda faltava alguma coisa. Como eu me vi brincando de disparar mensagens, acabei me voltando mais a tocar com *playbacks*. Pra suprir a falta de uma banda, disparava músicas sem a guitarra solo e solava por cima. O *loop station* ficou encostado.
 
 A bem da verdade, o meu maior problema era a falta de textura pra montar os loops. Nunca fui muito bom em extrair timbres diversos de uma guitarra, e isso se traduzia nos loops. Tentei simular um baixo, mas ficou muito artificial. Foi aí que me lembrei de algo: sintetizadores. Um outro amigo, o Daniba, uma vez me disse que eu iria gostar muito de brincar com sintetizadores. Encontrei um super interessante e comprei.
 
