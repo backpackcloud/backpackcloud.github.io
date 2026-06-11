@@ -77,7 +77,7 @@ Conforme eu aprendia a fazer instrumentais com os Songbooks do Almir Chediak, eu
 
 O loop era a desculpa perfeita para a improvisação. Parece que as coisas estavam fazendo sentido. Aquela rigidez agressiva do *loop* me enjaulava, enquanto a improvisação me libertava. Àquela época eu já estava tocando guitarra, e a variedade de efeitos que saía dos meus pedais me encantava de uma forma que mesmo o violão, o instrumento da minha vida, não era capaz de fazer.
 
-Anos depois e outro amigo entra em cena: o Ingo. Durante a pandemia, estávamos trocando muitas ideias sobre guitarra, já que ele estava aprendendo a tocar. Eu havia me mudado recentemente e precisei vender minha guitarra e os pedais de efeito pra ajudar a custear a mudança. A conversa, mais o fato de que eu não iria mais viajar por um bom tempo, me animaram a comprar uma guitarra e voltar a tocar. Eu havia levado um pequeno pedal de *loop*. Podia voltar a me exercitar musicalmente.
+Anos depois e outro amigo entra em cena: o Ingo. Durante a pandemia, estávamos trocando muitas ideias sobre guitarra, já que ele estava aprendendo a tocar. Eu havia me mudado recentemente e precisei vender minha guitarra e os pedais de efeito pra ajudar a custear a mudança. A conversa, mais o fato de que eu não iria mais viajar semanalmente a trabalho por um bom tempo, me animaram a comprar uma guitarra e voltar a tocar. Eu havia levado um pequeno pedal de *loop*. Podia voltar a me exercitar musicalmente.
 
 Sentindo falta de uma base musical, tratei de estudar um pouco. Comprei um curso sobre teoria musical para quem já toca e outro sobre *looping*, ambos do guitarrista holandês, e excelente professor, Paul David.
 
