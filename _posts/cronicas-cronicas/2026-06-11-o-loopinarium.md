@@ -30,6 +30,8 @@ Então, em vez de só tocar música, eu construí... seja lá o que isso for. Pa
 
 Esse é o Loopinarium (ou L∞π∩∆rium, como eu prefiro escrever). Parece uma extensão de mim mesmo, de certa forma.
 
+<img src="/assets/images/loopinarium.jpg" alt="L∞π∩∆rium">
+
 ## Dualidade Cerebral
 
 "Você precisa exercitar lógica e emoção juntos para o seu cérebro não colapsar, Marcelo" – Disse a minha psiquiatra. Ela também é neurologista, tornando-a a melhor pessoa pra entender o que raios se passava comigo.
