@@ -157,11 +157,11 @@ Desmistificando os componentes:
 - Looper: peça-chave na composição dos loops. É o equipamento que grava as faixas e as dispara conforme eu sapateio em seus pedais de controle. Ele também é responsável por enviar o tempo da música para todos os outros equipamentos.
 - Foot Controller: conjunto de pedais que eu posso programar para enviar qualquer tipo de comando para os equipamentos. Cada um dos seis botões podem ser programados conforme o padrão em que são pisoteados.
 - Modeler: modelador de amplificadores e efeitos. O timbre da guitarra é fruto dele. (Não, o timbre de uma guitarra não está na madeira, ou a IKEA teria sua própria linha custom.)
-- Drum Machine: um baterista em miniatura. Esse equipamento carrega padrões de bateria e os dispara para acompanhar os loops.
+- Drum Machine: um baterista em miniatura. Esse equipamento carrega padrões de bateria e os dispara para acompanhar os loops. É puramente programado via MIDI também (finja surpresa).
 
 Note que o fluxo começa e termina no Looper, formando uma espécie de anel. Esse anel é por onde os dispositivos se conversam. O Looper, por ser o metrônomo, precisa vir primeiro. Do contrário, o restante da cadeia não irá ter a noção correta do tempo.
 
-O protocolo MIDI define um pulso chamado *MIDI Clock*. Cada 24 pulsos determina uma nota de valor `1/4`, ou seja, uma semínima. Fazendo uma conta rápida, é possível perceber que um segundo em 120 bpm (*beats per minute*, ou batidas por minuto) equivale a 96 pulsos por segundo. Negligenciei essa informação de início, e paguei um belo pedágio depois pra me livrar do débito técnico.
+O protocolo MIDI define um pulso chamado *MIDI Clock*. Cada 24 pulsos determina uma nota de valor `1/4`, ou seja, uma semínima. Fazendo uma conta de padaria, é possível perceber que um segundo em 120 bpm (*beats per minute*, ou batidas por minuto) equivale a 48 pulsos por segundo (bpm * 24 / 60). Negligenciei essa informação de início, e paguei um belo pedágio depois pra me livrar do débito técnico.
 
 Pois bem, sem o *MIDI Clock* fluindo pela aparelhagem, a parafernalha toda fica pior do que a banda do Chaves fazendo cover de sertanejo universitário. Configurei o Looper de modo a evitar o temido *MIDI echo*, quando as mensagens são enviadas em um ciclo sem fim (sim, eu sei que você pensou nessa música), abrindo um portal para a grande inauguração de Black Friday em uma loja de departamentos. No L∞π∩∆rium, o loop fica somente na música.
 
@@ -210,9 +210,9 @@ Como a ideia principal é a de fazer loops musicais, o MIDI Clock é essencial p
 
 O principal, no entanto, é sincronizar as ações para que elas aconteçam exatamente no recebimento do Clock desejado. Transições de valores, por exemplo, ficam muito mais suaves se a cada Clock o valor sofrer uma leve alteração até chegar ao valor desejado.
 
-Porém, lembra dos 96 pulsos por segundo em uma pulsação de 120 batidas por minuto? Pois é! Imagina só: 96 eventos por segundo gerando vários processamentos, tudo acontecendo dentro de um computadorzinho do tamanho de um cartão de crédito. A CPU estava com utilização acima de 50% em alguns momentos. Foi aí que eu resolvi aplicar uma estratégia de controle de fluxo, ou *throttling* (pra quem gosta de falar o dialeto da Faria Lima).
+Porém, lembra dos 48 pulsos por segundo em uma pulsação de 120 batidas por minuto? Pois é! Imagina só: 48 eventos por segundo gerando vários processamentos, tudo acontecendo dentro de um computadorzinho do tamanho de um cartão de crédito. A CPU estava com utilização acima de 50% em alguns momentos. Foi aí que eu resolvi aplicar uma estratégia de controle de fluxo, ou *throttling* (pra quem gosta de falar o dialeto da Faria Lima).
 
-Resolvi reduzir o número de estímulos drasticamente. Para cada 12 clocks recebidos, um estímulo é enviado internamente para os componentes. Isso basicamente reduz tudo para meros 8 eventos por segundo, em comparação com os 96 anteriores. No fim das contas, dois pulsos internos (que chamarei de *tick*) equivalem a uma semínima (em vez dos 24 pulsos do MIDI Clock).
+Resolvi reduzir o número de estímulos drasticamente. Para cada 12 clocks recebidos, um estímulo é enviado internamente para os componentes. Isso basicamente reduz tudo para meros 4 eventos por segundo, em comparação com os 48 anteriores. No fim das contas, dois pulsos internos (que chamarei de *tick*) equivalem a uma semínima (em vez dos 24 pulsos do MIDI Clock).
 
 Com isso feito, veio a segunda parte: sincronizar os compassos. Por sorte, o *drum machine* que eu uso envia tempo de cada compasso via MIDI. Como outra mensagem MIDI é enviada assim que o loop começa, eu tenho todos os ingredientes para acompanhar com exatidão o andamento da brincadeira.
 
