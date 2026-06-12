@@ -296,7 +296,7 @@ O "π", letra grega Pi, representa o Raspberry Pi. O cerne da estrutura caótica
 
 O "∩", símbolo que, na teoria dos conjuntos, denota interseção. Ele representa a camada de software que eu construí em cima do Companion, o ponto onde as mensagens MIDI se encontram e são traduzidas em informação para os diversos componentes exercerem seu papel.
 
-O "∆", letra grega delta, representa variância na Matemática. Ele é o símbolo atrelado ao sintetizador. Representando a domesticação das ondas, apimentada pelas sutis variâncias causadas pelo contato da pele.
+O "∆", letra grega delta, representa variância na Matemática. Ele é o símbolo atrelado principalmente ao sintetizador. Representando a domesticação das ondas, apimentada pelas sutis variâncias causadas pelo contato da pele. A bem da verdade, esse elemento acaba representando também o pouco pedaço de humanidade que existe nesse conjunto todo: eu. Como eu disse ali em cima, as pequenas variações que o ser humano introduz na música é o que dá a ela a alma.
 
 O "rium" é o retorno à normalidade. Representa a resolução de tudo. Apesar de ser uma molécula instável, o sistema como um todo processa e roteia o áudio em direção a tão aguardada saída estéreo.
 
