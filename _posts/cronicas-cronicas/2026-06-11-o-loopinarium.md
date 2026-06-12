@@ -130,13 +130,13 @@ O resultado?
 
 Aquela conversa entre a guitarra e o sintetizador colocou um sorriso nos meus ouvidos impossível de ser descrito em palavras. Eu passei dias ouvindo somente aquela gravação, tentando entender o que aconteceu comigo.
 
-Eu descobri que queria fazer mais, e o meu DNA pseudo-engenheiro imediatamente pensou em transformar a experiência em algo mais condizente com a minha personalidade.
+Eu entendi que era exatamente esse o meu destino musical, e o meu DNA pseudo-engenheiro imediatamente pensou em transformar a experiência em algo mais condizente com a minha personalidade.
 
 Por muito tempo eu falhei em integrar todos os dispositivos de forma interessante. Tudo soava (com o perdão do trocadilho) muito normal. Usar um computador pra enviar os comandos simplórios, capturar o áudio em uma interface e gravar usando o próprio computador era confiável demais pro meu gosto.
 
 Decidi então ir pelo meu caminho natural e iniciei o rascunho do que seria uma estrutura auto-contida que eu poderia carregar pra fora do meu cubículo, plugar em uma tomada e torcer pra não derreter algum circuito na rede.
 
-Foi aí que nasceu o L∞π∩∆rium. Pelo menos a concepção dele. O ano de 2024 terminou muito bem, mas 2025 se mostrou o pior ano da minha família. Nos mudamos novamente, mas dessa vez só vendi um violão. O resto foi comigo.
+Foi aí que nasceu o L∞π∩∆rium. Pelo menos a concepção dele. O ano de 2024 terminou muito bem, mas 2025 se mostrou o pior ano da história da minha família, e o projeto ficou parado. Nos mudamos novamente, mas dessa vez só vendi um violão. O resto foi compactado nas malas.
 
 No final de 2025, finalmente conseguimos nos mudar para uma casa onde eu pudesse ter o meu tão sonhado cubículo. E ainda tinha duas tomadas só pra mim. Que luxo!
 
@@ -157,7 +157,7 @@ Desmistificando os componentes:
 
 Note que o fluxo começa e termina no Looper, formando uma espécie de anel. Esse anel é por onde os dispositivos se conversam. O Looper, por ser o metrônomo, precisa vir primeiro. Do contrário, o restante da cadeia não irá ter a noção correta do tempo.
 
-O protocolo MIDI define um pulso chamado *MIDI Clock*. Cada 24 pulsos determina uma nota de valor `1/4`, ou seja, uma semínima. Fazendo uma conta rápida, é possível perceber que um segundo em 120 bpm (*beats per second*, ou batidas por segundo) equivale a 96 pulsos por segundo. Negligenciei essa informação de início, e paguei um belo pedágio depois pra me livrar do débito técnico.
+O protocolo MIDI define um pulso chamado *MIDI Clock*. Cada 24 pulsos determina uma nota de valor `1/4`, ou seja, uma semínima. Fazendo uma conta rápida, é possível perceber que um segundo em 120 bpm (*beats per minute*, ou batidas por minuto) equivale a 96 pulsos por segundo. Negligenciei essa informação de início, e paguei um belo pedágio depois pra me livrar do débito técnico.
 
 Pois bem, sem o *MIDI Clock* fluindo pela aparelhagem, a parafernalha toda fica pior do que a banda do Chaves fazendo cover de sertanejo universitário. Configurei o Looper de modo a evitar o temido *MIDI echo*, quando as mensagens são enviadas em um ciclo sem fim (sim, eu sei que você pensou nessa música), abrindo um portal para a grande inauguração de Black Friday em uma loja de departamentos. No L∞π∩∆rium, o loop fica somente na música.
 
