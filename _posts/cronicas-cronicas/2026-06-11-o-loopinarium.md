@@ -1,17 +1,17 @@
 ---
-layout: post
-title:  "O L∞π∩∆rium"
+layout:   post
+title:    "O L∞π∩∆rium"
 tags:
   - música
   - dualidade
   - midi
   - caos
 category: cronicas-cronicas
-intro: >
-  Como lidar com a dualidade cerebral de forma ainda mais... dual.
-  Esta é a alquimia matemática do som e da lógica.
+intro:    >
+          Como lidar com a dualidade cerebral de forma ainda mais... dual.
+          Esta é a alquimia matemática do som e da lógica.
 image:
-  file: loopinarium.png
+  file:    loopinarium.png
   caption: Sim, gerei com IA... mas o texto é original!
 ---
 
@@ -56,7 +56,7 @@ Naquela época eu aprendi a compor de forma muito simplista. Meu foco era sempre
 
 E lá estava eu, com meu CD tocando minhas singelas trilhas de ninar, torcendo pra não incomodar meus irmãos. Aquilo foi meu sonífero por anos a fio. Tocava violão de dia, escutava minhas musiquinhas de noite.
 
-Eu aprendi a compor usando um software chamado *Guitar Pro*, o qual também usei para aprender a tocar algumas peças de violão clássico. Eu estava cursando o ensino médio e meu amigo Gustavo não só me ensinou os primeiros passos como também me incentivou a continuar tocando. Ainda me lembro dele me ensinando a tocar a introdução de *Original Prankster*.
+Eu aprendi a compor usando um software chamado *Guitar Pro*, o qual também usei para aprender a tocar algumas peças de violão clássico. Eu estava cursando o ensino médio e meu amigo Gustavo não só me ensinou os primeiros passos como também me incentivou a continuar tocando. Ainda me lembro dele me ensinando a tocar a introdução de *Original Prankster* no nosso primeiro dia.
 
 Meu pai me disse que me daria um violão quando eu aprendesse a tocar bem. Achei alguns estudos de violão clássico do violonista espanhol Fernando Sor e mandei ver. Quando estava aprendendo a tocar Asturias, de outro violonista espanhol, Isaac Albéniz, mostrei ao meu pai o que sabia fazer, ao que ele me disse "Não era bem isso que eu quis dizer sobre tocar bem, era pra ser algo como um sambinha". Acabei ganhando um violão assim mesmo e continuei aprendendo peças espanholas da forma como conseguia: sem um tutor humano.
 
@@ -76,7 +76,7 @@ E onde entra o *looping* aí? Simples: com poucos acordes e várias camadas, tal
 
 Eu ainda me lembro do dia em que andava com o violão nas costas e avistei um senhor levando sua cachorrinha pra passear. Em vez de um pirulito, ele me ofereceu aulas de violão. Mal sabia eu que ele era o magnífico violonista João Domingues. Nosso interesse comum por Bossa Nova e música brasileira em geral nos transformou de aluno e professor para parceiros musicais em poucos meses.
 
-Conforme eu aprendia a fazer instrumentais com os Songbooks do Almir Chediak, eu também aprendia a passear pelos acordes. A improvisação ainda não é algo natural pra mim, e talvez nunca seja, mas ali eu dei os primeiros passos e nunca mais consegui parar. Uma vez passamos mais de 50 minutos nos divertindo apenas com a música "A Felicidade". Só paramos porque o celular dele tocou, e estava fora do tom.
+Conforme eu aprendia a fazer instrumentais com os Songbooks do Almir Chediak, eu também aprendia a passear pelos acordes. A improvisação ainda não é algo natural pra mim, e talvez nunca seja, mas ali eu dei os primeiros passos e nunca mais consegui parar. Uma vez passamos mais de 50 minutos nos divertindo apenas com a música "A Felicidade". Só paramos porque o celular dele tocou, e a estava fora do tom.
 
 O loop era a desculpa perfeita para a improvisação. Parece que as coisas estavam fazendo sentido. Aquela rigidez agressiva do *loop* me enjaulava, enquanto a improvisação me libertava. Àquela época eu já estava tocando guitarra, e a variedade de efeitos que saía dos meus pedais me encantava de uma forma que mesmo o violão, o instrumento da minha vida, não era capaz de fazer.
 
@@ -108,7 +108,7 @@ Mas mesmo assim ainda faltava alguma coisa. Como eu me vi brincando de disparar 
 
 A bem da verdade, o meu maior problema era a falta de textura pra montar os loops. Nunca fui muito bom em extrair timbres diversos de uma guitarra, e isso se traduzia nos loops. Tentei simular um baixo, mas ficou muito artificial. Foi aí que me lembrei de algo: sintetizadores. Um outro amigo, o Daniba, uma vez me disse que eu iria gostar muito de brincar com sintetizadores. Encontrei um super interessante e comprei.
 
-Eu finalmente entendi o que era um sintetizador. Para um apaixonado por física, um sintetizador é um laboratório disfarçado de instrumento musical. Ele controla oscilações elétricas de diferentes formas: moldando frequências por meio de filtros, manipulando energia por meio de envelopes e criando harmônicos por meio de simulações de fenômenos que obedecem as mesmas equações que descrevem vibrações, ressonância e propagação de ondas na natureza. É uma máquina de domesticar ondas. Obrigado de novo, Fourier!
+Eu finalmente entendi o que era um sintetizador. Para um apaixonado por física, um sintetizador é um laboratório disfarçado de instrumento musical. Ele controla oscilações elétricas de diferentes formas: moldando frequências por meio de filtros, manipulando energia por meio de envelopes e criando harmônicos por meio de simulações de fenômenos que obedecem as mesmas equações que descrevem vibrações, ressonância e propagação de ondas na natureza. É um adestrador ondas. Obrigado de novo, Fourier!
 
 Como se não bastasse tudo aquilo, ele vinha com um teclado que mais lembrava uma protoboard, pois não tinha exatamente as teclas de um teclado musical convencional. Em vez de usar a pressão na tecla, aquele sintetizador usava a quantidade de pele que tocava a placa.
 
@@ -148,7 +148,14 @@ A ideia em si parecia simples: conectar uma cadeia de dispositivos por duas form
 
 > Looper → Foot Controller → Modeler → Drum Machine → Looper (sim, de novo)
 
-Esse anel MIDI é por onde os dispositivos se conversam. O Looper, por ser o metrônomo, precisa vir primeiro. Do contrário, o restante da cadeia não irá ter a noção correta do tempo.
+Desmistificando os componentes:
+
+- Looper: peça-chave na composição dos loops. É o equipamento que grava as faixas e as dispara conforme eu sapateio em   seus pedais de controle. Ele também é responsável por enviar o tempo da música para todos os outros equipamentos.
+- Foot Controller: conjunto de pedais que eu posso programar para enviar qualquer tipo de comando para os equipamentos.
+- Modeler: modelador de amplificadores e efeitos. O timbre da guitarra e do sintetizador saem dele.
+- Drum Machine: um baterista em miniatura. Esse equipamento carrega padrões de bateria e os dispara para acompanhar os loops.
+
+Note que o fluxo começa e termina no Looper, formando uma espécie de anel. Esse anel é por onde os dispositivos se conversam. O Looper, por ser o metrônomo, precisa vir primeiro. Do contrário, o restante da cadeia não irá ter a noção correta do tempo.
 
 O protocolo MIDI define um pulso chamado *MIDI Clock*. Cada 24 pulsos determina uma nota de valor `1/4`, ou seja, uma semínima. Fazendo uma conta rápida, é possível perceber que um segundo em 120 bpm (*beats per second*, ou batidas por segundo) equivale a 96 pulsos por segundo. Negligenciei essa informação de início, e paguei um belo pedágio depois pra me livrar do débito técnico.
 
@@ -162,27 +169,28 @@ Em termos de áudio, a conexão ficou assim:
 > Modeler → Looper  
 > Looper → saída de áudio
 
-Apesar de o sintetizador suportar MIDI, ele não entra no anel. Isso porque ele precisa de um apoio para que eu o toque e como, em uma estrutura de anel, todos os elementos precisam estar funcionando para que o anel funcione, remover o sintetizador faria com que o sistema falhasse. Deixei o sintetizador conectado via USB a um Raspberry Pi, que também se conecta ao Looper via USB.
+Apesar de o sintetizador suportar MIDI, ele não entra no anel. Isso porque ele geralmente não está presente quando eu tiro essa tralha toda do meu cubículo e, como em uma estrutura de anel, todos os elementos precisam estar funcionando para que o anel funcione, remover o sintetizador faria com que o sistema falhasse. Deixei o sintetizador conectado via USB a um Raspberry Pi (um computador em miniatura que roda Linux), que também se conecta ao Looper via USB.
 
-O pequeno computador acaba não só sendo um mensageiro, que encaminha uma cópia de tudo o que trafega no anel MIDI pro sintetizador, como também faz as vias de uma central de controle automatizada. É nele que está o cérebro do L∞π∩∆rium.
+O pequeno computador acaba não só sendo um mensageiro, que encaminha uma cópia de tudo o que trafega no anel MIDI pro sintetizador, como também faz as vias de uma central de controle automatizada. É ali que está o cérebro do L∞π∩∆rium.
 
-Instalei um software chamado Companion para se integrar com uma superfície de controle, basicamente um painel com botões programáveis (desde seu comportamento até sua aparência). Dessa forma, eu posso ter uma visão de como as configurações atuais estão e ainda disparar comandos para o equipamento. O único problema: o Companion não suporta MIDI por padrão, mas existe um plugin que oferece um suporte até decente.
+Instalei nele um software chamado Companion para se integrar com uma superfície de controle, basicamente um painel com botões programáveis (desde seu comportamento até sua aparência). Dessa forma, eu posso ter uma visão de como as configurações atuais estão e ainda disparar comandos para o equipamento todo. O único problema: o Companion não suporta MIDI por padrão, mas existe um plugin que oferece um suporte até decente.
 
-Bom, decente não significa otimizado para o que eu preciso. Após tentativas frustradas de estruturar o modo de pensar do L∞π∩∆rium, acabei me dando por vencido e partindo para uma abordagem muito mais conveniente pra mim: escrever o meu próprio plugin.
+Bom, decente não significa "otimizado para o que eu preciso". Após tentativas frustradas de estruturar o modo de pensar do L∞π∩∆rium, acabei me dando por vencido e partindo para uma abordagem muito mais conveniente pra mim: escrever o meu próprio plugin. Teria que aprender uma linguagem de programação nova: *Typescript*. Pra quem já sabe um par de linguagens, aprender uma nova é uma mera questão de tempo.
 
 ## Escrevendo a Cola
 
-Assim como o cérebro reage a estímulos, dispositivos musicais também precisam reagir ao MIDI Clock. O interessante dessa característica é abrir a possibilidade de usar uma arquitetura orientada à eventos. Pra melhorar (ou piorar, dependendo do ponto de vista), ao desacoplar os componentes internos usando mensagens, criamos uma arquitetura que bebe da fonte de sistemas distribuídos.
+Assim como o cérebro reage a estímulos, dispositivos musicais também precisam reagir ao MIDI Clock. O interessante dessa característica é abrir a possibilidade de usar uma arquitetura orientada à eventos, onde cada MIDI Clock seria um evento. Pra melhorar (ou piorar, dependendo do ponto de vista), ao desacoplar os componentes internos usando mensagens, é possível criar uma arquitetura que bebe da fonte de sistemas distribuídos.
 
 Sistemas distribuídos são bem simples, possuem apenas dois desafios:
 
 2- Entregar a mensagem somente uma vez  
 1- Entregar as mensagens em ordem  
-2- Entregar a mensagem somente uma vez  
+2- Entregar a mensagem somente uma vez
 
-Bem simples!
+Bem simples! E fica ainda mais fácil quando envolvemos redes de computadores. Estimo que 84,42% dos problemas de desempenho de software que já enfrentei na carreira foram causados por pessoas que subestimaram simplicidades como essa.
 
-Eu não pretendo chegar no nível supremo do sadismo arquitetural e usar microsserviços ou qualquer outra porcaria da moda que é vendida por influenciadores gananciosos. Enviar mensagens para os componentes usando um barramento em comum torna as coisas menos acopladas. Do contrário, eu criaria um belo espaguete de dependências, com uma alta probabilidade de algumas serem circulares. Até eu tenho limites.
+Eu não pretendo chegar no nível supremo do sadismo arquitetural e usar microsserviços ou qualquer outra porcaria da moda vendida por influenciadores gananciosos. Enviar mensagens para os componentes usando um barramento em comum torna as coisas menos acopladas. Do contrário, eu criaria um belo espaguete de dependências, com uma alta probabilidade de algumas serem circulares. Até eu
+tenho limites.
 
 Os eventos que estimulam o comportamento da estrutura toda são basicamente dois: interação via superfície de controle ou mensagens MIDI.
 
@@ -208,11 +216,12 @@ Digamos que a música é em `4/4`. Como cada *tick* representa uma colcheia (met
 
 - No último compasso do loop, o *drum machine* executa uma virada ou uma transição.
 - No próximo loop, logo no primeiro compasso, faixas diferentes irão começar e/ou parar.
-- A mixagem para o que eu estiver tocando na hora pode mudar a cada novo loop, variando não só de direita para esquerda como também de volume. Com isso eu posso controlar perfeitamente o palco sonoro durante uma performance.
+- A mixagem para o que eu estiver tocando na hora pode mudar a cada novo loop, variando não só de direita para esquerda
+  como também de volume. Com isso eu posso controlar perfeitamente o palco sonoro durante uma performance.
 
 E só melhora: como eu controlo o código, eu posso colocar todas as informações necessárias dos loops que já criei dentro do código. Isso me possibilita criar estruturas de automação que fazem tudo o que eu preciso no exato momento em que eu preciso. Como primeiro exemplo, usei uma das músicas do criador do Guitar Pro, Franck Duhamel. A sua música All In Hands é uma progressão de acordes que se repete de 24 em 24 compassos. Criei o loop e fiz automações para mudar os efeitos da guitarra, iniciar e parar faixas, fazer as viradas da bateria, tudo para poder replicar exatamente a música em uma performance automatizada, mas que também me possibilite passear pela harmonia em uma versão mais livre.
 
-Eu sempre mexo em alguma coisa no código, mas já passei do ponto em que ele está confiável o bastante pra que eu possa tocar sem receios além do tradicional "tocar tudo errado". Dificilmente eu conseguiria comprar algo que me desse tamanha liberdade de ajuste. Usar softwares livres como Linux, Companion e tudo o mais que faz o meu Raspberry ser capaz de agregar tanto valor foi exatamente a peça que faltava pra esse projeto ganhar vida. 
+Eu sempre mexo em alguma coisa no código, mas já passei do ponto em que ele está confiável o bastante pra que eu possa tocar sem receios além do tradicional "tocar tudo errado". Dificilmente eu conseguiria comprar algo que me desse tamanha liberdade de ajuste. Usar softwares livres como Linux, Companion e tudo o mais que faz o meu Raspberry ser capaz de agregar tanto valor foi exatamente a peça que faltava pra esse projeto ganhar vida.
 
 Como qualquer software, essa geringonça nunca vai estar completa, mas estará sempre a postos. Deu trabalho? Claro que sim! Valeu a pena? Com certeza!
 
