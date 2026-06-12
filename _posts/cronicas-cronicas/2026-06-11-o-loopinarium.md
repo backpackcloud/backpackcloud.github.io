@@ -154,9 +154,9 @@ A ideia em si parecia simples: conectar uma cadeia de dispositivos por duas form
 
 Desmistificando os componentes:
 
-- Looper: peça-chave na composição dos loops. É o equipamento que grava as faixas e as dispara conforme eu sapateio em   seus pedais de controle. Ele também é responsável por enviar o tempo da música para todos os outros equipamentos.
-- Foot Controller: conjunto de pedais que eu posso programar para enviar qualquer tipo de comando para os equipamentos.
-- Modeler: modelador de amplificadores e efeitos. O timbre da guitarra e do sintetizador saem dele.
+- Looper: peça-chave na composição dos loops. É o equipamento que grava as faixas e as dispara conforme eu sapateio em seus pedais de controle. Ele também é responsável por enviar o tempo da música para todos os outros equipamentos.
+- Foot Controller: conjunto de pedais que eu posso programar para enviar qualquer tipo de comando para os equipamentos. Cada um dos seis botões podem ser programados conforme o padrão em que são pisoteados.
+- Modeler: modelador de amplificadores e efeitos. O timbre da guitarra é fruto dele. (Não, o timbre de uma guitarra não está na madeira, ou a IKEA teria sua própria linha custom.)
 - Drum Machine: um baterista em miniatura. Esse equipamento carrega padrões de bateria e os dispara para acompanhar os loops.
 
 Note que o fluxo começa e termina no Looper, formando uma espécie de anel. Esse anel é por onde os dispositivos se conversam. O Looper, por ser o metrônomo, precisa vir primeiro. Do contrário, o restante da cadeia não irá ter a noção correta do tempo.
