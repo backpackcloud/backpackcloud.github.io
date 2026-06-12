@@ -253,7 +253,7 @@ Isso permite criar loops bem mais encorpados. Eu posso gravar dois *riffs* de gu
 
 <img src="/assets/images/loopinarium/surface-4.png" alt="Sintetizador">
 
-Esse é o painel que eu provavelmente uso menos. O Drum Machine está tão integrado ao Looper por meio do meu plugin que eu basicamente não tenho necessidade de mexer nesse painel. Eu posso trocar o timbre da percussão, navegar nos menus do pedal e alterar a forma como as batidas se encaixam no andamento da música, e essa é a parte mais legal de todas.
+Esse é o painel que eu provavelmente uso menos. O Drum Machine está tão integrado ao Looper por meio do meu plugin que eu basicamente não tenho necessidade de mexer nesse painel. Eu posso trocar o timbre da percussão, navegar nos menus do pedal e alterar a forma como as batidas se encaixam no andamento da música. E essa é a parte mais legal de todas.
 
 Digamos que eu estou tocando um loop em um andamento qualquer. Se eu dobrar a velocidade da percussão, o andamento continuará sincronizado. Claro, um compasso agora terão dois compassos da percussão, mas tudo se encaixa. O mesmo vale se eu reduzir pela metade a velocidade da percussão. Nesse caso, dois compassos do loop serão preenchidos com um compasso da percussão. Matemática pura e simples.
 
