@@ -223,13 +223,64 @@ Digamos que a música é em `4/4`. Como cada *tick* representa uma colcheia (met
 - A mixagem para o que eu estiver tocando na hora pode mudar a cada novo loop, variando não só de direita para esquerda
   como também de volume. Com isso eu posso controlar perfeitamente o palco sonoro durante uma performance.
 
-E só melhora: como eu controlo o código, eu posso colocar todas as informações necessárias dos loops que já criei dentro do código. Isso me possibilita criar estruturas de automação que fazem tudo o que eu preciso no exato momento em que eu preciso. Como primeiro exemplo, usei uma das músicas do criador do Guitar Pro, Franck Duhamel. A sua música All In Hands é uma progressão de acordes que se repete de 24 em 24 compassos. Criei o loop e fiz automações para mudar os efeitos da guitarra, iniciar e parar faixas, fazer as viradas da bateria, tudo para poder replicar exatamente a música em uma performance automatizada, mas que também me possibilite passear pela harmonia em uma versão mais livre.
+E só melhora: como eu controlo o código, eu posso colocar todas as informações necessárias dos loops que já criei dentro do código. Isso me possibilita criar estruturas de automação que fazem tudo o que eu preciso no exato momento em que eu preciso. Como primeiro exemplo, usei uma das músicas do criador do Guitar Pro, Franck Duhamel. A sua música "All In Hands" é uma progressão de acordes que se repete a cada 24 compassos. Criei o loop usando a guitarra e o sintetizador e fiz automações para mudar os efeitos da guitarra, iniciar e parar as faixas conforme o andamento da música, fazer as viradas da bateria, enfim, tudo para poder replicar exatamente a música em uma performance automatizada, mas que também me possibilite passear pela harmonia em uma versão mais livre caso eu desative as automações.
 
 Eu sempre mexo em alguma coisa no código, mas já passei do ponto em que ele está confiável o bastante pra que eu possa tocar sem receios além do tradicional "tocar tudo errado". Dificilmente eu conseguiria comprar algo que me desse tamanha liberdade de ajuste. Usar softwares livres como Linux, Companion e tudo o mais que faz o meu Raspberry ser capaz de agregar tanto valor foi exatamente a peça que faltava pra esse projeto ganhar vida.
 
 Como qualquer software, essa geringonça nunca vai estar completa, mas estará sempre a postos. Deu trabalho? Claro que sim! Valeu a pena? Com certeza!
 
 Aliás, essa é a grande beleza do Software Livre: é livre de custo, não de esforço. Por trás do esforço está a liberdade de modificar e tornar tudo do seu jeito, o que por si só já destrói qualquer opção paga. Ao menos para alguém como eu.
+
+## O Painel de Controle
+
+Bom, o que seria dessa loucura toda sem a possibilidade de, pelo menos, saber o que acontece ali dentro? A superfície de controle que eu uso tem uma matrix de botões espalhados por 4 linhas e 8 colunas. Organizei tudo de modo a ter a primeira linha e a primeira coluna comum a todos os quatro painéis principais. Escondido no símbolo do L∞π∩∆rium, está um painel especial pra depuração, de onde posso disparar mensagens MIDI e verificar se o que eu programei está, de fato, correto (*spoiler*: praticamente nunca está, por isso fiz esse diacho de painel).
+
+<img src="/assets/images/loopinarium/surface-1.png" alt="Sintetizador">
+
+Esse é o painel principal, e por onde a criação dos loops começa. Eu escolho um dos 16 padrões de bateria que deixei mapeados no Drum Machine e o template do loop para o compasso correto. Meu Looper não me permite mudar o compasso do loop via MIDI, então separei templates diferentes pra cada compasso.
+
+Aliás, nessa parte de integração, o meu Looper fica devendo muito. Os parâmetros precisam ser configurados em cada loop. Como eu padronizo tudo, isso significa que, se eu tiver alguma ideia nova, preciso alterar todos os templates e todos os loops que já tenho salvos na memória.
+
+<img src="/assets/images/loopinarium/surface-2.png" alt="Sintetizador">
+
+Essa é a visão que tenho do Looper. Eu posso ver um descritivo breve de cada uma das seis faixas, posso apertar um botão pra ligar a automação do loop, assim me concentro apenas em tocar, e posso ver a progressão do loop ao longo dos compassos.
+
+<img src="/assets/images/loopinarium/surface-3.png" alt="Sintetizador">
+
+Aqui eu tenho acesso ao Modeler. Eu basicamente só preciso ver qual configuração de timbre está ativa e selecionar a posição do som dentro da música, e isso pode variar entre os timbres (uma distorção pesada pode estar mais à direita, enquanto um som mais limpo pode estar mais à esquerda, por exemplo). Essa posição é bidimensional mesmo. Se você aumenta o volume de um instrumento, ele basicamente se posiciona mais à frente no palco sonoro da música.
+
+Isso permite criar loops bem mais encorpados. Eu posso gravar dois *riffs* de guitarra com timbres um pouco diferentes, mas posicionados em lados opostos do palco sonoro.
+
+<img src="/assets/images/loopinarium/surface-4.png" alt="Sintetizador">
+
+Esse é o painel que eu provavelmente uso menos. O Drum Machine está tão integrado ao Looper por meio do meu plugin que eu basicamente não tenho necessidade de mexer nesse painel. Eu posso trocar o timbre da percussão, navegar nos menus do pedal e alterar a forma como as batidas se encaixam no andamento da música, e essa é a parte mais legal de todas.
+
+Digamos que eu estou tocando um loop em um andamento qualquer. Se eu dobrar a velocidade da percussão, o andamento continuará sincronizado. Claro, um compasso agora terão dois compassos da percussão, mas tudo se encaixa. O mesmo vale se eu reduzir pela metade a velocidade da percussão. Nesse caso, dois compassos do loop serão preenchidos com um compasso da percussão. Matemática pura e simples.
+
+Isso fica muito legal se for incorporado a viradas e transições. Por isso, eu geralmente tenho esses trechos disponíveis no Foot Controller.
+
+É bem capaz que eu troque esse painel depois por alguma coisa mais interessante. Quem sabe uma visão maior do loop, com mais informações sobre os compassos? Novamente, essa é a vantagem de ter o controle total do que acontece ali dentro.
+
+<img src="/assets/images/loopinarium/surface-5.png" alt="Sintetizador">
+
+Esse é o painel de depuração. Eu utilizo basicamente dois tipos de mensagens MIDI: Control Change (para mudança de parâmetros) e Program Change (para mudança de bancos de memória). Se eu precisar testar uma integração entre os dispositivos, eu posso simular o envio de uma mensagem por ali. Deixei até mapeado os canais de cada um dos aparelhos pra facilitar a vida.
+
+As partes em comum aos quatro painéis já passaram por inúmeras mudanças. Por enquanto, as seguintes informações estão me atendendo bem:
+
+- Consumo de CPU e memória do Raspberry Pi.
+- Posição do instrumento no palco sonoro (guitarra ou teclado).
+- Compasso reportado pelo Drum Machine
+- Tempo, em BPM, calculado pelo Midi Clock, e caso eu esteja em um loop, em qual compasso e batida desse compasso eu estou no momento.
+
+> Como assim caso eu esteja em um loop??!?!? Quer dizer que isso faz outras coisas? Como ousa trair sua própria identidade?!??
+
+Calma, calma, calma! Lembra que eu gostava também de solar em cima de algumas músicas que não tinham a guitarra solo? Pois bem, eu deixei alguns bancos de memória do Looper separados pra colocar algumas dessas músicas. Ali eu coloquei diversas músicas, algumas de artistas e bandas que eu adoro (como Joe Satriani, Led Zeppelin, Eric Johnson e Santana) e outras de acompanhamentos criados justamente para fins de improvisação (como os do JustinGuitar). Como cada loop tem seis faixas, cada banco de memória me dá o prazer de ter seis músicas pra eu disparar pelos pedais.
+
+Como não posso garantir que o tempo se mantém estável durante essas músicas, não posso usar a estratégia de contar batidas pra criar automações. Na verdade, eu até espero que o tempo varie conforme essas músicas correm. O elemento mais humano na música é justamente essa variação. Tirar isso basicamente torna uma música robótica e sem alma. É fato que o grid determinístico de um loop representa, sim, essa parte robótica e sem alma, mas se eu tivesse uma banda com vários seres humanos tocando ao mesmo tempo, nunca colocaria um Drum Machine como baterista pra estragar tudo.
+
+Talvez eu implemente algo contando o tempo em si (segundos, no caso), mas ainda não senti necessidade.
+
+Tá bom, tá bom, é bem provável que eu implemente isso em alguns dias. Não consigo ter uma ideia e não botá-la na pista de testes. Essa é a grande graça de poder ter um laboratório musical e tecnológico desses: validar ideias se torna uma parte recompensadora da jornada.
 
 ## Por que L∞π∩∆rium?
 
