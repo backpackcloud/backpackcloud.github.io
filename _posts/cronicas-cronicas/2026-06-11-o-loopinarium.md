@@ -30,7 +30,7 @@ Então, em vez de só tocar música, eu construí... seja lá o que isso for. Pa
 
 Esse é o Loopinarium (ou L∞π∩∆rium, como eu prefiro escrever). Parece uma extensão de mim mesmo, de certa forma.
 
-<img src="/assets/images/loopinarium.jpg" alt="L∞π∩∆rium">
+<img src="/assets/images/loopinarium/loopinarium.jpg" alt="L∞π∩∆rium">
 
 ## Dualidade Cerebral
 
@@ -115,6 +115,8 @@ Eu finalmente entendi o que era um sintetizador. Para um apaixonado por física,
 Como se não bastasse tudo aquilo, ele vinha com um teclado que mais lembrava uma protoboard, pois não tinha exatamente as teclas de um teclado musical convencional. Em vez de usar a pressão na tecla, aquele sintetizador usava a quantidade de pele que tocava a placa.
 
 Gostar foi pouco, aquilo me fascinou!
+
+<img src="/assets/images/loopinarium/microfreak.jpg" alt="Sintetizador">
 
 ## O Loop Que Virou o Jogo
 
