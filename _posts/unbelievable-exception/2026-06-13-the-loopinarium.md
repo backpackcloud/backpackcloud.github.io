@@ -304,8 +304,8 @@ The interesting thing about this characteristic is that it opens the door to an 
 
 Distributed systems are actually quite simple. They only have two challenges:
 
-2- Deliver the message just once.
-1- Deliver messages in order.
+2- Deliver the message just once.  
+1- Deliver messages in order.  
 2- Deliver the message just once.
 
 Simple! And things get even easier once computer networks become involved.
