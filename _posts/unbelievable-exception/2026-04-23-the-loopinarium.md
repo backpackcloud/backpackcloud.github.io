@@ -10,284 +10,569 @@ tags:
   - chaos
 category: unbelievable-exception
 intro: >
-  This is how software engineering principles like state machines and
-  convention-over-configuration can transform traditional instruments 
-  into a programmable creative platform.
+  How to deal with cerebral duality in an even more dual way.
+image:
+  file:    loopinarium.png
+  caption: Yes, I did use AI to generate the image. But the text is original!
 ---
 
-## Intro
+## Introduction
 
-I’m a programmer. Which means two things:
+I'm a software developer. Which basically means two things:
 
-1. I’m lazy.
-2. I take that very seriously.
+1. I'm lazy.
+2. I take that **very** seriously.
 
-If something can be automated, it will be. If it can’t… well.. it’s probably because I haven’t over-engineered it yet.
+If something can be automated, it will be. If it can't... well... that's probably because I haven't added enough unnecessary complexity yet.
 
-Now, most people pick up a guitar to express emotion. I picked up a guitar and immediately thought: "This could use a control plane."
+A current example: normal people pick up a guitar to express emotion. At some point, I picked one up and thought, "This could really use a control plane."
 
-So instead of just playing music, I built... whatever this is.
+So instead of just playing music, I built... whatever this is. It looks like an unstable molecule. Every song is essentially an unpredictable runtime environment that, somehow, hasn't collapsed yet.
 
-A looper that acts like a scheduler.
-A drummer that never complains about tempo changes.
-An amp modeler which I spend more time adjusting than playing through it.
-A chaotic synthesizer that always transports me to the nearest worm whole.
-And somewhere in the middle of all this... a Raspberry Pi quietly making decisions I may or may not understand or regret.
+This is the Loopinarium (or L∞π∩∆rium, as I prefer to write it). In a strange way, it feels like an extension of myself.
 
-This is not a setup. This is an unstable molecule. Every button is a MIDI message. Every loop is a state machine. Every song is basically an unpredictable runtime environment that somehow hasn’t crashed yet.
+<img src="/assets/images/loopinarium/loopinarium.jpg" alt="L∞π∩∆rium">
 
-And today, I’m going to show you how I turned a perfectly reasonable guitar rig into a chaotic creative platform.
+## Cerebral Duality
 
-Welcome to the Loopinarium (or L∞π∩∆rium, as I prefer to spell it): an orchestration problem with strings attached.
+"You need to exercise logic and emotion together, otherwise your brain is going to collapse, Marcelo," my psychiatrist told me.
 
-## Setting the Stage
+She also happens to be a neurologist, which made her uniquely qualified to understand what the hell was going on with me.
 
-The ubiquitous way of connecting audio devices is through MIDI, so the little sanity inside me didn't let this slip out. I assigned each device to a unique MIDI channel and thought about the best route to connect them. Physically speaking, there's a MIDI chain that goes like this:
+It was a dark period. I had panic attacks fairly often and, apparently, episodes of epilepsy as well (not the kind where your tongue ties itself into knots). The tricky thing about evaluating conditions like that is actually being inside a machine while the episode is happening. I underwent cerebral perfusion scintigraphy, transcranial Doppler ultrasonography, and even a Rorschach test.
 
-> Looper (Boss RC-600) → Modeler (Helix LT) → Drum Machine (BeatBuddy) → Looper (again)
+Incidentally, one line from that report caught my attention:
 
-Because the RC-600 acts as a metronome, it has to go first in the line, otherwise the rest of the rig wouldn't be aware of the tempo. The Helix has dedicated footswitches to slightly control the BeatBuddy, so it has to go before the drummer. The synthesizer is not part of the MIDI chain.
+**High intelligence emotionally blocked.**
 
-The Looper is then plugged to the Raspberry Pi via a USB cable, from where the MIDI messages flow in and out. The MIDI chain starts and ends in the Looper, passing through all the rig, but without creating the so called MIDI echo, where messages are relayed to each component in an infinite loop, teleporting the rig right into a Black Friday opening in a department store. In this rig, the loop is just in the music.
+Was that related to what my psychiatrist had said?
 
-Inside the Raspberry Pi lives a software called Companion, responsible for dealing with that MIDI chain. It not only receives the messages, but also sends messages whenever it needs to coordinate things in the rig.
+I'll probably never know for sure. I never followed through with the examinations, despite some of them pointing toward uncomfortable investigation paths. I've never been particularly fond of labels, and for years I forgot some of the diagnoses I received as a child. I only remembered them later during the romanticized fever dream fueled by certain brainless corners of the internet, where people seem to study for the neurodivergence exam in hopes of earning the certificate that apparently grants them permission to keep being idiots without taking responsibility for their words or actions. They can now conveniently hide behind the people who genuinely need help.
 
-The Raspberry Pi is also attached to a StreamDeck XL, which doubles as a dashboard and a user interface. While the dashboard raise awareness of the rig's current state, the user input wraps a bunch of tedious steps into a dedicated button that's ready to be pushed by my greasy fingers.
+The world has become far too binary.
 
-Of course, this wouldn't have a purpose if there was no audio flowing through the rig. Audio input happens through the Helix, which receives input from my guitar and my synth. The audio is routed to the looper, which receives the following inputs:
+Everything turns into conflict when there are only two sides. The spectrum has been compressed into Side A and Side B, like an old vinyl record. And just as there are people blindly in love with musical nostalgia, refusing to accept that digital audio is objectively superior to vinyl (look at the irony of bilateral thinking), there are people equally obsessed with labels and with belonging to groups that probably shouldn't exist in the form they exist today.
 
-- Stereo sound from the Helix (using the XLR inputs)
-- Stereo sound from the BeatBuddy
-- Stereo sound from a bluetooth adapter
+Let me explain—and, while I'm at it, correct my own flawed musical binary thinking.
 
-The bluetooth adapter is there so I can hook up external resources, like music apps on my tablet (essentially chord bots and backing track generators) and guitar course materials that I don't really need to store inside the looper.
+Digital audio is not homogeneous. There are countless formats with different sampling rates. At some point, the sampling rate becomes so effective to human hearing that the digital world becomes indistinguishable from the analog one. Thank you, Fourier!
 
-The sound gets out if this madness via a stereo output from the looper itself. There are three different outputs and each of them can have different mix configurations. I save two exact copies, one for the output to my interface and another to attach to my recorder.
+Just as there is a spectrum of sampling rates, and a point on that spectrum where digital and analog become effectively equivalent, there is a spectrum of neurodivergence. And there is a point on that spectrum where its members can be considered fully functional adults. (To be fair, not all neurotypical people qualify as fully functional adults either, but I digress.)
 
-As the last piece of this convoluted puzzle, I've plugged a portable router for emergency situations. The Raspberry Pi is configured to access my home router, but if I'm on the go and need to tweak something in the Companion app, I can just connect to the portable router and make the adjustments without too much hassle.
+I sit exactly at that point on the spectrum. I am a functional adult.
 
-But that didn't happen immediately. There's some story I need to tell about my early days jamming alone.
+The bilateral nature of the way I function does create a certain amount of internal conflict. Learning to tame that conflict is part of my essence—part of what it means to exist as me.
 
-## The Prototype
+For as long as I can remember, I've been fascinated by science, especially mathematics and physics. Then, sometime around the early 2000s, a new passion entered my life: music.
 
-Back in the days, I was experimenting with just the Helix and the RC-600. The StreamDeck was actually plugged directly to my desktop, and the rig was directly attached to my audio interface. It didn't do much to the rig itself, it was just a board where I could fire some backing tracks. But I did have some MIDI controllers that were controlling some aspects of the Helix.
+Not in the sense of listening to it. In the sense of using it to express myself.
 
-When I bought the Arturia MicroFreak and started playing around with, I got one of the chord progressions I was jamming around, turned the synth on, recorded 6 tracks, pressed record, played through it, alternating between the synth and the guitar - and some times playing both together. This is what happened:
+## Emotion
+
+Back then, I learned to compose in the most simplistic way imaginable. My focus was always instrumental music. I dreamed of becoming a film score composer because it seemed like the perfect way to make a living from music without anyone recognizing me on the street. The foolish assumption that every successful musician would be famous led me somewhere unexpected: composing music so I could fall asleep.
+
+And there I was, with a CD playing my humble little lullabies, hoping I wouldn't annoy my brothers. Those tracks became my sleeping pills for years. I'd play guitar during the day and listen to my own little tunes at night.
+
+I learned to compose using a piece of software called *Guitar Pro*, which I also used to learn a few classical guitar pieces. I was in high school at the time, and my friend Gustavo not only taught me the basics but encouraged me to keep playing. I still remember him teaching me the intro to *Original Prankster* on our very first day.
+
+My mother, who had learned guitar in her younger years, showed me a few finger exercises to practice. She used to play a beautiful piece called *Jeux Interdits*, and when I eventually found a Guitar Pro version of it, I made it my mission to learn it too.
+
+My father told me he'd buy me a guitar once I learned to play well. I found some classical guitar studies by the Spanish guitarist Fernando Sor and dove right in. Later, while learning *Asturias* by another Spanish composer, Isaac Albéniz, I showed my father what I could do.
+
+His response was:
+
+"That's not exactly what I meant by playing well. I was thinking more along the lines of a little samba tune."
+
+I got the guitar anyway and continued learning Spanish repertoire the only way I knew how: without a human teacher.
+
+At some point, I started tinkering with the software a bit more and ventured into editing the files myself. Since I didn't really know the best fingerings for certain passages, I adapted everything to fit my limitations. In the process, I learned how to place notes on those six lines representing the guitar strings, which felt far less intimidating than the five mysterious lines sitting above them.
+
+The timeline gets a little blurry around this part of my teenage years, but I remember stumbling across some files on the internet with a strange extension: `.mid`.
+
+I was looking for video game music, especially from the Sega Genesis and Super Nintendo era, and eventually found songs in this mysterious format. A bit of research later, I discovered software capable of opening them.
+
+My mind exploded!
+
+The sounds themselves weren't particularly impressive, but hearing the exact music from the games I loved was incredible. Everything separated by instrument. The software even displayed the notes on a piano keyboard.
+
+That's when I started borrowing musical ideas for my bedtime compositions. I discovered that Guitar Pro could import `.mid` files, so I began adapting songs for guitar while continuing to compose my own.
+
+Eventually, I hit a wall. I simply couldn't write music anymore. Probably a consequence of never having received formal training.
+
+The spark returned decades later when I stumbled upon a fascinating form of musical expression: *looping*.
+
+Since I had virtually no musical education, my compositions consisted of little more than a handful of chords and painfully simple solos confined to a few scales. Repetitive. Predictable. Boring.
+
+But I liked them because they were mine. Much like a fart, my music was appreciated almost exclusively by its creator.
+
+So where does *looping* fit into all of this?
+
+Simple: with only a few chords and several layers, perhaps I could create something more interesting. Something that could serve as a foundation for a form of expression I had grown to love: improvisation.
+
+I still remember the day I was walking around with a guitar slung over my shoulder when I spotted an elderly gentleman walking his little dog. Instead of offering me candy, he offered guitar lessons.
+
+What I didn't know was that he was the magnificent guitarist João Domingues.
+
+Our shared love for Bossa Nova and Brazilian music quickly transformed us from teacher and student into musical partners within a matter of months.
+
+As I learned instrumental arrangements from Almir Chediak's songbooks, I also learned how to move through chord progressions more freely. Improvisation still doesn't come naturally to me, and perhaps it never will, but that's where I took my first steps, and I haven't been able to stop since.
+
+One time we spent more than fifty minutes happily playing nothing but *A Felicidade*. We only stopped because his phone rang, and it was out of tune.
+
+Looping turned out to be the perfect excuse for improvisation. It felt as though things were finally starting to make sense. The aggressive rigidity of the loop kept me caged, while improvisation set me free.
+
+By then I had already transitioned to electric guitar, and the variety of sounds pouring out of my pedals fascinated me in a way that even the acoustic guitar, the instrument of my life, couldn't quite match.
+
+Years later, another friend entered the story: Ingo.
+
+During the pandemic, we spent a lot of time talking about guitar while he was learning to play. I had recently moved and had been forced to sell my guitar and effects pedals to help pay for the relocation. Those conversations, combined with the fact that I would no longer be traveling weekly for work, motivated me to buy another guitar and start playing again.
+
+I had kept a small loop pedal. I could finally exercise that musical muscle once more.
+
+Missing a proper musical foundation, I decided it was time to study. I bought two courses from the Dutch guitarist, and excellent teacher, Paul Davids: one on music theory for existing players and another dedicated to looping.
+
+A few hours into the lessons and I was already understanding the functional structure of loops while having an absurd amount of fun. The moment I realized this was exactly what my musical life had been missing, I upgraded and acquired a beautiful loop station capable of recording up to six stereo tracks per loop.
+
+And yet, something still felt missing.
+
+I would power on all my gear and feel a strange emptiness. As if there were something beyond music itself, something music alone couldn't fill.
+
+That's when I remembered something that would accidentally change everything:
+
+MIDI.
+
+## Reason
+
+At their core, `.mid` files are musical performance manuals, except they're written for instruments rather than musicians.
+
+Strange, isn't it?
+
+Back in the early 1980s, several manufacturers were bringing synthesizers to market. An engineer and musician named Dave Smith, from Sequential Circuits, proposed something that would unite them all: a universal standard for exchanging information.
+
+The idea was remarkably simple: send a digital message from a keyboard to an instrument.
+
+That message could carry all sorts of commands, from which note should be played and how hard it should be struck to various parameters that could be adjusted on the receiving instrument.
+
+MIDI was born. A digital sheet of music, for all practical purposes.
+
+Of course, it didn't remain confined to synthesizers. MIDI is still widely used throughout the music world, including in the ever growing pile of gadgets I was accumulating.
+
+One of those devices was an amplifier modeler. Since space at home was limited, I opted for a modeler instead of a dozen pedals and a real amplifier. My signal was no longer purely analog. It was converted by the modeler and transformed according to whatever configuration I created in that astonishing block-filled graphical interface.
+
+The sound was so good that I never once regretted going digital. Perhaps because I was never much of a vinyl enthusiast.
+
+While tinkering with the interface, I noticed that many parameters could be configured to respond to MIDI messages. Not only could I add external controllers to send commands to the modeler, but I could also control it directly from my computer through an audio interface that supported MIDI.
+
+Naturally, I started playing with automation.
+
+Watching buttons on my computer transform into changes inside the modeler was every bit as exciting as an improvised blues solo.
+
+And yet, something was still missing.
+
+As I became increasingly obsessed with firing off messages, I found myself playing more and more with backing tracks. To compensate for the absence of a band, I would play songs with the lead guitar removed and improvise over the top.
+
+The loop station ended up gathering dust.
+
+Truth be told, my biggest problem was a lack of texture for building loops. I've never been particularly good at extracting a wide variety of tones from a guitar, and that limitation carried over into my loops. I tried simulating a bass guitar, but it always sounded artificial.
+
+That's when I remembered something else:
+
+Synthesizers.
+
+Another friend, Daniba, once told me that I would have an absolute blast playing with synthesizers. I found one that looked particularly interesting and bought it.
+
+I finally understood what a synthesizer actually was.
+
+For someone obsessed with physics, a synthesizer is a laboratory disguised as a musical instrument. It controls electrical oscillations in countless ways: shaping frequencies through filters, manipulating energy through envelopes, and generating harmonics through simulations of phenomena governed by the very same equations that describe vibration, resonance, and wave propagation in nature.
+
+It's a wave tamer.
+
+Thank you again, Fourier.
+
+As if all of that weren't enough, it came with a keyboard that looked more like a breadboard than an actual musical keyboard. Instead of relying on key pressure, this synthesizer responded to the amount of skin making contact with the surface.
+
+To say I liked it would be an understatement. I was completely fascinated!
+
+<img src="/assets/images/loopinarium/microfreak.jpg" alt="The synth">
+
+## The Loop That Changed the Game
+
+One day, in 2024, I recorded a very simple chord progression and started experimenting with the synthesizer, searching for something that occupied roughly the same frequency range as a bass guitar. I recorded the low-end track, then added another synth track with an even simpler chord progression.
+
+I set everything to play and started trying out a few guitar riffs. After recording them across three separate tracks, I moved on to selecting a drum pattern. Once everything was in place, I hit "REC" and started playing.
+
+Halfway through the take, I had the idea of turning on the synthesizer and playing along. As the music progressed, my body instinctively took over: my left hand kept playing the guitar while my right hand continued on the synthesizer.
+
+I carried the piece forward for nearly nine minutes.
+
+The result?
 
 <audio id="player" controls>
   <source src="https://f000.backblazeb2.com/file/loopinarium/Lollipop.mp3" type="audio/mp3"/>
 </audio>
 
-That mix between the synth and the guitar put a smile on my ears that I can't describe in words. I spent days listening just to that recording, trying to understand what was going on my mind. 
+That conversation between the guitar and the synthesizer put a smile on my ears that words simply cannot describe. I spent days listening to that recording and trying to understand what, exactly, had happened to me.
 
-Then I realized I wanna do more like that. And my engineer-DNA immediately though I should combine that experience with the idea of setting up the loops in a more geeky way.
+Eventually, I realized that this was my musical destiny.
 
-For a long time I failed to integrate everything in an interesting way, because it sounded (pun intended) too normal. Using a desktop to manage the MIDI stuff and an audio interface to capture the audio signals and mix them together in a DAW was too reliable to my taste.
+Naturally, my pseudo-engineer DNA immediately began looking for ways to transform the experience into something more aligned with my personality.
 
-Then I decided to go normal (or "go nuts", as some earthlings would say) and started sketching some ways of making a self-contained rig that I could just carry outside of my cubicle, plug in a power socket and pray it won't melt the power system.
+For a long time, I failed to integrate all the devices in an interesting way. Everything sounded, pun intended, "far too" normal.
 
-That's when the L∞π∩∆rium was born. No buildings were set on fire (yet).
+Using a computer to send simple commands, capture audio through an interface, and record everything on that same computer was far too reliable for my taste.
 
-## Describing Chaos
+So I did what comes naturally to me.
 
-Let me walk you through the architecture, because calling this thing a "pedalboard" at this point feels legally inaccurate.
+I began sketching the first drafts of a self-contained system that I could carry outside my cubicle, plug into a wall outlet, and then hope wouldn't melt any circuitry connected to the power grid.
 
-### The User Interface
+And that was the birth of the L∞π∩∆rium. Or at least the birth of the idea.
 
-Let's start with the control surface: the StreamDeck.  This is where I pretend I'm not just playing, I'm deploying changes to production, choosing the set list moments before the show. Every button is a high-level command: "change the pattern", "go to my backing tracks", "make this sound expensive".
+The year 2024 ended on a high note, but 2025 turned out to be the worst year in my family's history, and the project came to a halt.
 
-The Companion app is straightforward. It recognized the StreamDeck and configured it automatically. I had to spend some time to populate a couple of pages with useful information and actions. My approach is to use the top row as a kind of status bar. The top left button switches to a debug page and the two top right buttons switch to a Helix and a BeatBuddy controller.
+We moved again, but this time I only had to sell an acoustic guitar. Everything else in my rig was compressed into suitcases.
 
-The main page is a mix of things I use to create loops: the loop templates and my favorite drum patterns.
+By the end of 2025, we finally moved into a house where I could have the cubicle I had always dreamed of. It even came with two electrical outlets dedicated entirely to me.
 
-There are three special buttons in the top row that act as the current state of the whole thing. One gives me the current Helix snapshot, the next one tells me where the guitar is located in the sound stage and the third tells me the time signature for the current drum pattern.
+What luxury! It was the perfect environment for the project to finally take shape.
 
-I've probably spent more hours messing around the Companion software and testing ideas for the user interface than actually playing through the rig. I burned countless hours just to decide the colors to use for each segment.
+## The Project Architecture
 
-Like any piece of software, this thing will never be complete, but will always be ready.
+The idea itself seemed simple enough: connect a chain of devices through two distinct channels: data and audio.
 
-### The Looper
+The data flow looked like this:
 
-Let's move to the boss (pun intended). At the center of the system, we have the brain… or at least the thing that thinks it’s in charge: the Boss RC-600. This is the scheduler, the timeline, the keeper of loops. It speaks in MIDI clock, which is basically its way of saying "trust me bro".
+> Looper → Foot Controller → Modeler → Drum Machine → Looper (yes, again)
 
-I've divided its 99 memory blocks into three separate categories:
+To demystify the components:
 
-1. Loop templates (9 blocks)
-2. Loop songs (39 blocks, 1 template)
-3. Backing tracks (59 blocks, 1 template - 6 tracks per block)
+- **Looper:** The cornerstone of loop composition. This is the device that records tracks and plays them back as I awkwardly tap-dance across its footswitches. It is also responsible for distributing the song's tempo to every other device.
+- **Foot Controller:** A collection of programmable footswitches capable of sending virtually any command to the rest of the rig. Each of its six footswitches can perform different actions depending on how enthusiastically it is being stomped.
+- **Modeler:** An amplifier and effects modeler. The electrical guitar tone comes from this device. (No, the electrical guitar tone does not come from the wood, otherwise IKEA would have its own custom shop division.)
+- **Drum Machine:** A drummer in miniature form. This device stores drum patterns and plays them back alongside the loops. It is also configured entirely through MIDI (please act surprised).
 
-The templates are there to store basic loop settings (like no rhythm sound) and the time signature, since the RC-600 doesn't expose this setting for external modification via MIDI messages. The idea is to use any of the templates to create the tracks and then store the result in one of the blocks for the Loop songs.
+Notice that the flow starts and ends at the Looper, forming a ring of sorts. That ring is how the devices communicate. I configured the Looper to avoid the dreaded *MIDI echo*, where messages endlessly circulate through the ring (yes, I know which song immediately came to mind), effectively opening a portal to the grand opening of a department store's Black Friday sale.
 
-Wait a minute. Did I say I don't have rhythm sound coming from the looper? Yeah, that's true. While the RC-600 has pretty capable rhythm features, its sound is not as good as the BeatBuddy. Plus, the BeatBuddy has a really well designed interface that allows me to not have to deal with adjusting every single preset on my looper if I decided to change how it reacts to MIDI messages... yes, this configuration can't be stored as global (like the rest of the settings). I don't like wrestling with my pedals, so I hired a drummer that helps me keeping my sanity check.
+In the L∞π∩∆rium, the loops stay in the music.
 
-Actually, let's go to the BeatBuddy.
+Because the Looper acts as the metronome, it has to come first. Otherwise, the rest of the chain has no reliable notion of time.
 
-### The Drummer
+The MIDI protocol defines a pulse known as the *MIDI Clock*. Every 24 pulses correspond to a quarter note. With some back-of-the-napkin math, it's easy to see that one second at 120 BPM (*beats per minute*) equals 48 pulses per second (`BPM × 24 / 60`).
 
-On the drums, we’ve got the BeatBuddy.  Think of it as a deterministic drummer. It never rushes, never drags, never shows up late, and never asks to play a jazz version of your song mid-performance. It just executes. Honestly, a bit intimidating. (Maybe that's why Singular Sound added a drunk mode to it.)
+I initially ignored this little detail. I later paid a rather expensive toll in technical debt to correct that mistake.
 
-I added two particular folders to my BeatBuddy, one for the favorite patterns, so the process of activating and organizing them gets easier. I choose 16 and mapped them in the StreamDeck XL. Every time I push a button, the Raspberry Pi sends the MIDI messages required to change the pattern.
+Without MIDI Clock flowing through the contraption, the entire setup performs worse than the polychords in a car crash.
 
-The second folder is where I store the patterns for the songs I create. Since I'm not using the native sounds of my looper, I had to store this information elsewhere. The problem with mapping each song to a pattern is that I would need to manually do the mapping each time I create a song, and this process requires access to the Raspberry Pi from a web browser. It's time to use some of my poorly acquired programming skills.
+As for audio, the connections look like this:
 
-When programming software, using conventions over configurations is almost always a better choice. Since I adopted a range of memory banks for the songs, I correlated them to a particular folder of patterns inside the BeatBuddy. The idea is simple: count the song position within its range of dedicated blocks in the looper (block #15 is the 5th song - the first block in the range is the template), then set the BeatBuddy to the pattern representing that position inside the songs folder (in the previous example, the 5th pattern).
+> Guitar → Modeler  
+> Synthesizer → Modeler  
+> Drum Machine → Modeler  
+> Modeler → Looper  
+> Looper → Audio Output
 
-The process now gets way easier. After I select a pattern for a new song, I just need to open the BeatBuddy manager on my local machine, copy the pattern to the position in the folder that matches the position of the song in the specific range of the looper, and sync the changes with the BeatBuddy's SD card.
+Although the synthesizer supports MIDI, it does not participate directly in the ring.
 
-With the sync in place, I just need to select a song in the looper and the respective drum pattern will be selected right after. Of course, some component needs to apply the convention and send the correct MIDI messages to trigger the change in the BeatBuddy.
+The reason is simple: it usually isn't present when I take this entire pile of equipment outside my cubicle. In a ring topology, every element must be functioning for the ring itself to function. Removing the synthesizer would therefore break the system.
 
-But how to calculate and send the correct MIDI messages? It's time for the middleware layer.
+Instead, I connected the synthesizer via USB to a Raspberry Pi, a tiny Linux computer, which also connects to the Looper over USB to eavesdrop the messages.
 
-### The Middleware
+The little computer serves not only as a messenger, forwarding a copy of everything traveling through the MIDI ring to the synthesizer, but also as an automated control center.
 
-Now, things start getting weird.
+That is where the brain of the L∞π∩∆rium lives.
 
-Because sitting quietly underneath it, pretending to be harmless, is a Raspberry Pi. This is not a pedal. This is a middleware layer. It listens, translates, orchestrates, and occasionally makes executive decisions that may break things and cause unrepairable embarrassments. It’s the reason pressing one button can trigger the entire rig like a well-coordinated flash mob.
+I installed a software called Companion to integrate with a programmable control surface, a fancy way of saying "a panel full of buttons whose behavior and appearance I can customize." This gives me visibility into the current state of the system while also allowing me to issue commands to the entire rig.
 
-Under the hood, it’s just firing off messages and trusting the rest of this crazy distributed system will receive them and behave accordingly.
+There was only one problem:
 
-It's a known fact that distributed systems only have two challenges:
+Companion doesn't support MIDI out of the box. There is a plugin that provides reasonably decent support.
 
-2- Deliver the message just once  
-1- Deliver the messages in order  
-2- Deliver the message just once
+Unfortunately, "reasonably decent" is not the same thing as "optimized for the bizarre things I want to do."
 
-Inside the Raspberry Pi, there's a software from Bitfocus called Companion. If everything else in this setup is a collection of instruments and devices, then Companion is the translation layer between what I want and what actually happens. Because, let's be honest, none of these devices were designed to talk to each other like this. They all speak MIDI... but with accents. Strong ones.
+After several failed attempts to force the L∞π∩∆rium's thought process into someone else's plugin architecture, I finally admitted defeat and chose the far more convenient solution:
 
-Companion is the diplomat. From a programming perspective, this is the control plane. It's also where things get opinionated. Because once you have variables, triggers and conditional logic, your pedalboard becomes programmable. And once that happens... there's no going back.
+Writing my own plugin.
 
-For example, every time a song is selected in the looper, Companion decides whether that should trigger a change in the BeatBuddy and changes the internal state of the rig, marking which segment of the looper is active (templates, songs, backing tracks) and letting this information available to the user interface. Companion also receives user intent and translates that intent in MIDI messages, like the intent to change the template to a "4/4", which gets translated to a MIDI Program Change that will be (hopefully) received (just once) by the looper.
+That meant learning a new programming language: *TypeScript*.
 
-Installing and using the Companion app was easier than falling off a skateboard. After a couple of adjustments, I developed a set of guidelines that helped me be more productive and deal with potential issues around the road:
+For someone who already knows a handful of languages, learning another one is mostly a matter of deciding how much coffee the process will require.
 
-- No magic numbers, everything (or at least the majority of it) is defined as custom variables.
-- Use local variables for the buttons to decouple logic and value. This makes it easier to copy the buttons and change what they trigger, but not how they trigger.
-- Use a small wait between multiple MIDI messages. I made that waiting time configurable via custom variable too.
-- For more complex logic, use a state variable that triggers actions in the trigger section. That allows for maximum flexibility, as buttons can now just populate parameters and send them as arguments to a function call, but in an even-driven fashion.
+## Writing the Glue
 
-This is where I put most of my energy. Companion is flexible and has a variety of plugins, and luckily there's one for MIDI capabilities. It relies on the ID assigned to a MIDI device at the moment it's plugged. For Linux, this ID can change.
+Just as the brain reacts to stimuli, musical devices need to react to MIDI Clock as well.
 
-There are some ways of making sure you have a fixed way of referring to the MIDI device, but the plugin doesn't support them. I then open its source code and found a particular line that I could change and use just the name of the device. There's a ":" in the device name which separates the name and its id. I just used the name to lookup the first device with a similar name in the list of recognized devices. This could cause issues if there were multiple similar devices, but for my use case it's not going to be a problem.
+The interesting thing about this characteristic is that it opens the door to an event-driven architecture, where every MIDI Clock pulse becomes an event. Better yet (or worse, depending on your perspective), once you decouple internal components through messaging, you can start building an architecture inspired by distributed systems.
 
-And that's Open Source in a nutshell: it's free of cost, but not free of effort. The key part hidden in the effort is the freedom to modify anything to suit your own need, and that alone dwarfs any possible paid solution for a crazy guy like me.
+Distributed systems are actually quite simple. They only have two challenges:
 
-Actually, I've even started coding my own plugin based on the generic MIDI plugin provided by Bitfocus and I'm using it now. The main benefit is to have all the logic packed directly inside the Companion runtime, instead of building blocks that makes me think I'm a beginner into the programming world. Don't get me wrong, the Companion interface is really nice, but if you can find yourself under the hood, why not going in? Total control and accountability. What else would I want?
+2- Deliver the message just once.
+1- Deliver messages in order.
+2- Deliver the message just once.
 
-Now I'm realizing something: what's a guitar rig with no guitar sound? Let's move to the tone. I might actually want to have some sound coming from this rig at some point.
+Simple! And things get even easier once computer networks become involved.
 
-### The Modeler
+I estimate that roughly 84.42% of the software performance problems I've encountered throughout my career were caused by people underestimating just how "simple" those requirements are.
 
-Alleviating the deterministic jailing aspects of those previous components, let's take it easy and talk about something that, apparently, has more freedom to go: the tone.
+I have no intention of reaching the supreme level of architectural sadism by introducing microservices or whatever trendy nonsense greedy influencers are selling this week.
 
-Ah yes… tone. I love that crazy controversy where people say "it's in the wood".
+Sending messages through a shared bus keeps things loosely coupled and beautiful. Otherwise, I'd end up creating a magnificent dependency spaghetti with a very real chance of circular references.
 
-Right! Because when you plug into a fully digital signal chain, run through converters, DSP, impulse responses, stereo routing, and enough processing power to simulate a weather system... the real bottleneck is the tree.
+Even I have limits.
 
-In the context of this fully digital rig, tone is everything happening after the cable leaves the guitar. In other words: tone is in the system. Especially inside MIDI CC values which control how a bunch of DSP blocks will process my guitar signal after I pluck the strings.
+The entire structure is driven by only two types of stimuli:
 
-I'll be honest here. I'm quite far from being a sound expert, but I did my best at making 3 solid snapshots that sounds good to my taste:
+- Interactions from the control surface.
+- MIDI messages.
 
-- A clean sound
-- A crunchy sound that's suitable for rhythms and general solos
-- A lead sound that makes me think I can shred
+User interactions are about as trivial as Newton's Second Law: pressing a button causes a reaction inside the code running on the Raspberry Pi.
 
-The forth snapshot is always an experimental one. I've had fun with the acoustic simulator, bass octaver, synth effects...
+MIDI messages follow a similar path. They're intercepted by the Raspberry Pi, decoded, and converted into internal messages that the various components understand and act upon.
 
-I've setup the preset in a way that I can alter the level and pan using MIDI messages. This allows me to place the sound exactly where I want for maximum disturbance in the force. This plays nice when I'm designing loops, as I can easily construct the layers without delving into multiple knobs. I have a fully setup 6-track template for my loops, but it's always nice to prove you're wrong, and having a super flexible way of challenging my own choices is definitely a good start.
+It's worth mentioning that the Foot Controller itself sends MIDI messages directly from within the ring. Those messages are addressed to the Raspberry Pi, which performs the same translation process.
 
-The Helix can also trigger the BeatBuddy for additional time control. I can trigger the Half, Double and Normal time, which allows for some crazy changes depending on the pattern and the tempo I'm using. I still suck at making something useful out of it, but I have hopes that I will suck less over the time.
+It's basically a diplomat.
 
-Another interesting piece of my preset is the extra input with its own set of blocks for my chaotic synthesizer. I plug it straight on my Helix and mix it with my guitar sound applying the opposite pan of the guitar. That untangles the sound when I (try to) play both at the same time.
+Most MIDI messages contain a field known as the *channel*. It can hold values from 0 to 15, allowing each device to listen only to messages intended for a specific channel.
 
-And now that I mentioned the synth, we're approaching the chaotic part of this rig, at least in terms of sound. Leaving pretty much all the cold and predictable aspects of a looping system, where order matters and has to be strictly followed, there's a little device sitting in the corner... ready to break any rules of time.
+Every device in my setup, including the Raspberry Pi, has its own dedicated channel. I even reserved one channel exclusively for testing.
 
-### The Chaos
+Yes, continuous testing is necessary when you're the kind of person who builds things like this.
 
-I'm only proficient with a keyboard when I'm writing software, not music. The Arturia MicroFreak was able to put me in a comfortable place with its unique design that looks like someone tried to build a mini piano using a touchscreen and then stopped halfway to ship the beta because it was already killing.
+I implemented a sort of MIDI-based *ping* using that dedicated channel. The Raspberry Pi sends a predefined message to the Looper and, because it travels around the entire ring, eventually returns to where it started. If the message fails to come back within a short period of time, one of the control buttons displays a highly visible warning.
 
-This is not just a synth. In system terms, this is the chaos engine. While everything else in the rig is busy being deterministic, synchronized, and emotionally stable... the MicroFreak is out here exploring alternate timelines.
+Since the primary goal is creating musical loops, MIDI Clock becomes essential for injecting additional functionality. Before anything else, however, I need to calculate the BPM represented by the incoming pulse frequency.
 
-It doesn’t just generate sound, it negotiates with it. One moment it’s a delicate pad, the next it’s speaking in tongues, and somehow it’s still technically in key... most of the time.
+What's the practical value of that?
 
-From a programming perspective, it's thatr rogue service in your architecture that:
+Almost none.
 
-- nobody fully understands
-- does things no other component can do
-- and if you remove it, everything else still works… but feels suspiciously boring
+Other than displaying it on a control button so I can confirm that all devices agree on the tempo.
 
-It’s also the only instrument here that feels like it’s collaborating instead of obeying. You don’t control the MicroFreak, you make suggestions and hope it agrees.
+The truly important part is synchronizing actions so they occur on precisely the desired clock pulse.
 
-And yet, when it locks in, the absolute weirdness of it all lines up with the rest of the system. That’s when things stop sounding like a setup and start sounding like something alive.
+Value transitions, for example, become significantly smoother if a parameter changes slightly on every clock event until it reaches its target value.
 
-Every system needs structure. But sometimes, you also need a little bit of beautifully contained chaos.
+But remember those 48 pulses per second at 120 BPM?
 
-Its output is a tad lower than the regular rig volume, so I gave it a little boost in the Helix before applying the effects: just a chorus and a delay. I'm yet to find a situation where I need to turn them off, so they're always on. Sometimes I explore alternating the time parameters of both delays, so both guitar and synth get interlaced in the stereo spectrum.
+Exactly! Imagine 48 events per second triggering various processing tasks inside a tiny computer the size of a credit card.
 
-As I mentioned, the MicroFreak isn't tied to the MIDI chain. It acts as a disconnected system to preserve it's unique function: asynchronously generating controlled chaos without being disturbed by MIDI messages it doesn't care about. This forces me to become the bridge between the cold deterministic system and the wild chaos engine.
+CPU utilization occasionally climbed above 50%. That's when I decided to apply a flow-control strategy, or just *throttling*.
 
-And if I need to use an arpeggiator with some temporal constraints... well... the looper can figure out the tempo if it's the first track I record.
+I drastically reduced the number of stimuli. For every 12 MIDI Clock pulses received, a single internal stimulus is generated and delivered to the components. That effectively reduces everything from 48 events per second down to a mere 4.
 
-What I'm really enjoying in the MicroFreak is it's organic nature outside of the deterministic grid imposed by the looper-drummer couple. Its aftertouch made by how much flesh you have in the proto-keyboard and how many parameters you can change in the matrix creates a whole new world of exploration. While my guitar tone is in the system, the MicroFreak tone is almost in the randomness. That feeling of knowing things might land a bit different, but that variance will add that beautifully contained chaos, makes me willing to defy the rules set by the time couple. If something is slightly out of beat or tune, a flesh-accent is all you need to increase the tension and hook everything back.
+In the end, two internal pulses, which I'll refer as *ticks*, become equivalent to a quarter note, replacing the original 24 MIDI Clock pulses.
 
-This is insanely fun. I can spend hours tweaking and having a great time trying to not destroy my hearing. I love that thing and hope I can become proficient enough to introduce it more in my playing. This chaos should be earned, not a result of a sloppy moment.
+With that solved, it was time for phase two:
+
+Measure synchronization.
+
+Fortunately, the drum machine I use transmits measure information via MIDI. Since another MIDI message is also sent whenever a loop begins, I have all the ingredients required to track the musical timeline with complete precision.
+
+Let's assume a song is written in `4/4`. Since each *tick* represents an eighth note, half of a quarter note, the measure changes every 8 ticks.
+
+Once I define the number of measures in a loop, some very interesting automation becomes possible. For example:
+
+- During the final measure of a loop, the drum machine can perform a fill or transition.
+- At the beginning of the next loop, different tracks can automatically start or stop.
+- The mix of whatever I'm currently playing can change with each loop, shifting left and right in the stereo field while simultaneously adjusting volume levels. This allows me to control the entire soundstage during a performance.
+
+And it gets even better!
+
+Because I control the code, I can embed all relevant information about my loops directly into the system itself. That enables me to create automation structures that perform exactly the right actions at exactly the right moments.
+
+My first test case was *All In Hands*, a piece by Franck Duhamel, the creator of Guitar Pro. The song is built around a chord progression that repeats every 24 measures. I recreated the loop using guitar and synthesizer, then implemented automations that changed guitar effects, started and stopped tracks according to the song's progression, triggered drum fills, and generally handled every detail required to reproduce the piece in an automated performance.
+
+At the same time, I could disable the automations whenever I felt like wandering freely through the harmony.
+
+I still tinker with the code constantly, but I've long since crossed the point where the system is reliable enough for me to perform without worrying about anything other than the traditional challenge of playing everything right.
+
+It's hard to imagine buying a commercial product that would give me this level of freedom. Using Open Source Software such as Linux, Companion, and everything else that allows my Raspberry Pi to deliver so much value was exactly the missing piece that brought this project to life.
+
+Like any software project, this contraption will never truly be finished. But it will always be ready.
+
+Was it a lot of work? Of course.
+
+Was it worth it? Absolutely.
+
+And that, by the way, is the true beauty of Open Source. It's free of cost, not free of effort.
+
+Behind that effort lies the freedom to modify, adapt, and shape everything to fit your own needs, and that freedom alone is enough to dwarf any paid alternative.
+
+At least for someone like me.
+
+## The Control Panel
+
+Well, what would all this madness be without some way of at least knowing what's happening inside?
+
+The control surface I use consists of a matrix of buttons arranged in four rows and eight columns. I organized everything so that the first row and first column remain common across all four main panels. Hidden behind the L∞π∩∆rium logo is a special debugging panel where I can fire off MIDI messages and verify whether what I programmed is actually working.
+
+*Spoiler: it almost never is, which is precisely why I built the damn panel.*
+
+<img src="/assets/images/loopinarium/surface-1.png">
+
+This is the main panel, the place where loop creation begins.
+
+I select one of the sixteen drum patterns mapped inside the Drum Machine and choose the loop template corresponding to the correct time signature. My Looper doesn't allow changing a loop's time signature via MIDI, so I ended up creating separate templates for each one.
+
+Incidentally, this is one area where my Looper leaves a lot to be desired.
+
+Parameters must be configured individually for every loop. Since I standardize everything, that means whenever I come up with a new idea, I have to update all templates and every loop I've already saved in memory.
+
+<img src="/assets/images/loopinarium/surface-2.png">
+
+This is my Looper view.
+
+From here I can see a brief description of each of the six tracks, enable loop automation so I can focus entirely on playing, and monitor the loop's progression measure by measure.
+
+<img src="/assets/images/loopinarium/surface-3.png">
+
+Here I have access to the Modeler.
+
+In practice, I mostly need to know which tone configuration is currently active and where that sound is positioned within the mix.
+
+That position can vary depending on the tone itself. A heavily distorted guitar might sit further to the right, while a cleaner sound may live further to the left.
+
+And yes, the positioning is actually two-dimensional.
+
+Increasing an instrument's volume effectively moves it forward on the soundstage.
+
+This allows me to create much richer loops. I can record two guitar riffs using slightly different tones and place them on opposite sides of the soundstage.
+
+<img src="/assets/images/loopinarium/surface-4.png">
+
+This is probably the panel I use the least.
+
+The Drum Machine is so tightly integrated with the Looper through my plugin that I rarely need to interact with it directly.
+
+From here I can change drum kits, navigate the pedal's menus, and modify how drum patterns fit into the musical tempo.
+
+And that's actually one of my favorite features.
+
+Let's say I'm playing a loop at a given tempo. If I double the playback speed of the percussion, the tempo remains perfectly synchronized. One measure of the loop now contains two measures of percussion, but everything still lines up. The same thing happens if I cut the percussion speed in half. In that case, two loop measures are filled by a single measure of percussion.
+
+Pure mathematics.
+
+This becomes especially fun when combined with fills and transitions, which is why I usually keep those controls readily available on the Foot Controller.
+
+There's a good chance I'll replace this panel with something more interesting someday. Perhaps a larger loop overview with more detailed measure information.
+
+Once again, that's the beauty of having complete control over what's happening under the hood.
+
+<img src="/assets/images/loopinarium/surface-5.png">
+
+This is the debugging panel.
+
+I primarily work with two types of MIDI messages:
+
+* Control Change (for parameter adjustments)
+* Program Change (for switching memory banks)
+
+Whenever I need to test an integration between devices, I can simulate message transmission directly from here.
+
+I even mapped the MIDI channels for every device to make my life easier.
+
+The shared elements across all four panels have gone through countless revisions. For now, the following information serves me well:
+
+* Raspberry Pi CPU and memory consumption
+* Current instrument position on the soundstage (guitar or synthesizer)
+* Measure information reported by the Drum Machine
+* Tempo in BPM, calculated from MIDI Clock, and, if I'm currently inside a loop, which bar and beat I'm on
+
+> Wait a second... "If I'm currently inside a loop"?
+>
+> Are you saying this thing does other stuff too?
+>
+> How dare you betray your own identity?
+
+Easy there.
+
+Remember how I mentioned enjoying soloing over backing tracks that were missing the lead guitar?
+
+Well, I reserved several Looper memory banks specifically for that purpose.
+
+I loaded them with songs from artists and bands I love, Joe Satriani, Led Zeppelin, Eric Johnson, Santana... as well as backing tracks created specifically for jamming, such as those from JustinGuitar.
+
+Since each loop contains six tracks, every memory bank effectively gives me six songs that can be launched from the pedals.
+
+The problem is that I can't guarantee tempo stability in those recordings. In fact, I hope the tempo changes.
+
+The most human element in music is precisely that subtle variation. Removing it turns music into something robotic and soulless.
+
+Granted, the deterministic grid of a loop absolutely embodies that robotic and soulless side. But if I were playing with an actual band full of actual humans, I would never hire a Drum Machine as the drummer and ruin the whole thing.
+
+I might eventually implement a system based on elapsed time itself, actual seconds rather than beats, but I haven't felt the need yet.
+
+Okay, okay. There's a very high probability I'll implement it within a few days. I simply cannot have an idea without immediately putting it into the testing pipeline. That's the real joy of having a musical and technological laboratory like this one:
+
+Validating ideas becomes a rewarding part of the journey itself.
 
 ## Why L∞π∩∆rium?
 
-You might be wondering why I spell it L∞π∩∆rium. It's not just to make the name look like a mathematical panic attack. The name itself is a visual representation of the exact audio and data flow of the rig.
+By now you're probably wondering why on galaxy this thing is named after what appears to be a mathematical panic attack.
 
-It tells the story of a signal that starts normally, gets processed through a beautifully chaotic distributed system, and somehow makes it out alive on the other side. Here is the architectural breakdown of the name:
+The name contains several layers of meaning that, together, tell a story: the story of a signal entering a mysterious place, passing through a beautifully chaotic system, and somehow making it safely out the other side.
 
-The Normal Start: "L" This represents the clean input. It's the "perfectly reasonable guitar rig" before it hits the control plane. It represents the deterministic foundation of the system, anchored by a strict timeline and a drummer that never rushes or drags. It starts out as just a guy playing a guitar.
+The first layer is formed by the symbols themselves. And that's where the story begins.
 
-The Shift Into Chaos: "∞π∩∆" The middle of the word is where the signal enters the unpredictable runtime environment.
+The initial **"L"** represents the raw signal coming from my guitar (and, hopefully, from an acoustic guitar soon as well). The letter stands for the clean signal used to build the deterministic structure of the loops.
 
-∞ (Infinity): The signal hits the Boss RC-600 Looper and gets in the mix with the drum patterns provided by the BeatBuddy and the recorded loop tracks. The symbol represents the continuous flow of the music, layer by layer, drum beat by drum beat.
+The **"∞"**, the symbol for infinity, represents the *Looper* itself.
 
-π (Pi): The MIDI messages are intercepted by the Raspberry Pi. This is the middleware layer sitting quietly underneath, making executive decisions and orchestrating the rig.
+The signal arrives there, where it is combined with the percussion coming from the Drum Machine and can be stored on one of the tracks.
 
-∩ (Intersection): In set theory, this denotes an intersection. Here, it represents the Companion software. It acts as the diplomat and control plane, intersecting and translating the various "strong accents" of MIDI messages from devices that were never meant to talk to each other. It also represents the fragile, but beautiful, intersection point where determinism meets creativity by delicately touching chaos.
+It is my deterministic cage, a place that, paradoxically, provides a safe and rational environment for emotional expression.
 
-∆ (Delta): In mathematics, Delta means variance. Here, it represents the Arturia MicroFreak. This is the chaos engine exploring alternate timelines. It injects organic variance and "flesh-accented" randomness into an otherwise rigidly deterministic grid.
+The **"π"**, the Greek letter Pi, represents the Raspberry Pi. The chaotic core of the entire structure, endlessly attempting to orchestrate everything.
 
-The Return to Normality: "rium" This represents the resolution. Despite being an unstable molecule, the system finishes processing and safely routes the audio out through the stereo outputs. The wild, organic unpredictability of the synth lines up with the rest of the system.
+The **"∩"**, a symbol used in set theory to denote intersection, represents the software layer I built on top of Companion: the point where MIDI messages converge and are translated into information that allows the various components to perform their respective roles.
 
-The term "loopinarium" also resembles the latin word vivarium (place of life):
+The **"∆"**, the Greek letter Delta, represents variance. It is primarily associated with the synthesizer, symbolizing the domestication of waves, seasoned with the subtle variations introduced through skin contact.
 
-It is a contained, interdependent ecosystem. A vivarium is an enclosed environment where different organisms and elements interact to sustain the ecosystem.
+Truthfully, this element also represents the small fragment of humanity present in the entire system:
 
-It cultivates "organic" life. The ultimate goal of a vivarium is to sustain living things.
+Me.
 
-It balances strict rules with contained chaos. A vivarium requires strict foundational rules (like regulated temperature and humidity) to allow the unpredictable organisms inside to thrive without crashing the ecosystem.
+As I mentioned earlier, those tiny variations introduced by human beings are what give music its soul.
 
-In short, just as a biologist builds a vivarium to observe how wild organisms behave within a controlled glass box, I have built the Loopinarium as a "control plane" to observe what happens when you trap unpredictable, wild synthesizers inside a strict, deterministic MIDI environment.
+Finally, **"rium"** represents the return to normality. The resolution of everything.
 
-Last, but not least, "pina" is my ultimate pun: "pinna", also known as the auricle. The pinna is essential for humans to determine the direction of a sound. Remember that little button in the StreamDeck that tells me where the guitar is located in the sound stage? And also the opposite panning to separate the chaotic synth from the guitar in the stereo spectrum?
+Despite resembling an unstable molecule, the system ultimately processes and routes the audio toward its long-awaited stereo output.
 
-Conceptually, the "pi-na" hidden in the middle of the rig's name could represent the listener's ear, trapped right between the deterministic loops on the left and the chaotic variance on the right!
+The second layer is somewhat more philosophical.
 
-Now ask me how many songs have I made with this? Well... let's say I'm sure I will come up with something soon™.
+The term *Loopinarium* intentionally echoes *vivarium*, a Latin-derived word meaning something akin to "a place of life."
 
-At least I have that one from the prototype...
+A vivarium is an interdependent system. A closed environment where different organisms and elements interact in ways that sustain the ecosystem as a whole. It is, in essence, the cultivation of life.
 
-## The End
+And finally, there is an even deeper layer.
 
-This isn’t just gear. This is:
+Hidden inside the word *Loopinarium*, more specifically within the sequence of symbols **π∩∆**, lies my ultimate pun:
+
+*"pina."*
+
+Or rather, *pinna*.
+
+In anatomy, the pinna is the external part of the ear. It is the structure primarily responsible for helping us determine the direction of a sound source.
+
+Which means that, buried deep inside a bizarre hybrid of mathematics, music, software architecture, and questionable life decisions, there is a tiny tribute to the very thing that makes all of it worthwhile:
+
+Listening.
+
+## Conclusion
+
+At the end of the day, this isn't just a piece of musical equipment. This is:
 
 - a loop engine
 - a rhythm engine
-- a tone engine
+- an effects and tone engine
 - a chaos engine
 - a middleware layer
 - and a user interface
 
-All loosely coupled, mildly synchronized, and held together by duck tape, cable ties, MIDI messages and questionable confidence.
+All loosely coupled, mildly synchronized, and held together by duct tape, zip ties, MIDI messages, and highly questionable confidence.
 
-In other words: it’s a perfectly normal setup for a guy like me.
+In other words:
 
-Hope it compiles.
+Something perfectly normal for someone like me.
 
----
+I just hope it compiles.
 
-## Talk is cheap... show me the rig!
-
-[Here you go](https://youtu.be/9s396Tet8J8)!
