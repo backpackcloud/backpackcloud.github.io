@@ -7,11 +7,10 @@ tags:
   - midi
   - caos
 category: cronicas-cronicas
-intro:    >
-          Como lidar com a dualidade cerebral de forma ainda mais... dual.
+intro: Como lidar com a dualidade cerebral de forma ainda mais... dual.
 image:
   file:    loopinarium.png
-  caption: Sim, gerei com IA... mas o texto é original!
+  caption: Sim, gerei com IA... mas o texto é meu mesmo!
 ---
 
 ## Introdução
@@ -39,7 +38,7 @@ Era uma época sombria, eu tinha ataques de pânico com certa frequência e, ao 
 
 Aliás, uma das linhas da conclusão desse teste me chamou muito a atenção:
 
-**Alta inteligência bloqueada emocionalmente.**
+Alta inteligência bloqueada emocionalmente.
 
 Estaria isso relacionado com o que minha psiquiatra disse?
 

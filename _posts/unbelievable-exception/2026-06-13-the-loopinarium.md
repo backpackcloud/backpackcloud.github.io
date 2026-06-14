@@ -9,11 +9,10 @@ tags:
   - midi
   - chaos
 category: unbelievable-exception
-intro: >
-  How to deal with cerebral duality in an even more dual way.
+intro: How to deal with cerebral duality in an even more dual way.
 image:
   file:    loopinarium.png
-  caption: Yes, I did use AI to generate the image. But the text is original!
+  caption: Yes, I did use AI to generate the image. But the text is mine!
 ---
 
 ## Introduction
@@ -43,7 +42,7 @@ It was a dark period. I had panic attacks fairly often and, apparently, episodes
 
 Incidentally, one line from that report caught my attention:
 
-**High intelligence emotionally blocked.**
+High intelligence emotionally blocked.
 
 Was that related to what my psychiatrist had said?
 
