@@ -39,7 +39,7 @@ This is the Loopinarium (or L∞π∩∆rium, as I prefer to write it). In a str
 
 She also happens to be a neurologist, which made her uniquely qualified to understand what the hell was going on with me.
 
-It was a dark period. I had panic attacks fairly often and, apparently, episodes of epilepsy as well (not the kind where your tongue ties itself into knots). The tricky thing about evaluating conditions like that is actually being inside a machine while the episode is happening. I underwent cerebral perfusion scintigraphy, transcranial Doppler ultrasonography, and even a Rorschach test.
+It was a dark period. I had panic attacks fairly often and, apparently, episodes of epilepsy as well. The tricky thing about evaluating conditions like that is actually being inside a machine while the episode is happening. I underwent cerebral perfusion scintigraphy, transcranial Doppler ultrasonography, and even a Rorschach test.
 
 Incidentally, one line from that report caught my attention:
 
@@ -53,7 +53,7 @@ The world has become far too binary.
 
 Everything turns into conflict when there are only two sides. The spectrum has been compressed into Side A and Side B, like an old vinyl record. And just as there are people blindly in love with musical nostalgia, refusing to accept that digital audio is objectively superior to vinyl (look at the irony of bilateral thinking), there are people equally obsessed with labels and with belonging to groups that probably shouldn't exist in the form they exist today.
 
-Let me explain—and, while I'm at it, correct my own flawed musical binary thinking.
+Let me explain and, while I'm at it, correct my own flawed musical binary thinking.
 
 Digital audio is not homogeneous. There are countless formats with different sampling rates. At some point, the sampling rate becomes so effective to human hearing that the digital world becomes indistinguishable from the analog one. Thank you, Fourier!
 

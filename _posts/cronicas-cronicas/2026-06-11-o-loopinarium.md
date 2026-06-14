@@ -430,17 +430,17 @@ Você com certeza passou esse tempo todo se perguntando por que cargas eletromag
 
 A primeira camada é formada pelos símbolos. E a história também começa nela.
 
-O "L" inicial representa o sinal comum que vem da minha guitarra (e espero que venha de um violão também, em breve). A letra representa o sinal limpo, que é usado na criação da estrutura determinística dos loops.
+O **"L"** inicial representa o sinal comum que vem da minha guitarra (e espero que venha de um violão também, em breve). A letra representa o sinal limpo, que é usado na criação da estrutura determinística dos loops.
 
-O "∞", símbolo do infinito, representa exatamente o *Looper*. O sinal chega nele, onde é combinado com a percussão vinda do *Drum Machine* e pode ser armazenado em uma das faixas. É a minha jaula determinística que, de certo modo, me dá um local seguro e racional para me expressar emocionalmente.
+O **"∞"**, símbolo do infinito, representa exatamente o *Looper*. O sinal chega nele, onde é combinado com a percussão vinda do *Drum Machine* e pode ser armazenado em uma das faixas. É a minha jaula determinística que, de certo modo, me dá um local seguro e racional para me expressar emocionalmente.
 
-O "π", letra grega Pi, representa o Raspberry Pi. O cerne da estrutura caótica que tenta orquestrar tudo.
+O **"π"**, letra grega Pi, representa o Raspberry Pi. O cerne da estrutura caótica que tenta orquestrar tudo.
 
-O "∩", símbolo que, na teoria dos conjuntos, denota interseção. Ele representa a camada de software que eu construí em cima do Companion, o ponto onde as mensagens MIDI se encontram e são traduzidas em informação para os diversos componentes exercerem seu papel.
+O **"∩"**, símbolo que, na teoria dos conjuntos, denota interseção. Ele representa a camada de software que eu construí em cima do Companion, o ponto onde as mensagens MIDI se encontram e são traduzidas em informação para os diversos componentes exercerem seu papel.
 
-O "∆", letra grega delta, representa variância na Matemática. Ele é o símbolo atrelado principalmente ao sintetizador. Representando a domesticação das ondas, apimentada pelas sutis variâncias causadas pelo contato da pele. A bem da verdade, esse elemento acaba representando também o pouco pedaço de humanidade que existe nesse conjunto todo: eu. Como eu disse ali em cima, as pequenas variações que o ser humano introduz na música é o que dá a ela a alma.
+O **"∆"**, letra grega delta, representa variância na Matemática. Ele é o símbolo atrelado principalmente ao sintetizador. Representando a domesticação das ondas, apimentada pelas sutis variâncias causadas pelo contato da pele. A bem da verdade, esse elemento acaba representando também o pouco pedaço de humanidade que existe nesse conjunto todo: eu. Como eu disse ali em cima, as pequenas variações que o ser humano introduz na música é o que dá a ela a alma.
 
-O "rium" é o retorno à normalidade. Representa a resolução de tudo. Apesar de ser uma molécula instável, o sistema como um todo processa e roteia o áudio em direção a tão aguardada saída estéreo.
+O **"rium"** é o retorno à normalidade. Representa a resolução de tudo. Apesar de ser uma molécula instável, o sistema como um todo processa e roteia o áudio em direção a tão aguardada saída estéreo.
 
 A segunda camada é um pouco mais filosófica. O termo "loopinarium" remete ao termo "vivarium" (algo como "lugar de vida", no latim).
 
