@@ -438,7 +438,11 @@ O **"π"**, letra grega Pi, representa o Raspberry Pi. O cerne da estrutura caó
 
 O **"∩"**, símbolo que, na teoria dos conjuntos, denota interseção. Ele representa a camada de software que eu construí em cima do Companion, o ponto onde as mensagens MIDI se encontram e são traduzidas em informação para os diversos componentes exercerem seu papel.
 
-O **"∆"**, letra grega delta, representa variância na Matemática. Ele é o símbolo atrelado principalmente ao sintetizador. Representando a domesticação das ondas, apimentada pelas sutis variâncias causadas pelo contato da pele. A bem da verdade, esse elemento acaba representando também o pouco pedaço de humanidade que existe nesse conjunto todo: eu. Como eu disse ali em cima, as pequenas variações que o ser humano introduz na música é o que dá a ela a alma.
+O **"∆"**, letra grega delta, representa variância na Matemática. Ele é o símbolo atrelado principalmente ao sintetizador. Representando a domesticação das ondas, apimentada pelas sutis variâncias causadas pelo contato da pele. A bem da verdade, esse elemento acaba representando também o pouco pedaço de humanidade que existe nesse conjunto todo:
+
+Eu.
+
+Como eu disse ali em cima, as pequenas variações que o ser humano introduz na música é o que a enche de alma.
 
 O **"rium"** é o retorno à normalidade. Representa a resolução de tudo. Apesar de ser uma molécula instável, o sistema como um todo processa e roteia o áudio em direção a tão aguardada saída estéreo.
 
@@ -448,7 +452,7 @@ Trata-se de um sistema interdependente. Um ambiente fechado onde diferentes orga
 
 Por último, uma camada ainda mais profunda. No meio do termo "loopinarium", mais precisamente formado pelos símbolos "π∩∆", está escondido o meu trocadilho supremo: "pina". *Pinna*, termo em inglês para a aurícula (ou ouvido externo), é a parte do ouvido essencial para determinarmos a direção de uma fonte sonora.
 
-O que significa que, enterrada nas profundezas de um híbrido bizarro de matemática, música, arquitetura de software e decisões de vida questionáveis, existe uma pequena homenagem àquilo que torna tudo isso valioso:
+Isso significa que, enterrada nas profundezas de uma mistura bizarra de matemática, música, arquitetura de software e questionáveis decisões de vida, existe uma pequena homenagem àquilo que torna tudo isso valioso:
 
 Ouvir.
 
