@@ -47,7 +47,7 @@ Incidentally, one line from that report caught my attention:
 
 Was that related to what my psychiatrist had said?
 
-I'll probably never know for sure. I never followed through with the examinations, despite some of them pointing toward uncomfortable investigation paths. I've never been particularly fond of labels, and for years I forgot some of the diagnoses I received as a child. I only remembered them later during the romanticized fever dream fueled by certain brainless corners of the internet, where people seem to study for the neurodivergence exam in hopes of earning the certificate that apparently grants them permission to keep being idiots without taking responsibility for their words or actions. They can now conveniently hide behind the people who genuinely need help.
+I'll probably never know for sure. I never followed through with the examinations, despite some of them pointing toward uncomfortable investigation paths. I've never been particularly fond of labels, and for years I forgot some of the diagnoses I received as a child. I only remembered them later during the romanticized fever dream fueled by certain brainless corners of the internet, where people seem to study for the neurodivergence exam in hopes of earning the certificate that, apparently, grants them permission to keep being idiots, taking no responsibility for their words or actions. They can now conveniently hide behind the people who genuinely need help.
 
 The world has become far too binary.
 

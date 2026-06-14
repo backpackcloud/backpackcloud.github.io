@@ -43,7 +43,7 @@ Aliás, uma das linhas da conclusão desse teste me chamou muito a atenção:
 
 Estaria isso relacionado com o que minha psiquiatra disse?
 
-Eu provavelmente nunca vou entender ao certo. Não segui em frente com os exames, apesar de indicarem algumas linhas desconfortantes. Nunca fui chegado a rótulos, e por anos me esqueci de alguns dos diagnósticos que tive quando criança. Só me lembrei deles depois da febre romantizada de alguns acéfalos na internet, estudando pra passarem na prova de neurodivergência e receberem o certificado que, aparentemente, lhes concede o aval para que continuem sendo imbecis sem serem culpados pelos próprios atos ou falas. Podem agora se esconder atrás de quem realmente precisa de compreensão.
+Eu provavelmente nunca vou entender ao certo. Não segui em frente com os exames, apesar de indicarem algumas linhas desconfortantes. Nunca fui chegado a rótulos, e por anos me esqueci de alguns dos diagnósticos que tive quando criança. Só me lembrei deles depois da febre romantizada de alguns acéfalos na internet, estudando pra passarem na prova de neurodivergência e receberem o certificado que, aparentemente, lhes concede o aval para que continuem sendo imbecis, sem serem culpados pelos próprios atos ou falas. Podem agora se esconder atrás de quem realmente precisa de compreensão.
 
 O mundo anda bilateral demais.
 
