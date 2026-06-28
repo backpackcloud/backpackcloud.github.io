@@ -9,7 +9,7 @@ category: cronicas-cronicas
 intro: Eu acredito que algum ser tentou criar o dispositivo definitivo do caos, e excedeu
        todas as expectativas.
 image:
-  file:    pegasaus.webp
+  file:    pegasus.webp
   caption: Não se engane, esta merda é mais instável do que plutônio menstruado!
 ---
 
