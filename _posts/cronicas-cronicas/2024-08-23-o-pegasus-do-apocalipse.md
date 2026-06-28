@@ -8,6 +8,9 @@ tags:
 category: cronicas-cronicas
 intro: Eu acredito que algum ser tentou criar o dispositivo definitivo do caos, e excedeu
        todas as expectativas.
+image:
+  file:    pegasaus.webp
+  caption: Não se engane, esta merda é mais instável do que plutônio menstruado!
 ---
 
 Houve um tempo em que uma orda de seres malignos se organizou para criar uma arma de destruição em
