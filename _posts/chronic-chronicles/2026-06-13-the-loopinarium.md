@@ -13,6 +13,8 @@ intro: How to deal with cerebral duality in an even more dual way.
 image:
   file:    loopinarium.png
   caption: Yes, I did use AI to generate the image. But the text is mine!
+redirect_from:
+  - /unbelievable-exception/2026/06/13/the-loopinarium
 ---
 
 ## Introduction
