@@ -13,7 +13,7 @@ intro: >
 
   The project exceeded every design specification.
 image:
-  file:    pegasus.webp
+  file:    pegasus-of-doom.png
   caption: Don't kid yourself. This piece of shit is more unstable than menstruating plutonium.
 ---
 
