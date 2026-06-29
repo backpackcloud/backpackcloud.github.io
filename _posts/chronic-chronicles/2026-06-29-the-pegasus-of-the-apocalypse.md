@@ -61,100 +61,100 @@ The blood pact has been sealed.
 
 (Verse 1)
 
-There came a day the devils swore
-To forge a beast unlike before.
-Not built with fire, steel, or flame,
-But something wearing freedom's name.
+There came a day the devils swore  
+To forge a beast unlike before.  
+Not built with fire, steel, or flame,  
+But something wearing freedom's name.  
 
-They wrapped it in a coat of green,
-The kind that makes all sinners clean.
-"Save the forests, save the skies!"
-They whispered softly through their lies.
+They wrapped it in a coat of green,  
+The kind that makes all sinners clean.  
+"Save the forests, save the skies!"  
+They whispered softly through their lies.  
 
 (Chorus)
 
-Ride away, ride away,
-On the Pegasus of Doom.
-Three wheels spinning, smiling wide,
-Marching straight toward your tomb.
+Ride away, ride away,  
+On the Pegasus of Doom.  
+Three wheels spinning, smiling wide,  
+Marching straight toward your tomb.  
 
-Paint it bright and call it hope,
-Tell the world it's safe and wise.
-Every mile it steals your soul,
-While innocence believes the lies.
+Paint it bright and call it hope,  
+Tell the world it's safe and wise.  
+Every mile it steals your soul,  
+While innocence believes the lies.  
 
 (Verse 2)
 
-Da Vinci sketched from dawn till night,
-To build a rival fit to fight.
-He failed, of course, but made a wage,
-Selling toys through history's page.
+Da Vinci sketched from dawn till night,  
+To build a rival fit to fight.  
+He failed, of course, but made a wage,  
+Selling toys through history's page.  
 
-The Addams Family took one glance,
-Refused to give the beast a chance.
-"Safer things exist," they cried,
-"Like jumping with your pride untied."
+The Addams Family took one glance,  
+Refused to give the beast a chance.  
+"Safer things exist," they cried,  
+"Like jumping with your pride untied."  
 
 (Verse 3)
 
-Sauron smiled and signed the scroll,
-Delighted by its destined role.
-The Elves abandoned Middle-earth,
-Seeking somewhere filled with mirth.
+Sauron smiled and signed the scroll,  
+Delighted by its destined role.  
+The Elves abandoned Middle-earth,  
+Seeking somewhere filled with mirth.  
 
-Rio welcomed every one,
-Far from darkness, far from One.
-No more rings upon their hands—
-Just safer shores and warmer sands.
+Rio welcomed every one,  
+Far from darkness, far from One.  
+No more rings upon their hands.  
+Just safer shores and warmer sands.  
 
 (Chorus)
 
-Ride away, ride away,
-On the Pegasus of Doom.
-Three wheels spinning, smiling wide,
-Marching straight toward your tomb.
+Ride away, ride away,  
+On the Pegasus of Doom.  
+Three wheels spinning, smiling wide,  
+Marching straight toward your tomb.  
 
-Paint it bright and call it hope,
-Tell the world it's safe and wise.
-Every mile it steals your soul,
-While innocence believes the lies.
+Paint it bright and call it hope,  
+Tell the world it's safe and wise.  
+Every mile it steals your soul,  
+While innocence believes the lies.  
 
 (Bridge)
 
-Achilles thought he'd found his day,
-To drag brave Hector home in sway.
-The wheels betrayed the hero's pride;
-His swollen heel could never hide.
+Achilles thought he'd found his day,  
+To drag brave Hector home in sway.  
+The wheels betrayed the hero's pride;  
+His swollen heel could never hide.  
 
-Hades laughed and closed the gate.
-Even Hell feared such a fate.
+Hades laughed and closed the gate.  
+Even Hell feared such a fate.  
 
 (Verse 4)
 
-Then came my own unlucky ride,
-With laughing children by my side.
-The market trip was calm and sweet...
-Until that cursed left-foot beat.
+Then came my own unlucky ride,  
+With laughing children by my side.  
+The market trip was calm and sweet...  
+Until that cursed left-foot beat.  
 
-The Inverted Triangle fell,
-Sliding straight through asphalt Hell.
-Helmets saved the little crew;
-My dignity? It never grew.
+The Inverted Triangle fell,  
+Sliding straight through asphalt Hell.  
+Helmets saved the little crew;  
+My dignity? It never grew.  
 
-The road wore red, but healed just fine.
-My knees still curse that grand design.
+The road wore red, but healed just fine.  
+My knees still curse that grand design.  
 
 (Final Chorus)
 
-Ride away, ride away,
-On the Pegasus of Doom.
-Smile beneath its cheerful paint;
-Hidden waits your certain gloom.
+Ride away, ride away,  
+On the Pegasus of Doom.  
+Smile beneath its cheerful paint;  
+Hidden waits your certain gloom.  
 
-Days have passed—I climb the stairs
-Like every step's my final test.
-The People Grinder waits in silence,
-Patient for another quest.
+Days have passed—I climb the stairs  
+Like every step's my final test.  
+The People Grinder waits in silence,  
+Patient for another quest.  
 
 (Outro)
 

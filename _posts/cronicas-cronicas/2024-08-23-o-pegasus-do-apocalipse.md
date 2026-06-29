@@ -13,6 +13,8 @@ image:
   caption: Não se engane, esta merda é mais instável do que plutônio menstruado!
 ---
 
+## A História
+
 Houve um tempo em que uma orda de seres malignos se organizou para criar uma arma de destruição em
 massa. Mas não era qualquer arma, ela deveria ser inserida na sociedade de forma sutil, sem
 despertar a menor fagulha de desconfiança naqueles seres predestinados a sofrer pela eternidade.
@@ -78,3 +80,4 @@ marca que eu pensava. O Moedor de Gente, por outro lado, exibe suas marcas de gu
 triunfo.
 
 O pacto de sangue está selado.
+
