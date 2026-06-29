@@ -8,7 +8,7 @@ tags:
   - raspberry pi
   - midi
   - chaos
-category: unbelievable-exception
+category: chronic-chronicles
 intro: How to deal with cerebral duality in an even more dual way.
 image:
   file:    loopinarium.png
