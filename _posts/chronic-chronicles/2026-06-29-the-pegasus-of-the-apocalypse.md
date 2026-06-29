@@ -49,7 +49,7 @@ The children, thankfully wearing helmets and seat belts, walked away completely 
 
 Days have gone by, and I still climb stairs like a cowboy who just lost an argument with a cactus. I swear I can feel the Cargo Carrier of Satan grinning with pure, malicious satisfaction as it sits in the garage, patiently waiting for its replacement part before resuming its campaign of terror. Hades sold me one at a discount, though business hasn't been easy for him ever since Saruman entered the market with his outrageously cheap Uruk-hai labor force.
 
-After polishing the asphalt with a homemade blend of flesh and dignity, I found myself reflecting on life. I'd always hoped to leave my mark on future generations—but this wasn't exactly the kind of mark I had in mind. The People Grinder, on the other hand, wears its battle scars with unmistakable pride.
+After polishing the asphalt with a homemade blend of flesh and dignity, I found myself reflecting on life. I'd always hoped to leave my mark on future generations, but this wasn't exactly the kind of mark I had in mind. The People Grinder, on the other hand, wears its battle scars with unmistakable pride.
 
 The blood pact has been sealed.
 
