@@ -81,3 +81,119 @@ triunfo.
 
 O pacto de sangue está selado.
 
+## A Canção
+
+<audio id="player" controls>
+  <source src="https://f000.backblazeb2.com/file/ataxexe/O+Pe%CC%81gasus+da+Destruic%CC%A7a%CC%83o.mp3" type="audio/mp3"/>
+</audio>
+
+*(Verso 1)*
+
+Quando o inferno resolveu  
+Construir sua maior criação,  
+Não buscava fogo ou guerra,  
+Nem canhões de destruição.  
+
+Disfarçou o seu projeto  
+Com discurso ambiental.  
+"Salvem pandas! Liberdade!"  
+Era o plano infernal.  
+
+*(Refrão)*
+
+Vamos lá, vamos lá,  
+No Cargueiro de Satã.  
+Três rodas girando, sorrindo,  
+Nunca mais será o amanhã.  
+
+Pinte de verde, chame de paz,  
+Venda esperança em promoção.  
+Três rodas girando, sorrindo,  
+Marchando rumo ao seu caixão.  
+
+*(Verso 2)*
+
+Da Vinci tentou combatê-lo,  
+Projetando um rival mortal.  
+Fracassou... mas fez dinheiro  
+Vendendo brinquedo infernal.  
+
+Senhor Addams achou mais prudente  
+Nem chegar perto da invenção.  
+Preferiu bungee jump pelas bolas  
+A enfrentar tal maldição.  
+
+*(Verso 3)*
+
+Sauron logo aceitou  
+Fabricar aquela criação.  
+Foi por culpa das três rodas  
+Que os Elfos fugiram então.  
+
+Lá no Rio encontraram paz,  
+Bem distantes da besta e de Sauron.  
+E enfim tinham boa desculpa  
+Pra largar qualquer tentação.  
+
+*(Refrão)*
+
+Vamos lá, vamos lá,  
+No Cargueiro de Satã.  
+Três rodas girando, sorrindo,  
+Nunca mais será o amanhã.  
+
+Pinte de verde, chame de paz,  
+Venda esperança em promoção.  
+Três rodas girando, sorrindo,  
+Marchando rumo ao seu caixão.  
+
+*(Ponte)*
+
+Aquiles buscou a glória,  
+Heitor quis arrastar.  
+Mas bastou uma curva errada  
+Pro destino gargalhar.  
+
+Seu calcanhar virou lenda,  
+O Pégasus saiu vencedor.  
+Nem o inferno quis de volta  
+Tamanha a intensidade da dor.  
+
+*(Verso Final)*
+
+Então chegou minha vez  
+De enfrentar o Triciclo do Mal.  
+As crianças rindo, sentadas,  
+Tudo parecia normal.  
+
+Mas o pé esquerdo insistiu  
+Em desafiar o Moedor de Gente.  
+Corpo, sangue e dignidade  
+Viraram tinta de asfalto permanente.  
+
+Hoje subo cada escada  
+Como um velho peão cagado.  
+E o Pégasus, alegre, espera  
+Só por um cubo rolamentado.  
+
+*(Refrão Final)*
+
+Vamos lá, vamos lá,  
+No Cargueiro de Satã.  
+Três rodas girando, sorrindo,  
+Nunca mais será o amanhã.  
+
+Pinte de verde, chame de paz,  
+Venda esperança em promoção.  
+Três rodas girando, sorrindo,  
+Marchando rumo ao seu caixão.  
+
+*(Outro)*
+
+Alguns deixam monumentos.
+
+Outros deixam uma canção.
+
+Eu deixei uma marca no asfalto...
+
+...com o Pégasus da Destruição.
