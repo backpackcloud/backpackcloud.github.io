@@ -151,7 +151,7 @@ On the Pegasus of Doom.
 Smile beneath its cheerful paint;  
 Hidden waits your certain gloom.  
 
-Days have passed—I climb the stairs  
+Days have passed, I climb the stairs  
 Like every step's my final test.  
 The People Grinder waits in silence,  
 Patient for another quest.  
