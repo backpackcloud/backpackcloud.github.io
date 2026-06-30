@@ -84,7 +84,7 @@ O pacto de sangue está selado.
 ## A Canção
 
 <audio id="player" controls>
-  <source src="https://f000.backblazeb2.com/file/ataxexe/O+Pe%CC%81gasus+da+Destruic%CC%A7a%CC%83o.mp3" type="audio/mp3"/>
+  <source src="https://f000.backblazeb2.com/file/ataxexe/O+Pe%CC%81gasus+do+Apocalipse.mp3" type="audio/mp3"/>
 </audio>
 
 *(Verso 1)*
