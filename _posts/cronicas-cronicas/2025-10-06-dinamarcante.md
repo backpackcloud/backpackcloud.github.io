@@ -43,3 +43,7 @@ Eu comecei o texto com menos detalhes, logo, foi a versão maior `1`. Depois, ad
 Qualquer número mais à esquerda que seja incrementado irá zerar os demais números à direita. Por exemplo: se na versão `2.3.8934` eu incluí detalhes sobre alguma passagem, independente de ter corrigido algum erro gramatical, a versão resultante será `2.4.0`.
 
 Ao longo das semanas, fui incluindo mais detalhes e corrigindo alguns erros gramaticais. A coisa toda foi tomando forma e eu usei uma das minhas fotos antigas de um castelo pra criar uma capa. Ficou parecendo até um livro.
+
+Eu também disponibilizei uma entrevista onde conto um pouco mais de detalhes sobre a história:
+
+https://www.youtube.com/watch?v=vpwbwOWrb6Y
